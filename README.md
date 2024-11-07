@@ -19,15 +19,15 @@
 Carverse adalah aplikasi web semantik yang memungkinkan pengguna untuk mencari informasi tentang mobil dari berbagai produsen. Aplikasi ini memanfaatkan teknologi web semantik untuk mengambil data terkait mobil, sehingga pengguna dapat menemukan informasi yang lebih mendalam dan terstruktur tentang mobil yang mereka cari.
 
 ## Features
-Pencarian Mobil: Pengguna dapat memasukkan nama mobil yang ingin dicari, dan aplikasi akan menampilkan hasil pencarian yang relevan.<br>
-Informasi Detail Mobil: Setiap mobil yang ditemukan akan dilengkapi dengan informasi berikut:
-Abstract: Deskripsi singkat tentang mobil.
-Thumbnail: Gambar representatif dari mobil.
-Name: Nama mobil.
-Manufacturer: Nama produsen mobil.
-Class: Kategori atau kelas dari mobil (misalnya, sedan, SUV, dll.).
-Layout: Informasi tentang tata letak mesin dan penggerak mobil (misalnya, front-engine, rear-wheel-drive).
-Production: Tahun produksi atau periode produksi mobil tersebut.
+Pencarian Mobil: Pengguna dapat memasukkan nama mobil yang ingin dicari, dan aplikasi akan menampilkan hasil pencarian yang relevan.<br><br>
+Informasi Detail Mobil: Setiap mobil yang ditemukan akan dilengkapi dengan informasi berikut:<br>
+Abstract: Deskripsi singkat tentang mobil.<br>
+Thumbnail: Gambar representatif dari mobil.<br>
+Name: Nama mobil.<br>
+Manufacturer: Nama produsen mobil.<br>
+Class: Kategori atau kelas dari mobil (misalnya, sedan, SUV, dll.).<br>
+Layout: Informasi tentang tata letak mesin dan penggerak mobil (misalnya, front-engine, rear-wheel-drive).<br>
+Production: Tahun produksi atau periode produksi mobil tersebut.<br>
 
 ## Technologies
 - PHP v8.2
