@@ -16,7 +16,6 @@
 
 ## Desc
 
-Carverse
 Carverse adalah aplikasi web semantik yang memungkinkan pengguna untuk mencari informasi tentang mobil dari berbagai produsen. Aplikasi ini memanfaatkan teknologi web semantik untuk mengambil data terkait mobil, sehingga pengguna dapat menemukan informasi yang lebih mendalam dan terstruktur tentang mobil yang mereka cari.
 
 ## Features
