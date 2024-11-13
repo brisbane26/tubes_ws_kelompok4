@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse/"
+     xml:base="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:carverse="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverseabstract -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverseabstract"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverseclass -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverseclass"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverselayout -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverselayout"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carversemanufacturer -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carversemanufacturer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carversename -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carversename"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverseproduction -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverseproduction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carversethumbnail -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carversethumbnail"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#alphard -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#alphard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Toyota Alphard (Japanese: トヨタ・アルファード, Hepburn: Toyota Arufādo) is a minivan produced by the Japanese automaker Toyota since 2002. It is available as a seven or eight-seater with petrol and hybrid engine options. Hybrid variants have been available since 2003, which incorporates Toyota&apos;s Hybrid Synergy Drive technology. The Alphard is primarily made for the Japanese market, but is also sold in Bangladesh, Belarus, Russia, the Middle East, Greater China, and Southeast Asia. Similar to the Camry, it is often classified as a luxury car in Southeast Asian markets. Since the second generation, a twin model called Toyota Vellfire (Japanese: トヨタ・ヴェルファイア, Hepburn: Toyota Verufaia) has also been available, which is marketed as a sportier alternative to the Alphard and exclusively marketed by the Netz Store dealership chain until 2020. Since 2019, a modified version of the third-generation model has been sold as the Lexus LM for several Asian markets outside Japan. The vehicle was named after Alphard, the brightest star in the constellation Hydra. The Alphard also received a special front emblem, which depicts the lowercase alpha letter. The name &quot;Vellfire&quot; was derived from &quot;velvet&quot; and &quot;fire&quot; to emphasize &quot;smooth&quot; and &quot;passionate&quot; as characteristics of the vehicle.</carverse:carverseabstract>
+        <carverse:carverseclass>Minivan</carverse:carverseclass>
+        <carverse:carverselayout>Front-engine, Front Wheel Drive
+Front-engine, Four Wheel Drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+        <carverse:carversename>Toyota Alphard</carverse:carversename>
+        <carverse:carverseproduction>2002
+2008 
+2015</carverse:carverseproduction>
+        <carverse:carversethumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Alphard_350_V6_(III)_%E2%80%93_Frontansicht,_2._April_2018,_Hongkong.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>alphard</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#avanza -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#avanza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Toyota Avanza and Daihatsu Xenia are cars developed by Daihatsu and marketed by both Toyota and Daihatsu. It is a multi-purpose vehicle (MPV) and mainly sold with three-row seating. The Avanza and Xenia were developed as an entry-level MPV marketed mainly for the Indonesian and other emerging markets, and mainly produced in Indonesia by Astra Daihatsu Motor. Avanza&apos;s spiritual predecessor was the Kijang, whose model program has since been split to two different models (the other being the larger Kijang Innova) to expand Toyota&apos;s reach in the MPV sector. In addition to Indonesia, the Avanza is sold throughout Southeast Asia, Mexico, Pakistan, Nepal, Bangladesh, Sri Lanka, the Middle East, Caribbean, Egypt, South Africa and other various African countries. A rebadged version of the car was sold in China under the FAW badge until 2016. In 2021, the Avanza spawned another twin model called the Toyota Veloz, which the &quot;Veloz&quot; name was previously used for Avanza&apos;s flagship grade level for some markets between 2011 and 2021. The Avanza also served as a basis for the second-generation Perodua Alza, which was introduced in Malaysia in 2022. The Avanza has been the best-selling passenger car in Indonesia between 2006 and 2019, and then in 2021. At the height of its popularity in 2013, the Avanza made up 17 percent of total car sales in Indonesia (22 percent combined with the Xenia). By November 2018, around 2.75 million units of Avanza/Xenia had been sold globally.</carverse:carverseabstract>
+        <carverse:carverseclass>Compact MPV
+Mini MPV</carverse:carverseclass>
+        <carverse:carverselayout>Front-engine, Front Wheel Drive
+Front-engine, Rear Wheel Drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Daihatsu</carverse:carversemanufacturer>
+        <carverse:carversename>Toyota Avanza</carverse:carversename>
+        <carverse:carverseproduction>2007 
+November 2021 – present 
+October 2011 – present 
+December 2003 – September 2011 
+December 2003 – present</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2022_Toyota_Avanza_1....Sense_W101RE_(20220403).jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>avanza</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#ayla -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#ayla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Daihatsu Ayla is a city car designed by Daihatsu and manufactured by Astra Daihatsu Motor in Indonesia, primarily developed for emerging markets. The Ayla is sold by Toyota as the Toyota Agya in Indonesia, South Africa, Tunisia, Americas (except Canada, Mexico and the United States), and Toyota Wigo in the Philippines, Sri Lanka, Brunei and Vietnam through an OEM agreement. The car is also redesigned and manufactured in Malaysia by Perodua as the Perodua Axia. The name &quot;Ayla&quot; was taken from the Sanskrit word meaning &quot;light&quot;, while &quot;Agya&quot; means &quot;fast&quot;. The name was chosen to comply with the government-endorsed Low Cost Green Car (LCGC) tax exemption program which requires an Indonesian-inspired name. The program also requires for an Indonesian-inspired badge to be used, with the Ayla using an A-shaped front logo while the Agya for the Indonesian market opting for a Garuda-inspired front badge.</carverse:carverseabstract>
+        <carverse:carverseclass>City Car</carverse:carverseclass>
+        <carverse:carverselayout>Front-Engine, Front Wheel Drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Daihatsu</carverse:carversemanufacturer>
+        <carverse:carversename>Daihatsu Ayla</carverse:carversename>
+        <carverse:carverseproduction>October 2012 - present</carverse:carverseproduction>
+        <carverse:carversethumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/2014_Daihatsu_Ayla_1.0_X_B100RS_(20190615).jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>ayla</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#fortuner -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#fortuner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Toyota Fortuner, also known as the Toyota SW4, is a mid-size SUV manufactured by the Japanese automaker Toyota since 2004. Built on the Hilux pickup truck platform, it features two/three rows of seats and is available in either rear-wheel drive or four-wheel drive configuration. It is a part of Toyota&apos;s IMV project for emerging markets, which also includes the Hilux and the Innova. The name Fortuner is derived from the English word fortune.</carverse:carverseabstract>
+        <carverse:carverseclass>Mid-size SUV</carverse:carverseclass>
+        <carverse:carverselayout>Front-engine, Four Wheel Drive
+Front-engine, Rear Wheel Drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+        <carverse:carversename>Toyota Fortuner</carverse:carversename>
+        <carverse:carverseproduction>July 2015 – present 
+November 2004 – December 2015 
+November 2004 – present</carverse:carverseproduction>
+        <carverse:carversethumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/2015_Toyota_Fortuner_(New_Zealand).jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>fortuner</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#gran_max -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#gran_max">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Daihatsu Gran Max (Japanese: ダイハツ・グランマックス, Hepburn: Daihatsu Guranmakkusu) is a series of light commercial vehicles (vans and pickup trucks) produced and sold by the Japanese automaker Daihatsu since late 2007. It is also rebadged and marketed by Toyota as the Toyota LiteAce and Toyota TownAce since 2008, and by Mazda in Japan as the Mazda Bongo since 2020.</carverse:carverseabstract>
+        <carverse:carverseclass>Light Commercial Vehicle</carverse:carverseclass>
+        <carverse:carverselayout>Front-engine, Four Wheel Drive
+Front-engine, Rear Wheel Drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Daihatsu</carverse:carversemanufacturer>
+        <carverse:carversename>Daihatsu Gran Max</carverse:carversename>
+        <carverse:carverseproduction>October 2007 - present</carverse:carverseproduction>
+        <carverse:carversethumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/2015_Daihatsu_Gran_Max_1.3_D_S401RV_(20191219).jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>gran max</rdfs:label>
+    </carverse:car>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
