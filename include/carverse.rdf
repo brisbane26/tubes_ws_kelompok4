@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse/"
-     xml:base="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse/"
+<rdf:RDF xmlns="http://www.semanticweb.org/brisb/ontologies/2024/1/"
+     xml:base="http://www.semanticweb.org/brisb/ontologies/2024/1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -92,99 +92,509 @@
     
 
 
-    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#alphard -->
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Alphard -->
 
-    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#alphard">
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Alphard">
         <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
         <carverse:carverseabstract>The Toyota Alphard (Japanese: トヨタ・アルファード, Hepburn: Toyota Arufādo) is a minivan produced by the Japanese automaker Toyota since 2002. It is available as a seven or eight-seater with petrol and hybrid engine options. Hybrid variants have been available since 2003, which incorporates Toyota&apos;s Hybrid Synergy Drive technology. The Alphard is primarily made for the Japanese market, but is also sold in Bangladesh, Belarus, Russia, the Middle East, Greater China, and Southeast Asia. Similar to the Camry, it is often classified as a luxury car in Southeast Asian markets. Since the second generation, a twin model called Toyota Vellfire (Japanese: トヨタ・ヴェルファイア, Hepburn: Toyota Verufaia) has also been available, which is marketed as a sportier alternative to the Alphard and exclusively marketed by the Netz Store dealership chain until 2020. Since 2019, a modified version of the third-generation model has been sold as the Lexus LM for several Asian markets outside Japan. The vehicle was named after Alphard, the brightest star in the constellation Hydra. The Alphard also received a special front emblem, which depicts the lowercase alpha letter. The name &quot;Vellfire&quot; was derived from &quot;velvet&quot; and &quot;fire&quot; to emphasize &quot;smooth&quot; and &quot;passionate&quot; as characteristics of the vehicle.</carverse:carverseabstract>
         <carverse:carverseclass>Minivan</carverse:carverseclass>
-        <carverse:carverselayout>Front-engine, Front Wheel Drive
-Front-engine, Four Wheel Drive</carverse:carverselayout>
+        <carverse:carverselayout>Front engine, four wheel drive layout
+Front engine, front wheel drive layout</carverse:carverselayout>
         <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
         <carverse:carversename>Toyota Alphard</carverse:carversename>
         <carverse:carverseproduction>2002
-2008 
+2008
 2015</carverse:carverseproduction>
-        <carverse:carversethumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Alphard_350_V6_(III)_%E2%80%93_Frontansicht,_2._April_2018,_Hongkong.jpg?width=300</carverse:carversethumbnail>
-        <rdfs:label>alphard</rdfs:label>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Toyota_Alphard_350_V6...2._April_2018,_Hongkong.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Alphard</rdfs:label>
     </carverse:car>
     
 
 
-    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#avanza -->
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Avanza -->
 
-    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#avanza">
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Avanza">
         <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
         <carverse:carverseabstract>The Toyota Avanza and Daihatsu Xenia are cars developed by Daihatsu and marketed by both Toyota and Daihatsu. It is a multi-purpose vehicle (MPV) and mainly sold with three-row seating. The Avanza and Xenia were developed as an entry-level MPV marketed mainly for the Indonesian and other emerging markets, and mainly produced in Indonesia by Astra Daihatsu Motor. Avanza&apos;s spiritual predecessor was the Kijang, whose model program has since been split to two different models (the other being the larger Kijang Innova) to expand Toyota&apos;s reach in the MPV sector. In addition to Indonesia, the Avanza is sold throughout Southeast Asia, Mexico, Pakistan, Nepal, Bangladesh, Sri Lanka, the Middle East, Caribbean, Egypt, South Africa and other various African countries. A rebadged version of the car was sold in China under the FAW badge until 2016. In 2021, the Avanza spawned another twin model called the Toyota Veloz, which the &quot;Veloz&quot; name was previously used for Avanza&apos;s flagship grade level for some markets between 2011 and 2021. The Avanza also served as a basis for the second-generation Perodua Alza, which was introduced in Malaysia in 2022. The Avanza has been the best-selling passenger car in Indonesia between 2006 and 2019, and then in 2021. At the height of its popularity in 2013, the Avanza made up 17 percent of total car sales in Indonesia (22 percent combined with the Xenia). By November 2018, around 2.75 million units of Avanza/Xenia had been sold globally.</carverse:carverseabstract>
-        <carverse:carverseclass>Compact MPV
-Mini MPV</carverse:carverseclass>
-        <carverse:carverselayout>Front-engine, Front Wheel Drive
-Front-engine, Rear Wheel Drive</carverse:carverselayout>
-        <carverse:carversemanufacturer>Daihatsu</carverse:carversemanufacturer>
+        <carverse:carverseclass>Compact MPV</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, front wheel drive
+Front engine, rear wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
         <carverse:carversename>Toyota Avanza</carverse:carversename>
-        <carverse:carverseproduction>2007 
-November 2021 – present 
+        <carverse:carverseproduction>2007
+November 2021 – present
 October 2011 – present 
-December 2003 – September 2011 
+December 2003 – September 2011
 December 2003 – present</carverse:carverseproduction>
         <carverse:carversethumbnail>wiki-commons:Special:FilePath/2022_Toyota_Avanza_1....Sense_W101RE_(20220403).jpg?width=300</carverse:carversethumbnail>
-        <rdfs:label>avanza</rdfs:label>
+        <rdfs:label>Avanza</rdfs:label>
     </carverse:car>
     
 
 
-    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#ayla -->
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ayla -->
 
-    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#ayla">
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ayla">
         <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
         <carverse:carverseabstract>The Daihatsu Ayla is a city car designed by Daihatsu and manufactured by Astra Daihatsu Motor in Indonesia, primarily developed for emerging markets. The Ayla is sold by Toyota as the Toyota Agya in Indonesia, South Africa, Tunisia, Americas (except Canada, Mexico and the United States), and Toyota Wigo in the Philippines, Sri Lanka, Brunei and Vietnam through an OEM agreement. The car is also redesigned and manufactured in Malaysia by Perodua as the Perodua Axia. The name &quot;Ayla&quot; was taken from the Sanskrit word meaning &quot;light&quot;, while &quot;Agya&quot; means &quot;fast&quot;. The name was chosen to comply with the government-endorsed Low Cost Green Car (LCGC) tax exemption program which requires an Indonesian-inspired name. The program also requires for an Indonesian-inspired badge to be used, with the Ayla using an A-shaped front logo while the Agya for the Indonesian market opting for a Garuda-inspired front badge.</carverse:carverseabstract>
-        <carverse:carverseclass>City Car</carverse:carverseclass>
-        <carverse:carverselayout>Front-Engine, Front Wheel Drive</carverse:carverselayout>
+        <carverse:carverseclass>City car</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
         <carverse:carversemanufacturer>Daihatsu</carverse:carversemanufacturer>
         <carverse:carversename>Daihatsu Ayla</carverse:carversename>
-        <carverse:carverseproduction>October 2012 - present</carverse:carverseproduction>
-        <carverse:carversethumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/2014_Daihatsu_Ayla_1.0_X_B100RS_(20190615).jpg?width=300</carverse:carversethumbnail>
-        <rdfs:label>ayla</rdfs:label>
+        <carverse:carverseproduction>October 2012 – present</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2014_Daihatsu_Ayla_1.0_X_B100RS_(20190615).jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Ayla</rdfs:label>
     </carverse:car>
     
 
 
-    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#fortuner -->
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#CR-V -->
 
-    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#fortuner">
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#CR-V">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Honda CR-V is a compact crossover SUV manufactured by the Japanese automaker Honda since 1995. It is built using the same platform as the Civic. Honda began producing the CR-V in Sayama, Japan, and Swindon, United Kingdom, for worldwide markets, adding North American manufacturing sites in East Liberty, Ohio, United States, in 2007; El Salto, Jalisco, Mexico, in late 2007 (ended in early 2017); Alliston, Ontario, Canada, in 2012; and Greensburg, Indiana, United States, in February 2017. The CR-V is also produced in Wuhan for the Chinese market by Dongfeng Honda, and also marketed as the Honda Breeze in China for the version produced at Guangzhou by Guangqi Honda. Honda states &quot;CR-V&quot; stands for &quot;Comfortable Runabout Vehicle,&quot; while the term &quot;Compact Recreational Vehicle&quot; is used in a British car review article that was republished by Honda. As of 2022, the CR-V is positioned between the smaller ZR-V (marketed as HR-V in North America) and the larger North American market Passport/Pilot or the Chinese market Avancier/UR-V. It is currently Honda&apos;s best-selling vehicle in the world, and the second best-selling SUV globally in 2020.</carverse:carverseabstract>
+        <carverse:carverseclass>Compact crossover SUV</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive layout
+Front engine, front wheel drive layout</carverse:carverselayout>
+        <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
+        <carverse:carversename>Honda CR-V</carverse:carversename>
+        <carverse:carverseproduction>1995
+2001
+September 2022 – present</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Honda_CR-V_2.0_i-MMD_...estyle_(V)_–_f_02012021.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>CR-V</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Civic_Type_R -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Civic_Type_R">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Honda Civic Type R (Japanese: ホンダ・シビックタイプR, Hepburn: Honda Shibikku Taipuāru) is a series of high-performance hatchback/sedan models based on the Civic, developed and produced by Honda since September 1997. The first Civic Type R was the third model to receive Honda&apos;s Type R badge (after the NSX and Integra). Type R versions of the Civic typically feature a lightened and stiffened body, specially tuned engine, and upgraded brakes and chassis, and are offered only in five- or six-speed manual transmission. Like every other Type R models, red is used in the Honda badge background to give it a special sporting distinction and to separate it from other models.</carverse:carverseabstract>
+        <carverse:carverseclass>Sport compact</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
+        <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
+        <carverse:carversename>Honda Civic Type R</carverse:carversename>
+        <carverse:carverseproduction>2001
+2007
+2015
+2017
+2022
+September 1997 – 2000
+September 1997 – present</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Honda_Civic_Type_R_(FK;_France)_front_view.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Civic Type R</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Corolla_Cross -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Corolla_Cross">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Toyota Corolla Cross (Japanese: トヨタ・カローラクロス, Hepburn: Toyota Karōra Kurosu) is a compact crossover SUV (C-segment) produced by the Japanese automaker Toyota since 2020. Adopting the Corolla nameplate, it is positioned as a more practical and larger alternative to the C-HR and built on the same TNGA-C (GA-C) platform as the E210 series Corolla. By size, the Corolla Cross is positioned between the smaller C-HR – which the Corolla Cross shares platform with – and the larger RAV4 in Toyota&apos;s global crossover SUV lineup. It was first unveiled in Thailand in July 2020 along with other Southeast Asian markets and Taiwan in the same year, while its introduction in other markets started since 2021. The twin model of the Corolla Cross, called the Toyota Frontlander (Chinese: 锋兰达; pinyin: Fēnglándá), is available exclusively in China. It was introduced in late 2021.</carverse:carverseabstract>
+        <carverse:carverseclass>Compact crossover SUV</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive
+Front engine, front wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+        <carverse:carversename>Toyota Corolla Cross</carverse:carversename>
+        <carverse:carverseproduction>July 2020 – present</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2022_Toyota_Corolla_C..._Front_Left,_11-21-2021.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Corolla Cross</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Fortuner -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Fortuner">
         <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
         <carverse:carverseabstract>The Toyota Fortuner, also known as the Toyota SW4, is a mid-size SUV manufactured by the Japanese automaker Toyota since 2004. Built on the Hilux pickup truck platform, it features two/three rows of seats and is available in either rear-wheel drive or four-wheel drive configuration. It is a part of Toyota&apos;s IMV project for emerging markets, which also includes the Hilux and the Innova. The name Fortuner is derived from the English word fortune.</carverse:carverseabstract>
         <carverse:carverseclass>Mid-size SUV</carverse:carverseclass>
-        <carverse:carverselayout>Front-engine, Four Wheel Drive
-Front-engine, Rear Wheel Drive</carverse:carverselayout>
+        <carverse:carverselayout>Front engine, four wheel drive
+Front engine, rear wheel drive</carverse:carverselayout>
         <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
         <carverse:carversename>Toyota Fortuner</carverse:carversename>
-        <carverse:carverseproduction>July 2015 – present 
-November 2004 – December 2015 
+        <carverse:carverseproduction>July 2015 – present
+November 2004 – December 2015
 November 2004 – present</carverse:carverseproduction>
-        <carverse:carversethumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/2015_Toyota_Fortuner_(New_Zealand).jpg?width=300</carverse:carversethumbnail>
-        <rdfs:label>fortuner</rdfs:label>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2015_Toyota_Fortuner_(New_Zealand).jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Fortuner</rdfs:label>
     </carverse:car>
     
 
 
-    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#gran_max -->
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Gran_Max -->
 
-    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#gran_max">
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Gran_Max">
         <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
         <carverse:carverseabstract>The Daihatsu Gran Max (Japanese: ダイハツ・グランマックス, Hepburn: Daihatsu Guranmakkusu) is a series of light commercial vehicles (vans and pickup trucks) produced and sold by the Japanese automaker Daihatsu since late 2007. It is also rebadged and marketed by Toyota as the Toyota LiteAce and Toyota TownAce since 2008, and by Mazda in Japan as the Mazda Bongo since 2020.</carverse:carverseabstract>
-        <carverse:carverseclass>Light Commercial Vehicle</carverse:carverseclass>
-        <carverse:carverselayout>Front-engine, Four Wheel Drive
-Front-engine, Rear Wheel Drive</carverse:carverselayout>
+        <carverse:carverseclass>Light commercial vehicle</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive layout
+Front engine, rear wheel drive layout</carverse:carverselayout>
         <carverse:carversemanufacturer>Daihatsu</carverse:carversemanufacturer>
         <carverse:carversename>Daihatsu Gran Max</carverse:carversename>
-        <carverse:carverseproduction>October 2007 - present</carverse:carverseproduction>
-        <carverse:carversethumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/2015_Daihatsu_Gran_Max_1.3_D_S401RV_(20191219).jpg?width=300</carverse:carversethumbnail>
-        <rdfs:label>gran max</rdfs:label>
+        <carverse:carverseproduction>October 2007 – present</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2015_Daihatsu_Gran_Max_1.3_D_S401RV_(20191219).jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Gran Max</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Harrier -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Harrier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Toyota Harrier (Japanese: トヨタ・ハリアー, Hepburn: Toyota Hariā) is a five-passenger compact, later mid-size crossover SUV produced by Toyota since December 1997 in Japan, which was once exclusive to Toyopet Store Japanese dealerships. In export markets, the Harrier was rebadged as the Lexus RX from March 1998 to December 2008. At this stage, Toyota had yet to retail the Lexus brand to its Japanese customers. The second generation (XU30) debuted in February 2003, along with the export Lexus version. The third-generation RX (separated from the Harrier) arrived in late 2008, while the Harrier continued on in second-generation form unchanged. Lexus had by now made its debut in Japan as an independent marque, thus the third-generation RX was sold in the domestic market in the same livery as its export counterpart. The third generation (XU60) debuted in 2013, when it morphed into an independent model line constructed on a separate platform from the RX (the Harrier since then built on the same platform as the RAV4) but retaining a visual link with it. Starting at this point, it is considered as a more road-oriented and upmarket alternative to the RAV4, comparable to the luxury-class Lexus NX. From the fourth generation (XU80), it is also sold as the second-generation Venza in North America and China. The Harrier is named for the eastern marsh harrier, a bird of prey common to Hokkaidō and northern Honshū called the chūhi in Japanese, and an emblem depicting the bird in stylized profile can be found on the grille until the XU60 model.</carverse:carverseabstract>
+        <carverse:carverseclass>Compact crossover SUV</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive layout
+Front engine, front wheel drive layout</carverse:carverselayout>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+        <carverse:carversename>Toyota Harrier</carverse:carversename>
+        <carverse:carverseproduction>June 2020 – present
+December 1997 – present
+November 2013 – May 2020</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Toyota_HARRIER_G_4WD.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Harrier</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Innova -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Innova">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Toyota Innova is a car manufactured by the Japanese carmaker Toyota since 2004. It is a multi-purpose vehicle (MPV) or minivan and mainly sold with three-row seating. Its official name in Indonesia is Toyota Kijang Innova, while for other countries it is simply called &quot;Innova&quot;. For the second generation, it is known as Toyota Innova Crysta in India and Thailand. For the third generation, it received another moniker in Indonesia as the Toyota Kijang Innova Zenix and in India as the Toyota Innova HyCross. The Innova is the replacement of the Kijang (internally known as the Toyota Utility Vehicle), which was also marketed under different names such as Tamaraw FX, Unser, Zace and Condor. Like the Kijang, the first two generations (2004–2022) of the Innova were a rear-wheel-drive vehicle built on the body-on-frame chassis shared with the Hilux pickup truck and the Fortuner SUV under the IMV project, instead of the unibody construction commonly used by MPVs of its era. The chassis was adopted due to the perceived strength and durability which are preferred by customers mainly in Indonesia. The third-generation model introduced in 2022 switched to front-wheel-drive layout, using the GA-C platform with a unibody chassis. The change was made to make use of the hybrid powertrain (which the IMV platform cannot utilise), among other comfort benefits of the front-wheel-drive layout. The Innova first entered production in Indonesia in August 2004 and has been manufactured in other emerging countries such as India, Malaysia, the Philippines, Taiwan and Vietnam. The Innova has also been marketed in Brunei, Cambodia, Myanmar, Thailand, GCC countries, Ecuador, Egypt, Jamaica and Argentina. The name Innova comes from the English word innovate.</carverse:carverseabstract>
+        <carverse:carverseclass>Compact MPV</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, front wheel drive
+Front engine, rear wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+        <carverse:carversename>Toyota Innova</carverse:carversename>
+        <carverse:carverseproduction>August 2004 – present
+November 2015 – present
+November 2022 – present
+August 2004 – October 2015
+February 2005 – March 2016
+July 2007 – 2016
+May 2005 – October 2016</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2017_Toyota_Kijang_In...-2019),_South_Tangerang.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Innova</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Land_Cruiser -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Land_Cruiser">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Toyota Land Cruiser (Japanese: トヨタ・ランドクルーザー, Hepburn: Toyota Rando-Kurūzā) (also sometimes spelled as LandCruiser) is a series of four-wheel drive vehicles produced by the Japanese automobile manufacturer Toyota. It is Toyota&apos;s longest running series of models. As of 2019, the sales of the Land Cruiser totalled more than 10 million units worldwide. Production of the first generation of the Land Cruiser began in 1951. The Land Cruiser has been produced in convertible, hardtop, station wagon and cab chassis body styles. The Land Cruiser&apos;s reliability and longevity have led to huge popularity, especially in Australia, where it is the best-selling body-on-frame, four-wheel drive vehicle. Toyota also extensively tests the Land Cruiser in the Australian outback – considered to be one of the toughest operating environments in both temperature and terrain. In Japan, the Land Cruiser was once exclusive to Toyota Japanese dealerships called Toyota Store. As of 2021, the full-size Land Cruiser was available in many markets. Exceptions include the United States and Canada (since 2021), Malaysia (which receives the Lexus LX instead), Hong Kong, Macau, Singapore, South Korea, Brazil, and most of Europe. In Europe, the only countries where the full-size Land Cruiser is officially sold are Gibraltar, Moldova, Russia, Belarus and Ukraine. The Land Cruiser is hugely popular in the Middle East, Russia, and Australia, and also in Africa where it is used by farmers, NGO&apos;s, UN and humanitarian organizations, by national armies (often the pickup version) as well as by irregular armed groups who turn them into &apos;technicals&apos; by mounting machine guns in the rear. In August 2019, Toyota Land Cruiser cumulative global sales surpassed 10 million units.</carverse:carverseabstract>
+        <carverse:carverseclass>Full size SUV</carverse:carverseclass>
+        <carverse:carverselayout>Fron engine, four wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+        <carverse:carversename>Toyota Land Cruiser</carverse:carversename>
+        <carverse:carverseproduction>1951
+1955
+1958
+1960
+1967
+1968
+1980
+1984
+1992
+March 2021 – present
+January 1990 December 1997
+January 1998–August 2007
+September 2007 – March 2021</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2021_Toyota_Land_Crui...Colombia)_front_view_04.png?width=300</carverse:carversethumbnail>
+        <rdfs:label>Land Cruiser</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Lexus_GS -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Lexus_GS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Lexus GS (Japanese: レクサス・GS, Rekusasu GS) is an executive car sold by Lexus, the premium division of Toyota. The same car had been launched in 1991 as the Toyota Aristo in Japan. For non-Japanese markets, it was released as the Lexus GS in February 1993. It continued using the Toyota Aristo name for the Japanese market until January 2005. Designed as a performance sedan competing in the mid-luxury class, the GS slots between the compact executive IS and large/flagship LS, and shared its chassis with one of Toyota&apos;s longest-running nameplates, the Toyota Crown premium sedans until 2011. Four generations of the GS have been produced since 1993, each available with six-cylinder engines and rear-wheel drive. V8 engines were also offered in all generations, and all-wheel drive and hybrid versions debuted in 2005. Previously, all-wheel drive versions were already made available in the Japanese-market S140 series Aristo. The first two generations had a Japanese domestic market equivalent, the Toyota Aristo (aristo is Greek for &quot;the best&quot;), which was sold from 1991 until the Lexus marque&apos;s domestic debut in 2005. Though largely identical in exterior and interior design, the GS and the Aristo differed in their engine and transmission combinations as well as equipment packages. The GS name stands for Grand Sedan. However, some Lexus importers use the backronymic name, Grand Sport. The first generation Lexus GS began sales in the United States, Europe and selected markets in Asia in 1993, where it was introduced with an inline-6 engine and exterior bodywork designed by Italdesign Giugiaro. The second generation model premiered in 1997, using a new platform, in-house styling, and adding a V8 version for the first time outside Japan. The third generation GS, which premiered globally for the 2006 model year, was produced in V6, V8, and hybrid versions, the latter known as the GS 450h. The third generation models were the first GS sedans to be badged as such in the Japanese domestic market. The fourth generation Lexus GS premiered in August 2011 at the Pebble Beach Concours d&apos;Elegance, where models introduced included the V6-powered GS 350, hybrid GS 450h, and performance-tuned F Sport variants. A lower-displacement V6 model, the GS 250, premiered at the Auto Guangzhou Exhibition in November 2011, targeted at Asian and European markets. In some markets such as North America, the GS shares the mid-size sedan category in the Lexus lineup with the front-wheel drive ES. The GS was replaced in Europe by the Lexus ES from December 2018. The seventh generation ES is the first to be sold in Europe, replacing the GS in spite of being a front-wheel drive car. It went on sale from September 2018 in Russia, Turkey and other CIS markets and from December 2018 in Western and Central Europe. Production ended in August 2020.</carverse:carverseabstract>
+        <carverse:carverseclass>Executive car</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, rear wheel drive layout</carverse:carverselayout>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+        <carverse:carversename>Lexus GS</carverse:carversename>
+        <carverse:carverseproduction>December 2011 - August 2020
+January 2005 - December 2011</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Lexus_GS_450h_F_Sport...._Juni_2012,_Düsseldorf.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Lexus GS</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Marcedes_Benz_C_Class -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Marcedes_Benz_C_Class">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Mercedes-Benz C-Class is a series of compact executive cars produced by Mercedes-Benz Group AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque&apos;s line-up until the W168 A-Class arrived in 1997. The C-Class has been available with a &quot;4MATIC&quot; four-wheel drive option since 2002. The third generation (W204) was launched in 2007 while the current W206 generation was launched in 2021. Initially available in sedan and a station wagon configurations, a fastback coupé (SportCoupé) variant followed and was later renamed to Mercedes-Benz CLC-Class. It remained in production until 2011 when a new W204 C-Class coupé replaced it for the 2012 model year.</carverse:carverseabstract>
+        <carverse:carverseclass>Compact executive car</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive
+Front engine, rear wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>DaimlerChrysler
+Daimler AG
+Mercedes Benz Group AG
+Daimler Benz</carverse:carversemanufacturer>
+        <carverse:carversename>Mercedes Benz C Class</carverse:carversename>
+        <carverse:carverseproduction>1993
+2007
+2014
+2021
+July 2000 – 2007
+May 1993–2000</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Mercedes-Benz_C_200_A..._April_2014,_Düsseldorf.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Marcedes Benz C Class</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Marcedes_Benz_Vito -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Marcedes_Benz_Vito">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Mercedes-Benz Vito is a mid-sized light commercial vehicle (LCV) produced by Mercedes-Benz, available as a panel van, chassis cab, or multi-purpose vehicle (MPV), carrying cargo or up to eight passengers. In the Mercedes-Benz van lineup, it is positioned between the larger Sprinter and the smaller Citan. The Vito refers to the cargo van variant for commercial use; when passenger accommodations are substituted for part or all of the load area, it is known as the V-Class or Viano. The V-Class/Viano is a large MPV. The first generation went on sale in 1996. The second generation was introduced in 2004, and the vehicle received the new Viano name. In 2010, the vehicle was facelifted with revised front and rear bumpers and lights. The interior was also improved with upgraded materials and new technology. The third generation was launched in 2014 and returned to being called V-Class. The Vito/Viano is available in both rear- and four-wheel-drive configurations and comes in three lengths, two wheelbases and a choice of four petrol and diesel engines (as well as two specialist tuned models) coupled to either a six-speed manual or five-speed TouchShift automatic transmission.</carverse:carverseabstract>
+        <carverse:carverseclass>Minivan</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, rear wheel drive layout
+Front engine, four wheel drive layout
+Front engine, front wheel drive layout</carverse:carverselayout>
+        <carverse:carversemanufacturer>Marcedes Benz</carverse:carversemanufacturer>
+        <carverse:carversename>Mercedes Benz V Class</carverse:carversename>
+        <carverse:carverseproduction>1996
+2003
+2008
+2010
+2019
+2020
+January 2016-2023
+March 2014–present
+March 2016-present</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Mercedes-Benz_V_250_d...._Juni_2016,_Düsseldorf.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Marcedes Benz Vito</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda2 -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Mazda2 is a subcompact/supermini (B-segment) car manufactured and marketed by Mazda since 2002, currently in its third generation. An entry-level model of the brand in markets outside Japan, the Mazda2 is positioned below the Mazda3. The Mazda2 has also been marketed as the Mazda Demio (a name it kept in the Japanese market until 2019), while its direct predecessor was exported as the Mazda 121. The second-generation Mazda2 earned the 2008 World Car of the Year title, while the third-generation model was awarded the 2014–2015 Japanese Car of the Year. The third-generation model was sold in North America as the Scion iA and Toyota Yaris, Yaris iA and Yaris R. A separate, petrol-hybrid version based on the Toyota Yaris Hybrid has been sold in Europe under the same Mazda2 nameplate since 2022 alongside the petrol-powered third-generation Mazda2.</carverse:carverseabstract>
+        <carverse:carverseclass>Subcompact car</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive layout
+Front engine, front wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Mazda</carverse:carversemanufacturer>
+        <carverse:carversename>Mazda2</carverse:carversename>
+        <carverse:carverseproduction>2002
+2014
+May 2007 – 2014</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2015_Mazda2_(DJ)Genki_hatchback(2018-08-27)_01.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Mazda2</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda3 -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Mazda3 (known as the Mazda Axela in Japan (first three generations), a combination of &quot;accelerate&quot; and &quot;excellent&quot;) is a compact car manufactured by Mazda. It was first introduced in 2003 as a 2004 model, replacing the Familia/323/Protegé in the C-segment. The second-generation Mazda3 for the 2009 model year was unveiled in late 2008, with the sedan premiering at the Los Angeles Auto Show and the hatchback at the Bologna Motor Show. For the 2012 model year, Mazda began offering the Mazda3 with their newly-developed Skyactiv technology, including a more rigid body, a new direct-injection engine, and a new 6-speed transmission. The third generation was introduced in mid-2013 as a 2014 model year. The third-generation model is the first Mazda3 to adopt the &quot;Kodo&quot; design language and a more complete Skyactiv range of technologies. The fourth-generation Mazda3 for the 2019 model year was unveiled in November 2018 at the Los Angeles Auto Show. For the 2019 model, the all-new Mazda3 is equipped with the updated Skyactiv technologies, including a spark-controlled compression ignition engine marketed as the Skyactiv-X. A performance-oriented version of the Mazda3 was marketed until 2013 as the Mazdaspeed3 in North America, Mazdaspeed Axela in Japan, and the Mazda3 MPS in Europe and Australia. The Mazda3 became one of Mazda&apos;s fastest-selling vehicles, with cumulative sales in January 2019 of over 6 million units.</carverse:carverseabstract>
+        <carverse:carverseclass>Compact car</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive layout
+Front engine, front wheel drive layout</carverse:carverselayout>
+        <carverse:carversemanufacturer>Mazda</carverse:carversemanufacturer>
+        <carverse:carversename>Mazda3</carverse:carversename>
+        <carverse:carverseproduction>2003
+2005
+2006
+2019
+June 2013 – 2018
+June 2003 – January 2009
+November 2008 – June 2013</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Mazda3_SKYACTIV-G.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Mazda3</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda6 -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Mazda6 (known as the Mazda Atenza in Japan and China, derived from the Italian attenzione) is a mid-size sedan produced by Mazda since 2002, replacing the long-produced Capella/626. The Mazda6 was marketed as the first example of the company&apos;s &quot;Stylish, Insightful and Spirited&quot; design philosophy, followed by the Mazda2 in December 2002, the RX-8 in August 2003, the Mazda3 in January 2004, the Mazda5 in the summer of 2005, the MX-5 in October 2005, and the CX-7 in November 2006. The 2003 Mazda6 is essentially the seventh-generation Mazda 626, part of the &apos;G&apos; model code family.</carverse:carverseabstract>
+        <carverse:carverseclass>Mid size car</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, all wheel drive
+Front engine, front wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Mazda</carverse:carversemanufacturer>
+        <carverse:carversename>Mazda6</carverse:carversename>
+        <carverse:carverseproduction>2002
+2003
+2009
+2012
+August 2007 – August 2012
+February 2002 – June 2008</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2018_Mazda6_Sport_NAV+_Diesel_2.2_Front.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Mazda6</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mirage -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mirage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Mitsubishi Mirage is a range of cars produced by the Japanese manufacturer Mitsubishi from 1978 until 2003 and again since 2012. The hatchback models produced between 1978 and 2003 were classified as subcompact cars, while the sedan and station wagon models, marketed prominently as the Mitsubishi Lancer, were the compact offerings. The liftback introduced in 1988 complemented the sedan as an additional compact offering, and the coupé of 1991 fitted in with the subcompact range. The current Mirage model is a subcompact hatchback and sedan and it replaces the Mitsubishi Colt sold between 2002 and 2012.</carverse:carverseabstract>
+        <carverse:carverseclass>Compact car</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive layout
+Front engine, front wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Mitsubishi Motors</carverse:carversemanufacturer>
+        <carverse:carversename>Mitsubishi Mirage</carverse:carversename>
+        <carverse:carverseproduction>1978
+1982
+1995
+1997
+1998
+2003
+2004
+2012
+April 2012 – present
+June 2013 – present
+March 1978 – October 1983</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Mitsubishi_Space_Star_1.2_MIVEC_ClearTec.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Mirage</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mirai -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mirai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Toyota Mirai (Japanese: トヨタ・MIRAI, Hepburn: Toyota Mirai) (from mirai (未来), Japanese for &apos;future&apos;) is a mid-size hydrogen fuel cell vehicle (FCV) manufactured by Toyota, and is one of the first FCV automobiles to be mass-produced and sold commercially. The Mirai was unveiled at the November 2014 Los Angeles Auto Show. As of December 2021, global sales totaled 17,940 units; the top-selling markets were the U.S. with 9,274 units, Japan with 6,618 and the rest of the world with 2,048. Under the U.S. Environmental Protection Agency (EPA) cycle, the 2016 model year Mirai has a total range of 502 km (312 mi) on a full tank. The MPG-equivalent combined city/highway fuel economy rating was 66 mpg‑US (3.6 L/100 km; 79 mpg‑imp), making the Mirai the most fuel-efficient hydrogen fuel cell vehicle rated at the time by the EPA, and the one with the longest range. In August 2021, the second-generation Mirai set a world record of traveling 1,360 km (845 mi) with a full tank of 5.65 kg hydrogen. Sales in Japan began on 15 December 2014 at ¥6.7 million (~US$57,400) at Toyota Store and Toyopet Store locations. The Japanese government plans to support the commercialization of fuel-cell vehicles with a subsidy of ¥2 million (~US$19,600). Retail sales in the U.S. began in August 2015 at a price of US$57,500 before any government incentives. Deliveries to retail customers began in California in October 2015. Toyota scheduled to release the Mirai in the Northeastern States in the first half of 2016. As of June 2016, the Mirai was available for retail sales in the UK, Denmark, Germany, Belgium, and Norway. Pricing in Germany started at €60,000 (~US$75,140) plus VAT (€78,540).</carverse:carverseabstract>
+        <carverse:carverseclass>Mid size luxury car/Executive car</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, front wheel drive layout
+Rear engine, rear wheel drive layout
+Rear mid engine, rear wheel drive layout</carverse:carverselayout>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+        <carverse:carversename>Toyota Mirai</carverse:carversename>
+        <carverse:carverseproduction>December 2020 – present
+December 2014 – present
+December 2014 – 2020</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Toyota_Mirai_(JPD20)_IMG_5303.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Mirai</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Odyssey -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Odyssey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Honda Odyssey (Japanese: ホンダ・オデッセイ, Hepburn: Honda Odessei) is a minivan manufactured by Japanese automaker Honda since 1994, marketed in most of the world and currently in its fifth generation in Japan. The Odyssey had originally been conceived and engineered in Japan, in the wake of the country&apos;s economic crisis of the 1990s – which in turn imposed severe constraints on the vehicle&apos;s size and overall concept, dictating the minivan&apos;s manufacture in an existing facility with minimal modification. The result was a smaller minivan, in the compact MPV class, that was well received in the Japanese domestic market but less well received in North America. The first generation Odyssey was marketed in Europe as the Honda Shuttle. Subsequent generations diverged to reflect market variations, and Honda built a plant in Lincoln, Alabama, incorporating the ability to manufacture larger models. Since model year 1999, Honda has marketed a larger (large MPV-class) Odyssey in North America and a smaller Odyssey in Japan and other markets. Honda also offered the larger North American Odyssey in Japan as the Honda LaGreat between 1999 and 2004.</carverse:carverseabstract>
+        <carverse:carverseclass>Minivan</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive
+Front engine, front wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
+        <carverse:carversename>Honda Odyssey</carverse:carversename>
+        <carverse:carverseproduction>1994
+1999
+2003
+2008
+2013</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Honda_ODYSSEY_ABSOLUTE_EX_(RC1)_front.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Odyssey</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Rocky -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Rocky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The A200/A250 series Daihatsu Rocky (Japanese: ダイハツ・ロッキー, Hepburn: Daihatsu Rokkī) is a car manufactured by Daihatsu. A subcompact crossover SUV, it was unveiled at the 46th Tokyo Motor Show on 23 October 2019 under the &quot;New Compact SUV&quot; name. It replaced the Be‣go in the Japanese market and went on sale on 5 November 2019. The Rocky is also rebadged and sold under Toyota and Subaru brands as the Toyota Raize (Japanese: トヨタ・ライズ, Hepburn: Toyota Raizu) and Subaru Rex (Japanese: スバル・レックス, Hepburn: Subaru Rekkusu) respectively. Outside of Japan, the model is also manufactured in Indonesia and Malaysia as well. The Indonesian model of Rocky and Raize have been sold locally since April 2021 and also exported as the Raize to 50 countries. The Malaysian model is sold under the Perodua brand as the Perodua Ativa since February 2021.</carverse:carverseabstract>
+        <carverse:carverseclass>Subcompact crossover SUV</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive
+Front-engine, front wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Daihatsu</carverse:carversemanufacturer>
+        <carverse:carversename>Daihatsu Rocky</carverse:carversename>
+        <carverse:carverseproduction>October 2019 – present</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/Daihatsu_Rocky_203.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Rocky</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Rush -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Rush">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Daihatsu Terios (Japanese: ダイハツ・テリオス, Hepburn: Daihatsu Teriosu) is a mini SUV produced by the Japanese automobile manufacturer Daihatsu since 1997 as the successor to the F300 series Rocky. It was initially offered in both short and long-wheelbase configurations before the former stopped production in 2016 to be replaced by the A200 series Rocky crossover in 2019. The long-wheelbase variant is available mainly for the Indonesian market with three-row seating options. A smaller kei car model called the Terios Kid/Lucia was also available for the first-generation model. Rear-wheel drive is standard across all generations, while four-wheel drive option was available for the first and second-generation models. Since August 2016, the Terios has been sold exclusively in Indonesia. Throughout three generations, it has also been marketed by Toyota and Perodua under various nameplates as well. The name &quot;Terios&quot; is originated from the Old Greek word, which is roughly translated to &quot;making dreams come true&quot;.</carverse:carverseabstract>
+        <carverse:carverseclass>Mid size SUV</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, four wheel drive
+Front engine, rear wheel drive</carverse:carverselayout>
+        <carverse:carversemanufacturer>Daihatsu</carverse:carversemanufacturer>
+        <carverse:carversename>Daihatsu Terios</carverse:carversename>
+        <carverse:carverseproduction>2006
+November 2017 – present
+April 1997 – November 2005
+April 1997 – present
+December 2006 – October 2017
+January 2006 – March 2016
+July 1999 – November 2006
+October 1998 – May 2012</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2018_Daihatsu_Terios_...-2019,_South_Tangerang.jpg?width=300</carverse:carversethumbnail>
+        <rdfs:label>Rush</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Sienta -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Sienta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Toyota Sienta (Japanese: トヨタ・シエンタ, Hepburn: Toyota Shienta) is a mini MPV with sliding doors manufactured by Toyota. It was introduced in September 2003, based on the Vitz/Yaris subcompact car, and is available at all Toyota dealerships in Japan. The Sienta is sold in Japan, Hong Kong, Singapore, Indonesia, Taiwan, Laos, and Thailand. As of 2022, it is positioned below the Voxy/Noah and above the Roomy in Toyota&apos;s MPV lineup in Japan. In Indonesia and Thailand, it serves as an upmarket alternative to the Avanza and fills the gap between Avanza and the larger Innova. The &quot;Sienta&quot; name is derived from the Spanish word &quot;siete&quot;, which means &quot;seven&quot; (referring to its maximum passenger capacity) and English word &quot;entertain&quot;.</carverse:carverseabstract>
+        <rdfs:label>Sienta</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Supra -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Supra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The Toyota Supra (Japanese: トヨタ・スープラ, Hepburn: Toyota Sūpura) is a sports car and grand tourer manufactured by the Toyota Motor Corporation beginning in 1978. The name &quot;supra&quot; is derived from the Latin prefix, meaning &quot;above&quot;, &quot;to surpass&quot; or &quot;go beyond&quot;. The initial four generations of the Supra were produced from 1978 to 2002. The fifth generation has been produced since March 2019 and went on sale in May 2019. The styling of the original Supra was derived from the Toyota Celica, but it was both longer and wider. Starting in mid-1986, the A70 Supra became a separate model from the Celica. In turn, Toyota also stopped using the prefix Celica and named the car Supra. Owing to the similarity and past of the Celica&apos;s name, it is frequently mistaken for the Supra, and vice versa. The first, second and third generations of the Supra were assembled at the Tahara plant in Tahara, Aichi, while the fourth generation was assembled at the Motomachi plant in Toyota City. The 5th generation of the Supra is assembled alongside the G29 BMW Z4 in Graz, Austria by Magna Steyr. The Supra also traces much of its roots back to the 2000GT owing to an inline-6 layout. The first three generations were offered with a direct descendant to the Crown&apos;s and 2000GT&apos;s M engine. Interior aspects were also similar, as was the chassis code &quot;A&quot;. Along with this name, Toyota also included its own logo for the Supra. It was derived from the original Celica logo, being blue instead of orange. This logo was used until January 1986, when the A70 Supra was introduced. The new logo was similar in size, with orange writing on a red background, but without the dragon design. That logo, in turn, was on Supras until 1991 when Toyota switched to its current oval company logo. (The dragon logo was a Celica logo regardless of what colour it was. It appeared on the first two generations of the Supra because they were officially Toyota Celicas. The dragon logo was used for the Celica line until it was also discontinued.) In 1998, Toyota ceased sales of the fourth generation of the Supra in the United States. Production of the fourth generation of the Supra for worldwide markets ended in 2002. In January 2019, the fifth generation of the Supra, which was co-developed with the G29 Z4, was introduced.</carverse:carverseabstract>
+        <carverse:carverseclass>Sports car</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, rear wheel drive layout</carverse:carverselayout>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+        <carverse:carversename>Toyota Supra</carverse:carversename>
+        <carverse:carverseproduction>March 2019 – present
+April 1978 – August 2002
+April 1978 – June 1981
+February 1986 – April 1993
+July 1981 – December 1985
+May 1993 – August 2002</carverse:carverseproduction>
+        <carverse:carversethumbnail>wiki-commons:Special:FilePath/2020_Toyota_GR_Supra_(United_States).png?width=300</carverse:carversethumbnail>
+        <rdfs:label>Supra</rdfs:label>
+    </carverse:car>
+    
+
+
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Yaris -->
+
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Yaris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+        <carverse:carverseabstract>The XP150 series Toyota Yaris is a subcompact car produced and sold by Toyota under the Yaris nameplate since 2013. Marketed exclusively for emerging markets, it is the hatchback counterpart of the XP150 series Vios subcompact sedan, which in some markets also shared the same Yaris nameplate. It is larger and longer than the unrelated XP130 series Yaris hatchback (Vitz in Japan) which was marketed in Japan, North America, Europe and Australasia, and the succeeding TNGA-based XP210 series Yaris. It made its public debut at the 15th Auto Shanghai in April 2013, and was rolled out to several Asian markets including China, Taiwan, Southeast Asia and the Middle East. The vehicle was also marketed as the Yaris Sport in Chile since 2014, and in Mexico and Argentina from 2016. In some markets such as Chile, Mexico and South Africa, it replaced the XP130 series Yaris hatchback. In 2021, it was replaced by the Suzuki-sourced Starlet in South Africa.</carverse:carverseabstract>
+        <carverse:carverseclass>Subcompact car</carverse:carverseclass>
+        <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
+        <rdfs:label>Yaris</rdfs:label>
     </carverse:car>
 </rdf:RDF>
 
 
 
 <!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
-

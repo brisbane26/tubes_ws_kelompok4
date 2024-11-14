@@ -7,12 +7,13 @@ $query = "
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 
-    SELECT DISTINCT ?name ?class ?thumbnail ?layout WHERE {
+    SELECT DISTINCT ?name ?class ?thumbnail ?layout ?manufacturer WHERE {
         ?d a carverse:car;
              rdfs:label           ?name;
              carverse:carverseclass  ?class;
              carverse:carversethumbnail ?thumbnail;
              carverse:carverselayout    ?layout .
+             carverse:carversemanufacturer    ?manufacturer .
         FILTER(?class = '$keyword') .
     }
 ";
