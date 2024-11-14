@@ -9,21 +9,25 @@ if (isset($_POST["cari"])) {
 
     // Query SPARQL untuk pencarian
     $query = "
-    PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-        SELECT DISTINCT ?name ?class ?thumbnail ?layout WHERE {
-            ?d a carverse:car;
-                 rdfs:label           ?name;
-                 carverse:carverseclass  ?class;
-                 carverse:carversethumbnail ?thumbnail;
-                 carverse:carverselayout    ?layout . 
-            FILTER ( REGEX (?name, '$encodedKeyword', 'i') ||
-                     REGEX (?class, '$encodedKeyword', 'i') ||
-                     REGEX (?layout, '$encodedKeyword', 'i')) .
-        }
-        ORDER BY ?name
-    ";
+    SELECT DISTINCT ?name ?class ?thumbnail ?layout ?manufacturer WHERE {
+        ?d a carverse:car;
+             rdfs:label           ?name;
+             carverse:carverseclass  ?class;
+             carverse:carverselayout    ?layout;
+             carverse:carversemanufacturer    ?manufacturer.
+        FILTER (
+            REGEX(?name, \"$encodedKeyword\", \"i\") ||
+            REGEX(?class, \"$encodedKeyword\", \"i\") ||
+            REGEX(?layout, \"$encodedKeyword\", \"i\") ||
+            REGEX(?manufacturer, \"$encodedKeyword\", \"i\")
+        )
+    }
+    ORDER BY ?name
+";
+
 
     $result = $sparqlJena->query($query);  // Menjalankan query jika ada pencarian
 } else {
