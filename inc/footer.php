@@ -2,7 +2,7 @@
     <div class="row pt-">
         <div class="col-lg-12 col-md-12 mb-12">
             <a href="#" class="navbar-brand pb-2">
-                <img class="logo" src="./assets/img/LOGO WEBSEM 2.png" alt="">
+                <img class="logo" src="./assets/img/LOGO-WEBSEM.png" alt="">
             </a>
             <p>Destinesia merupakan website untuk mencari destinasi wisata yang ada di Indonesia. Destinia dapat memberikan informasi mengenai destinasi wisata berdasarkan kategori yang tersedia, sehingga dapat menjadi opsi untuk liburan keluarga anda.</p>
             <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
