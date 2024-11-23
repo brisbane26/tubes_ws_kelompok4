@@ -1125,8 +1125,711 @@ Front engine, all wheel drive</carverse:carverselayout>
     <rdfs:label>Kia Sorento</rdfs:label>
 </carverse:car>
 
+<!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Kia_Rio -->
 
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Kia_Rio">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Kia Rio is a subcompact car manufactured by South Korean automaker Kia. It has been in production since 1999 and is available as a sedan and hatchback. The Rio is designed as an affordable, compact car offering practicality and efficiency, with various engine options including gasoline, diesel, and hybrid variants. The Kia Rio is popular in markets around the world, including North America, Europe, and Asia.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Kia</carverse:carversemanufacturer>
+    <carverse:carversename>Kia Rio</carverse:carversename>
+    <carverse:carverseproduction>1999 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2018_Kia_Rio_1.4_Crdi_III_Style_5-Door.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Kia Rio</rdfs:label>
+</carverse:car>
 
+<!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#BMW_X4 -->
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#BMW_X4">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The BMW X4 is a luxury compact crossover SUV manufactured by the German automaker BMW. The X4 first debuted in 2014 and is designed to offer a sporty alternative to traditional SUVs, combining the performance and agility of a coupe with the practicality of an SUV. The BMW X4 is known for its dynamic handling, advanced technology, and premium interior, making it a popular choice among those seeking both luxury and performance in a compact SUV.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
+    <carverse:carversename>BMW X4</carverse:carversename>
+    <carverse:carverseproduction>2014 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/BMW_X4_F26_Facelift.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>BMW X4</rdfs:label>
+</carverse:car>
+
+<!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Honda_Jazz -->
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Honda_Jazz">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Honda Jazz (also known as Honda Fit in some markets) is a subcompact hatchback that has been in production since 2001. The Jazz is known for its spacious interior, versatile seating configuration, and excellent fuel efficiency. It is widely popular for urban driving and appeals to customers seeking a practical and economical vehicle. The Honda Jazz is available in various trims with gasoline and hybrid engine options, and it is sold in multiple markets around the world, including Japan, Europe, and Southeast Asia.</carverse:carverseabstract>
+    <carverse:carverseclass>Mini MPV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
+    <carverse:carversename>Honda Jazz</carverse:carversename>
+    <carverse:carverseproduction>2001 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Honda_Fit_2019.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Honda Jazz</rdfs:label>
+</carverse:car>
+
+<!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda_MX5_Miata -->
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda_MX5_Miata">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mazda MX-5 Miata is a lightweight, rear-wheel-drive sports car that has been in production since 1989. Known for its agile handling, responsive steering, and open-top driving experience, the Miata has earned a reputation as one of the most fun-to-drive cars on the market. Available in both soft-top and retractable hardtop variants, the Miata is a true roadster that offers pure driving pleasure with a small and nimble frame.</carverse:carverseabstract>
+    <carverse:carverseclass>Sports car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mazda</carverse:carversemanufacturer>
+    <carverse:carversename>Mazda MX-5 Miata</carverse:carversename>
+    <carverse:carverseproduction>1989 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Mazda_MX-5_Miata_G%29_(Noir%2C_3%29.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Mazda MX-5 Miata</rdfs:label>
+</carverse:car>
+
+<!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ford_Ecosport -->
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ford_Ecosport">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Ford EcoSport is a subcompact crossover SUV that has been in production since 2003. It is known for its compact size, high driving position, and practicality for urban driving. The EcoSport offers features like a spacious cabin, modern infotainment system, and available all-wheel drive. It is popular in emerging markets and is available with a variety of engines, including gasoline, diesel, and hybrid options, providing customers with a practical and efficient small SUV.</carverse:carverseabstract>
+    <carverse:carverseclass>Subcompact crossover SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive / all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
+    <carverse:carversename>Ford EcoSport</carverse:carversename>
+    <carverse:carverseproduction>2003 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2018_Ford_EcoSport_Titanium_1.0.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Ford EcoSport</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Kia_Carens">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Kia Carens is a compact MPV (multi-purpose vehicle) designed to offer comfort and practicality. It features a flexible interior with seating for up to seven passengers and a range of advanced features. With a stylish design and fuel-efficient engines, the Carens is a popular choice among families who seek both practicality and style in an MPV.</carverse:carverseabstract>
+    <carverse:carverseclass>Mini MPV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Kia</carverse:carversemanufacturer>
+    <carverse:carversename>Kia Carens</carverse:carversename>
+    <carverse:carverseproduction>2000 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Kia_Carens_2023.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Kia Carens</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda_2">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mazda 2 is a subcompact car known for its sporty design and excellent fuel efficiency. With sharp handling and a compact size, it's well-suited for city driving. The Mazda 2 combines modern technology with a fun-to-drive character, making it a popular choice among young drivers and urban dwellers.</carverse:carverseabstract>
+    <carverse:carverseclass>Hatchback</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mazda</carverse:carversemanufacturer>
+    <carverse:carversename>Mazda 2</carverse:carversename>
+    <carverse:carverseproduction>2002 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Mazda_2_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Mazda 2</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Toyota_Corolla_Altis">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Toyota Corolla Altis is a popular compact sedan known for its reliability and comfort. It has been a top seller in many markets and is favored for its smooth driving experience, fuel efficiency, and advanced safety features. The Altis offers a premium touch with its higher trim levels while maintaining the reputation for Toyota's value and durability.</carverse:carverseabstract>
+    <carverse:carverseclass>Sedan</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+    <carverse:carversename>Toyota Corolla Altis</carverse:carversename>
+    <carverse:carverseproduction>1966 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Toyota_Corolla_Altis_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Toyota Corolla Altis</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Toyota_Avalon">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Toyota Avalon is a luxurious and comfortable mid-size sedan, known for its refined interior and smooth ride. With a spacious cabin and advanced technology features, Avalon caters to those looking for a premium driving experience in a practical sedan.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size sedan</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+    <carverse:carversename>Toyota Avalon</carverse:carversename>
+    <carverse:carverseproduction>1994 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2020_Toyota_Avalon_XLE_3.5_Front.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Toyota Avalon</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Kia_Stinger">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Kia Stinger is a sport-inspired mid-size sedan, offering a blend of performance, design, and comfort. With powerful engine options and a sleek design, the Stinger provides a thrilling driving experience while maintaining practicality.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size sedan</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Kia</carverse:carversemanufacturer>
+    <carverse:carversename>Kia Stinger</carverse:carversename>
+    <carverse:carverseproduction>2017 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2021_Kia_Stinger_GT.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Kia Stinger</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Chrysler_300">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Chrysler 300 is a full-size sedan with bold styling and powerful engine options. With its large presence and high-end interior, it stands out as a sedan that offers both performance and comfort, making it a popular choice for those seeking a luxury sedan experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size sedan</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Chrysler</carverse:carversemanufacturer>
+    <carverse:carversename>Chrysler 300</carverse:carversename>
+    <carverse:carverseproduction>2004 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Chrysler_300C_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Chrysler 300</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Honda_Insight">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Honda Insight is a hybrid sedan that combines fuel efficiency with a modern and sleek design. It offers a smooth ride, advanced technology, and a spacious interior, making it a practical choice for eco-conscious drivers.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size sedan</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
+    <carverse:carversename>Honda Insight</carverse:carversename>
+    <carverse:carverseproduction>1999 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2020_Honda_Insight_EX.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Honda Insight</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ford_Fusion">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Ford Fusion is a mid-size sedan that offers a balance of performance, comfort, and fuel efficiency. Available with conventional and hybrid powertrains, Fusion is known for its smooth ride and high-tech features.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size sedan</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
+    <carverse:carversename>Ford Fusion</carverse:carversename>
+    <carverse:carverseproduction>2005 – 2020</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2019_Ford_Fusion_Titanium_2.0_Front.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Ford Fusion</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Nissan_Maxima">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Nissan Maxima is a mid-size sedan with a luxurious feel and high-performance V6 engine. Known for its bold styling and comfortable interior, it provides a sporty driving experience combined with premium features.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size sedan</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
+    <carverse:carversename>Nissan Maxima</carverse:carversename>
+    <carverse:carverseproduction>1981 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2019_Nissan_Maxima.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Nissan Maxima</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Audi_A6">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Audi A6 is a luxury sedan that combines elegant design with advanced technology. Known for its refined interior and powerful engine options, the A6 offers a smooth and dynamic driving experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive or all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Audi</carverse:carversemanufacturer>
+    <carverse:carversename>Audi A6</carverse:carversename>
+    <carverse:carverseproduction>1994 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2021_Audi_A6.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Audi A6</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mercedes_Benz_E-Class">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mercedes-Benz E-Class is a mid-size luxury sedan that offers a smooth and comfortable driving experience. Featuring advanced safety technologies and luxurious interiors, the E-Class is a top choice in the executive car segment.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive or all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
+    <carverse:carversename>Mercedes-Benz E-Class</carverse:carversename>
+    <carverse:carverseproduction>1993 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2020_Mercedes-Benz_E-Class.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Mercedes-Benz E-Class</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#BMW_5_Series">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The BMW 5 Series is a luxury sedan that combines high-performance engineering with comfort and cutting-edge technology. Known for its dynamic handling and premium features, the 5 Series is a top contender in the mid-size executive car category.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive or all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
+    <carverse:carversename>BMW 5 Series</carverse:carversename>
+    <carverse:carverseproduction>1972 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2020_BMW_5_Series.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>BMW 5 Series</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Jaguar_XF">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Jaguar XF is a luxury sedan with dynamic styling and a focus on both performance and comfort. Known for its sleek design and smooth driving experience, the XF offers cutting-edge technology in a luxury package.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive or all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Jaguar</carverse:carversemanufacturer>
+    <carverse:carversename>Jaguar XF</carverse:carversename>
+    <carverse:carverseproduction>2007 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2021_Jaguar_XF.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Jaguar XF</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Volvo_S90">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Volvo S90 is a premium sedan that focuses on safety, comfort, and minimalist design. With advanced safety features and luxurious interior materials, the S90 offers a refined driving experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive or all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Volvo</carverse:carversemanufacturer>
+    <carverse:carversename>Volvo S90</carverse:carversename>
+    <carverse:carverseproduction>2016 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2021_Volvo_S90.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Volvo S90</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Lexus_ES">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Lexus ES is a luxury sedan known for its comfort, quiet ride, and refined interior. With spacious seating and high-end materials, the ES provides an excellent balance of luxury and performance.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Lexus</carverse:carversemanufacturer>
+    <carverse:carversename>Lexus ES</carverse:carversename>
+    <carverse:carverseproduction>1989 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/2021_Lexus_ES.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Lexus ES</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Acura_TLX">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Acura TLX is a premium sedan known for its modern design and advanced technology. Offering a dynamic driving experience, it also comes equipped with various safety and infotainment features.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive or all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Acura</carverse:carversemanufacturer>
+    <carverse:carversename>Acura TLX</carverse:carversename>
+    <carverse:carverseproduction>2014 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Acura_TLX_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Acura TLX</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Infiniti_Q50">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Infiniti Q50 is a luxury sedan offering elegant style and impressive performance. Known for its premium interior design and engaging driving experience, the Q50 is a top choice in the luxury sedan class.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive or all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Infiniti</carverse:carversemanufacturer>
+    <carverse:carversename>Infiniti Q50</carverse:carversename>
+    <carverse:carverseproduction>2013 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Infiniti_Q50_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Infiniti Q50</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#BMW_4_Series_Gran_Coupe">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The BMW 4 Series Gran Coupe combines sporty coupe design with sedan comfort. With powerful engines and advanced suspension systems, it offers a perfect balance between performance and luxury.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive or all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
+    <carverse:carversename>BMW 4 Series Gran Coupe</carverse:carversename>
+    <carverse:carverseproduction>2014 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/BMW_4_Series_Gran_Coupe_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>BMW 4 Series Gran Coupe</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Volvo_XC60">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Volvo XC60 is a luxury crossover SUV with elegant Nordic design and a focus on safety. It offers a spacious interior with high-quality materials and comes equipped with advanced safety technologies and infotainment systems.</carverse:carverseabstract>
+    <carverse:carverseclass>Luxury Mid-size Crossover SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Volvo</carverse:carversemanufacturer>
+    <carverse:carversename>Volvo XC60</carverse:carversename>
+    <carverse:carverseproduction>2008 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Volvo_XC60_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Volvo XC60</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Lexus_NX">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Lexus NX is a luxury crossover SUV with sharp and aggressive styling. Prioritizing comfort and a smooth driving experience, the NX is equipped with the latest technology and safety features.</carverse:carverseabstract>
+    <carverse:carverseclass>Luxury Mid-size Crossover SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Lexus</carverse:carversemanufacturer>
+    <carverse:carversename>Lexus NX</carverse:carversename>
+    <carverse:carverseproduction>2014 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Lexus_NX_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Lexus NX</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#BMW_X3">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The BMW X3 is a luxury mid-size crossover SUV that combines performance and comfort. With various engine options, the X3 delivers sporty handling while also providing a comfortable ride for long journeys.</carverse:carverseabstract>
+    <carverse:carverseclass>Luxury Mid-size Crossover SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
+    <carverse:carversename>BMW X3</carverse:carversename>
+    <carverse:carverseproduction>2003 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/BMW_X3_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>BMW X3</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mercedes_Benz_GLC">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mercedes-Benz GLC is a luxury crossover SUV with elegant design and impressive performance. Offering a high-quality interior, advanced features, and outstanding comfort, the GLC is a top choice in its class.</carverse:carverseabstract>
+    <carverse:carverseclass>Luxury Mid-size Crossover SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
+    <carverse:carversename>Mercedes-Benz GLC</carverse:carversename>
+    <carverse:carverseproduction>2015 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Mercedes-Benz_GLC_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Mercedes-Benz GLC</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Acura_RDX">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Acura RDX offers a sporty performance combined with luxury comfort. Known for its spacious cabin and advanced infotainment system, the RDX is equipped with cutting-edge safety features and technology.</carverse:carverseabstract>
+    <carverse:carverseclass>Luxury Mid-size Crossover SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Acura</carverse:carversemanufacturer>
+    <carverse:carversename>Acura RDX</carverse:carversename>
+    <carverse:carverseproduction>2006 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Acura_RDX_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Acura RDX</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ford_Expedition">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Ford Expedition is a full-size SUV that offers large passenger capacity and ample cargo space. Known for its strong towing capabilities and advanced features, the Expedition is perfect for long journeys and outdoor activities.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
+    <carverse:carversename>Ford Expedition</carverse:carversename>
+    <carverse:carverseproduction>1996 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Ford_Expedition_2022.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Ford Expedition</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Chevrolet_Tahoe">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Chevrolet Tahoe is a full-size SUV that prioritizes comfort and performance. With a spacious cabin, modern infotainment system, and off-road capability, the Tahoe is an excellent choice for families who need a versatile vehicle.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Chevrolet</carverse:carversemanufacturer>
+    <carverse:carversename>Chevrolet Tahoe</carverse:carversename>
+    <carverse:carverseproduction>1995 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Chevrolet_Tahoe_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Chevrolet Tahoe</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Toyota_Sequoia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Toyota Sequoia is a full-size SUV that offers exceptional comfort and tough performance. Known for Toyota's reliability, Sequoia provides a spacious cabin and is a great family vehicle with off-road capabilities.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+    <carverse:carversename>Toyota Sequoia</carverse:carversename>
+    <carverse:carverseproduction>2000 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Toyota_Sequoia_2022.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Toyota Sequoia</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#GMC_Yukon">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The GMC Yukon is a large SUV offering high performance and stylish design. Known for its spacious passenger capacity and impressive towing capabilities, the Yukon is ideal for large families or long journeys.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>GMC</carverse:carversemanufacturer>
+    <carverse:carversename>GMC Yukon</carverse:carversename>
+    <carverse:carverseproduction>1991 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/GMC_Yukon_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>GMC Yukon</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Nissan_Armada">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Nissan Armada is a full-size SUV that offers comfort, advanced features, and strong performance. Known for its spacious cabin and off-road capability, the Armada is a great choice for those needing a large capacity vehicle.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
+    <carverse:carversename>Nissan Armada</carverse:carversename>
+    <carverse:carverseproduction>2003 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Nissan_Armada_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Nissan Armada</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Honda_Pilot">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Honda Pilot is a full-size SUV that emphasizes comfort and practicality. With a spacious cabin and a variety of safety features, the Pilot is a solid choice for families seeking a large capacity vehicle with good fuel efficiency.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
+    <carverse:carversename>Honda Pilot</carverse:carversename>
+    <carverse:carverseproduction>2002 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Honda_Pilot_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Honda Pilot</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Rivian_R1T">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Rivian R1T is an all-electric pickup truck that combines off-road capability with advanced technology. Known for its futuristic design and exceptional performance, the R1T is ideal for those who need a versatile electric vehicle with rugged capabilities.</carverse:carverseabstract>
+    <carverse:carverseclass>Electric car</carverse:carverseclass>
+    <carverse:carverselayout>Electric, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Rivian</carverse:carversemanufacturer>
+    <carverse:carversename>Rivian R1T</carverse:carversename>
+    <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Rivian_R1T_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Rivian R1T</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Polestar_2">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>Polestar 2 is a premium electric sedan from Volvo that offers a combination of elegant design, high performance, and advanced technology. This electric vehicle provides a good range and modern styling, making it an attractive option for those looking for a luxury EV.</carverse:carverseabstract>
+    <carverse:carverseclass>Electric car</carverse:carverseclass>
+    <carverse:carverselayout>Electric, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Polestar</carverse:carversemanufacturer>
+    <carverse:carversename>Polestar 2</carverse:carversename>
+    <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Polestar_2_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Polestar 2</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ford_Mustang_Mach_E">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Ford Mustang Mach-E is an all-electric SUV that combines iconic Mustang styling with modern electric performance. With multiple powertrain options and excellent driving dynamics, the Mach-E offers a thrilling and sporty driving experience in an all-electric package.</carverse:carverseabstract>
+    <carverse:carverseclass>Electric car</carverse:carverseclass>
+    <carverse:carverselayout>Electric, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
+    <carverse:carversename>Ford Mustang Mach-E</carverse:carversename>
+    <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Ford_Mustang_Mach_E_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Ford Mustang Mach-E</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Lucid_Air">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Lucid Air is a luxury electric sedan that offers exceptional range and high performance. Known for its opulent design, advanced technology, and impressive features, Lucid Air provides a top-tier electric driving experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Electric car</carverse:carverseclass>
+    <carverse:carverselayout>Electric, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Lucid Motors</carverse:carversemanufacturer>
+    <carverse:carversename>Lucid Air</carverse:carversename>
+    <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Lucid_Air_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Lucid Air</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#BMW_i4">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>BMW i4 is an electric sedan that blends dynamic BMW performance with advanced electric technology. With a good range and sporty design, i4 offers an exhilarating driving experience in an electric package.</carverse:carverseabstract>
+    <carverse:carverseclass>Electric car</carverse:carverseclass>
+    <carverse:carverselayout>Electric, rear wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
+    <carverse:carversename>BMW i4</carverse:carversename>
+    <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/BMW_i4_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>BMW i4</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Audi_e_tron_GT">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>Audi e-tron GT is an electric sports sedan with an elegant design and outstanding performance. With advanced technology and excellent handling capabilities, the e-tron GT offers a luxurious and stylish electric driving experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Electric car</carverse:carverseclass>
+    <carverse:carverselayout>Electric, all wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Audi</carverse:carversemanufacturer>
+    <carverse:carversename>Audi e-tron GT</carverse:carversename>
+    <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Audi_e-tron_GT_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Audi e-tron GT</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Hyundai_Accent">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Hyundai Accent is a compact sedan focused on fuel efficiency and comfortable driving. With an affordable price tag, the Accent is a popular choice for those needing a small, practical vehicle without sacrificing quality and features.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact car</carverse:carverseclass>
+    <carverse:carverselayout>Front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Hyundai</carverse:carversemanufacturer>
+    <carverse:carversename>Hyundai Accent</carverse:carversename>
+    <carverse:carverseproduction>1994 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Hyundai_Accent_2021.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Hyundai Accent</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Honda_Fit">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Honda Fit is a compact hatchback offering spacious cabin and incredible versatility. Known for exceptional fuel efficiency and advanced features, the Fit is a great option for those seeking a small yet versatile vehicle.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact car</carverse:carverseclass>
+    <carverse:carverselayout>Front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
+    <carverse:carversename>Honda Fit</carverse:carversename>
+    <carverse:carverseproduction>2001 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Honda_Fit_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Honda Fit</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Nissan_Versa">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Nissan Versa is a compact sedan offering great interior space and good fuel efficiency. With a simple yet functional design, it is an ideal choice for those looking for an affordable, compact vehicle with excellent value for money.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact car</carverse:carverseclass>
+    <carverse:carverselayout>Front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
+    <carverse:carversename>Nissan Versa</carverse:carversename>
+    <carverse:carverseproduction>2006 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Nissan_Versa_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Nissan Versa</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Chevrolet_Spark">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Chevrolet Spark is a compact hatchback that offers great fuel efficiency and user-friendly features. With its compact size, it is ideal for city driving and parking, making it an affordable choice for those looking for a small car.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact car</carverse:carverseclass>
+    <carverse:carverselayout>Front wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Chevrolet</carverse:carversemanufacturer>
+    <carverse:carversename>Chevrolet Spark</carverse:carversename>
+    <carverse:carverseproduction>1998 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Chevrolet_Spark_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Chevrolet Spark</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#BMW_7_Series">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The BMW 7 Series is a luxury full-size sedan known for its elegant design and advanced technology. With powerful engines and a spacious cabin, it offers a perfect balance of comfort and performance, making it a top choice in the luxury sedan category.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size luxury sedan</carverse:carverseclass>
+    <carverse:carverselayout>Rear-wheel drive / All-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
+    <carverse:carversename>BMW 7 Series</carverse:carversename>
+    <carverse:carverseproduction>1977 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/BMW_7_Series_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>BMW 7 Series</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Audi_A8">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Audi A8 is a full-size luxury sedan known for its exceptional interior materials and advanced technology. Offering outstanding comfort and high performance, it provides a smooth driving experience, making it a prominent choice in the luxury sedan category.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size luxury sedan</carverse:carverseclass>
+    <carverse:carverselayout>All-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Audi</carverse:carversemanufacturer>
+    <carverse:carversename>Audi A8</carverse:carversename>
+    <carverse:carverseproduction>1994 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Audi_A8_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Audi A8</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mercedes_Benz_S_Class">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mercedes-Benz S-Class is a full-size luxury sedan that delivers exceptional comfort, cutting-edge technology, and impressive performance. Known as a symbol of prestige, the S-Class offers a premium driving experience with its innovative features and superior craftsmanship.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size luxury sedan</carverse:carverseclass>
+    <carverse:carverselayout>Rear-wheel drive / All-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
+    <carverse:carversename>Mercedes-Benz S-Class</carverse:carversename>
+    <carverse:carverseproduction>1954 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Mercedes_Benz_S_Class_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Mercedes-Benz S-Class</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Jaguar_XJ">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Jaguar XJ is a luxury full-size sedan known for its stylish design, high performance, and remarkable comfort. Featuring powerful engines and advanced technology, it delivers a premium driving experience with an elegant touch.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size luxury sedan</carverse:carverseclass>
+    <carverse:carverselayout>Rear-wheel drive / All-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Jaguar</carverse:carversemanufacturer>
+    <carverse:carversename>Jaguar XJ</carverse:carversename>
+    <carverse:carverseproduction>1968 – 2019</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Jaguar_XJ_2015.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Jaguar XJ</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Porsche_Panamera">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Porsche Panamera is a luxury full-size sedan that combines comfort with exceptional performance. Offering a range of engines from V6 to V8, it provides a dynamic and premium driving experience, making it an ideal choice for enthusiasts.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size luxury sedan</carverse:carverseclass>
+    <carverse:carverselayout>Rear-wheel drive / All-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Porsche</carverse:carversemanufacturer>
+    <carverse:carversename>Porsche Panamera</carverse:carversename>
+    <carverse:carverseproduction>2009 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Porsche_Panamera_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Porsche Panamera</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Lexus_LS">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Lexus LS is a full-size luxury sedan that offers superior comfort and luxury. Known for its smooth ride and exceptional interior quality, it is an ideal choice for those who prioritize elegance and a premium driving experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size luxury sedan</carverse:carverseclass>
+    <carverse:carverselayout>Rear-wheel drive / All-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Lexus</carverse:carversemanufacturer>
+    <carverse:carversename>Lexus LS</carverse:carversename>
+    <carverse:carverseproduction>1989 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Lexus_LS_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Lexus LS</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Honda_BRV">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Honda BR-V is a compact MPV offering comfort, fuel efficiency, and flexibility. With its seven-passenger capacity, it is ideal for families looking for a practical yet stylish vehicle.</carverse:carverseabstract>
+    <carverse:carverseclass>Mini MPV</carverse:carverseclass>
+    <carverse:carverselayout>Front-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
+    <carverse:carversename>Honda BR-V</carverse:carversename>
+    <carverse:carverseproduction>2015 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Honda_BR-V_2019.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Honda BR-V</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mitsubishi_Xpander">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mitsubishi Xpander is a popular mini MPV with a modern design and spacious interior. With a seven-passenger capacity, Xpander offers comfort and flexibility, making it ideal for larger families.</carverse:carverseabstract>
+    <carverse:carverseclass>Mini MPV</carverse:carverseclass>
+    <carverse:carverselayout>Front-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mitsubishi</carverse:carversemanufacturer>
+    <carverse:carversename>Mitsubishi Xpander</carverse:carversename>
+    <carverse:carverseproduction>2017 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Mitsubishi_Xpander_2019.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Mitsubishi Xpander</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Nissan_Livina">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>Nissan Livina is a compact MPV with a simple design and spacious cabin. With a seven-passenger capacity, Livina is an ideal vehicle for families on a budget.</carverse:carverseabstract>
+    <carverse:carverseclass>Mini MPV</carverse:carverseclass>
+    <carverse:carverselayout>Front-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
+    <carverse:carversename>Nissan Livina</carverse:carversename>
+    <carverse:carverseproduction>2007 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Nissan_Livina_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Nissan Livina</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Suzuki_Ertiga">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>Suzuki Ertiga is a compact MPV that offers excellent fuel efficiency and comfort. With a seven-passenger capacity, Ertiga is perfect for families seeking a versatile and budget-friendly vehicle.</carverse:carverseabstract>
+    <carverse:carverseclass>Mini MPV</carverse:carverseclass>
+    <carverse:carverselayout>Front-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Suzuki</carverse:carversemanufacturer>
+    <carverse:carversename>Suzuki Ertiga</carverse:carversename>
+    <carverse:carverseproduction>2012 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Suzuki_Ertiga_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Suzuki Ertiga</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Genesis_G70">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Genesis G70 is a luxury mid-size sedan offering modern design and high-end materials. Known for strong performance, high-tech features, and comfort, the G70 is ideal for those seeking luxury at a more affordable price.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
+    <carverse:carverselayout>Rear-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Genesis</carverse:carversemanufacturer>
+    <carverse:carversename>Genesis G70</carverse:carversename>
+    <carverse:carverseproduction>2017 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Genesis_G70_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Genesis G70</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Volkswagen_Polo">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Volkswagen Polo is a compact hatchback offering a modern design and high build quality. With a comfortable cabin and good performance, it is ideal for everyday use and offers excellent fuel efficiency.</carverse:carverseabstract>
+    <carverse:carverseclass>Hatchback</carverse:carverseclass>
+    <carverse:carverselayout>Front-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Volkswagen</carverse:carversemanufacturer>
+    <carverse:carversename>Volkswagen Polo</carverse:carversename>
+    <carverse:carverseproduction>1975 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Volkswagen_Polo_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Volkswagen Polo</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Hyundai_i20">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Hyundai i20 offers a blend of comfort, stylish design, and efficient performance. Known for its spacious cabin and high-quality materials, the i20 is a great option for drivers seeking more from a hatchback.</carverse:carverseabstract>
+    <carverse:carverseclass>Hatchback</carverse:carverseclass>
+    <carverse:carverselayout>Front-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Hyundai</carverse:carversemanufacturer>
+    <carverse:carversename>Hyundai i20</carverse:carversename>
+    <carverse:carverseproduction>2008 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Hyundai_i20_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Hyundai i20</rdfs:label>
+</carverse:car>
+
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda_3_Hatchback">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mazda 3 Hatchback stands out with its sharp design and dynamic driving performance. With premium interior quality and advanced technology features, the Mazda 3 is a standout in the hatchback segment.</carverse:carverseabstract>
+    <carverse:carverseclass>Hatchback</carverse:carverseclass>
+    <carverse:carverselayout>Front-wheel drive</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mazda</carverse:carversemanufacturer>
+    <carverse:carversename>Mazda 3 Hatchback</carverse:carversename>
+    <carverse:carverseproduction>2003 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>wiki-commons:Special:FilePath/Mazda_3_Hatchback_2020.jpg?width=300</carverse:carversethumbnail>
+    <rdfs:label>Mazda 3 Hatchback</rdfs:label>
+</carverse:car>
 </rdf:RDF>
 
 <!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
