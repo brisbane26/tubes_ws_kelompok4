@@ -1,12 +1,21 @@
+<style>
+    .card {
+    border-radius: 15px; /* Untuk sudut yang bundar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Untuk bayangan */
+    transition: box-shadow 0.3s; /* Transisi halus saat hover */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Bayangan lebih dalam saat hover */
+}
+</style>
 <?php
 $keyword = $_GET['keyword'];
-
 
 $query = "
     PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-
 
     SELECT DISTINCT ?name ?abstract ?manufacturer ?production ?class ?thumbnail ?layout ?home WHERE {
         ?d a carverse:car;
@@ -34,11 +43,11 @@ if (!empty($result->home)) {
 }
 ?>
 <!-- Header Start -->
-<div class="container-fluid page-header">
+<div class="container-fluid page-header bg-dark text-white">
     <div class="container">
         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-            <h3 class="display-4 text-white text-uppercase">Detail of Car</h3>
-            <div class="d-inline-flex text-white">
+            <h1 class="display-4 text-uppercase">Detail of Car</h1>
+            <div class="d-inline-flex text-white mt-3">
                 <p class="m-0 text-uppercase"><a class="text-white" href="inc/..">Home</a></p>
                 <i class="fa fa-angle-double-right pt-1 px-3"></i>
                 <p class="m-0 text-uppercase">Detail of Car</p>
@@ -49,57 +58,45 @@ if (!empty($result->home)) {
 <!-- Header End -->
 
 <!-- Blog Start -->
-<div class="container-fluid py-3">
-    <div class="container py-3">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="pb-3">
-                    <div class="bg-white mb-3" style="padding: 30px; text-align: justify;">
-                        <div class="d-flex mb-3">
-                            <a class="text-primary text-uppercase text-decoration-none" href="?p=class&keyword=<?= $result->class ?>"><?= $result->class ?></a>
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-8 mb-4">
+            <div class="card shadow">
+                <img class="card-img-top" src="<?= $result->thumbnail ?>" alt="">
+                <div class="card-body">
+                <div class="position-relative">
+                            <img class="img-fluid w-100" style="height: 250px;" src="<?= $result->thumbnail ?>" alt="">
                         </div>
-                        <div class="position-relative">
-                                        <img class="img-fluid w-100" style="height: 250px;" src="<?= $result->thumbnail ?>" alt="">
-                                    </div>
-                        <h2 class="mb-3"><?= $result->name ?></h2>
-                        <div><?= $result->abstract ?></div>
-
+                    <h2 class="card-title"><?= $result->name ?></h2>
+                    <p class="card-text"><?= $result->abstract ?></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a class="btn btn-primary" href="?p=class&keyword=<?= $result->class ?>">View Class</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="pb-3">
-                    <div class="bg-white mb-3" style="padding: 10px;">
-                        <img class="w-100" src="<?= $result->thumbnail ?>" alt="">
-                        <div class="p-2">
-                            <table>
-                                <tr>
-                                    <td>Layout</td>
-                                    <td>:</td>
-                                    <td><?= $result->layout ?></td>
-                                </tr>
-                                <tr>
-                                    <td width="100px">Manufacturer</td>
-                                    <td>:</td>
-                                    <td><?= $result->manufacturer ?></td>
-                                </tr>
-                                <tr>
-                                    <td>Production</td>
-                                    <td>:</td>
-                                    <td><?= $result->production ?></td>
-                                </tr>
-                            </table>
-                            <span style="position: relative;" class="py-2">
-                                <div class=" row justify-content-center mt-2">
-                                    <div class="destination-item position-relative overflow-hidden mb-2 w-75">
-                                        <img class="img-fluid" src="<?= $fotoURL ?>" alt="">
-                                        <a class="destination-overlay text-white text-decoration-none" href="<?= $result->home ?>">
-                                            <h6 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-decoration:underline;">For more infos click here</h6>
-                                        </a>
-                                    </div>
-                                </div>
-                            </span>
-                        </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card shadow">
+                <img class="card-img-top" src="<?= $result->thumbnail ?>" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Car Details</h5>
+                    <table class="table">
+                        <tr>
+                            <td><strong>Layout</strong></td>
+                            <td><?= $result->layout ?></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Manufacturer</strong></td>
+                            <td><?= $result->manufacturer ?></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Production</strong></td>
+                            <td><?= $result->production ?></td>
+                        </tr>
+                    </table>
+                    <div class="text-center">
+                        <img class="img-fluid" src="<?= $fotoURL ?>" alt="">
+                        <a class="btn btn-info mt-3" href="<?= $result->home ?>">For more info click here</a>
                     </div>
                 </div>
             </div>
