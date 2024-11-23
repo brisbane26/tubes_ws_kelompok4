@@ -44,6 +44,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
                  carverse:carverselayout    ?layout . 
         }
         ORDER BY ?name
+        LIMIT 15
     ";
 
     $result = $sparqlJena->query($query);  // Menjalankan query default
