@@ -7,12 +7,12 @@ require "./include/functions.php";
 
 <head>
     <meta charset="utf-8">
-    <title>DESTINESIA - Indonesian Tourist Destinations</title>
+    <title>CARVERSE - Discover Your Dream Ride</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/LOGO-WEBSEM.png" type="image/x-icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
