@@ -4,7 +4,7 @@
             <a href="#" class="navbar-brand pb-2">
                 <img class="logo" src="./assets/img/LOGO-WEBSEM.png" alt="">
             </a>
-            <p>Destinesia merupakan website untuk mencari destinasi wisata yang ada di Indonesia. Destinia dapat memberikan informasi mengenai destinasi wisata berdasarkan kategori yang tersedia, sehingga dapat menjadi opsi untuk liburan keluarga anda.</p>
+            <p>Carverse adalah sebuah website pencarian mobil yang dirancang untuk memudahkan pengguna menemukan kendaraan sesuai kebutuhan mereka. </p>
             <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
             <div class="d-flex justify-content-start">
                 <a class="btn btn-outline-primary btn-square mr-2" href="https://twitter.com/FasilkomTI_USU"><i class="fab fa-twitter"></i></a>

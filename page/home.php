@@ -17,20 +17,20 @@ $result = $sparqlJena->query($query);
     <div id="header-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="./assets/img/1.png" alt="Image">
+                <img class="w-100" src="./assets/img/image1carousel.png" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-md-3">DESTINESIA : </h4>
-                        <h1 class="display-3 text-white mb-md-4">Indonesia's Magical Tourism</h1>
+                        <h4 class="text-white text-uppercase mb-md-3">CARVERSE : </h4>
+                        <h1 class="display-3 text-white mb-md-4">Discover Your Dream Ride</h1>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="./assets/img/3.png" alt="Image">
+                <img class="w-100" src="./assets/img/image2carousel.png" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-md-3">DESTINESIA</h4>
-                        <h1 class="display-3 text-white mb-md-4">Explore the Beauty of Indonesia</h1>
+                        <h4 class="text-white text-uppercase mb-md-3">CARVERSE : </h4>
+                        <h1 class="display-3 text-white mb-md-4">Drive Your Perfect Journey</h1>
                     </div>
                 </div>
             </div>
@@ -53,8 +53,8 @@ $result = $sparqlJena->query($query);
 <div class="container-fluid py-0">
     <div class="container pt-5 pb-3">
         <div class="text-center mb-3 pb-3">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destinesia</h6>
-            <h1>Indonesia's Tourism Category</h1>
+            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">CARVERSE</h6>
+            <h1>Unlock Your Ultimate Drive</h1>
         </div>
         <div class="row justify-content-center">
             <?php foreach ($result as $data) : ?>
