@@ -1,6 +1,6 @@
 <?php
 
-if ($_GET) {
+if (isset($_GET['p'])) {  // Periksa apakah key 'p' ada
     switch ($_GET['p']) {
         case "search":
             include "./page/search.php";
