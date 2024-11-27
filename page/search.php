@@ -1,23 +1,25 @@
 <?php
 $result = null;  // Menyimpan hasil query
+$limit = 15;     // Jumlah data per halaman
+$page = isset($_GET['page']) ? (int)$_GET['page'] : 1;  // Halaman saat ini
+$offset = ($page - 1) * $limit;  // Menghitung offset
 
 if (isset($_POST["cari"])) {
     $keyword = $_POST["keyword"];
-
-    // Pastikan keyword di-encode dengan benar
     $encodedKeyword = urlencode($keyword);
 
-    // Query SPARQL untuk pencarian
+    // Query SPARQL dengan pagination dan pencarian
     $query = "
-PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
     SELECT DISTINCT ?name ?class ?thumbnail ?layout ?manufacturer WHERE {
         ?d a carverse:car;
-             rdfs:label           ?name;
-             carverse:carverseclass  ?class;
-             carverse:carverselayout    ?layout;
-             carverse:carversemanufacturer    ?manufacturer.
+             rdfs:label ?name;
+             carverse:carverseclass ?class;
+             carverse:carversethumbnail ?thumbnail;
+             carverse:carverselayout ?layout;
+             carverse:carversemanufacturer ?manufacturer.
         FILTER (
             REGEX(?name, \"$encodedKeyword\", \"i\") ||
             REGEX(?class, \"$encodedKeyword\", \"i\") ||
@@ -26,29 +28,42 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         )
     }
     ORDER BY ?name
-";
+    LIMIT $limit OFFSET $offset
+    ";
 
-
-    $result = $sparqlJena->query($query);  // Menjalankan query jika ada pencarian
+    $result = $sparqlJena->query($query);
 } else {
-    // Query SPARQL default tanpa pencarian
+    // Query SPARQL default dengan pagination
     $query = "
     PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-        SELECT DISTINCT ?name ?class ?thumbnail ?layout WHERE {
-            ?d a carverse:car;
-                 rdfs:label           ?name;
-                 carverse:carverseclass  ?class;
-                 carverse:carversethumbnail ?thumbnail;
-                 carverse:carverselayout    ?layout . 
-        }
-        ORDER BY ?name
-        LIMIT 15
+    SELECT DISTINCT ?name ?class ?thumbnail ?layout WHERE {
+        ?d a carverse:car;
+             rdfs:label ?name;
+             carverse:carverseclass ?class;
+             carverse:carversethumbnail ?thumbnail;
+             carverse:carverselayout ?layout .
+    }
+    ORDER BY ?name
+    LIMIT $limit OFFSET $offset
     ";
 
-    $result = $sparqlJena->query($query);  // Menjalankan query default
+    $result = $sparqlJena->query($query);
 }
+
+// Query total data untuk menghitung total halaman
+$totalQuery = "
+PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT (COUNT(DISTINCT ?d) AS ?total) WHERE {
+    ?d a carverse:car.
+}
+";
+$totalResult = $sparqlJena->query($totalQuery);
+$totalCount = (int) $totalResult[0]->total->getValue();
+$totalPages = ceil($totalCount / $limit);
 ?>
 
 <!-- Header Start -->
@@ -121,8 +136,32 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
                         <div class="not-found-2">Data is not found!</div>
                     <?php endif ?>
                 </div>
-            </div>
-        </div>
-    </div>
+
+                <!-- Pagination -->
+<div class="pagination">
+    <nav>
+        <ul class="pagination justify-content-center">
+            <?php if ($page > 1) : ?>
+                <li class="page-item">
+                    <a class="page-link" href="?p=search&page=<?= $page - 1 ?>" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            <?php endif; ?>
+
+            <?php for ($i = 1; $i <= $totalPages; $i++) : ?>
+                <li class="page-item <?= $i == $page ? 'active' : '' ?>">
+                    <a class="page-link" href="?p=search&page=<?= $i ?>"><?= $i ?></a>
+                </li>
+            <?php endfor; ?>
+
+            <?php if ($page < $totalPages) : ?>
+                <li class="page-item">
+                    <a class="page-link" href="?p=search&page=<?= $page + 1 ?>" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            <?php endif; ?>
+        </ul>
+    </nav>
 </div>
-<!-- Blog End -->
