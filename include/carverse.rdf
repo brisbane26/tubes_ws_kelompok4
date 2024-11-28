@@ -3194,6 +3194,332 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversethumbnail>https://cdn.motor1.com/images/mgl/l9yeJ/s1/rolls-royce-dawn-silver-bullet-softkit-by-mansory-front-three-quarters.webp</carverse:carversethumbnail>
     <rdfs:label>Rolls-Royce Dawn</rdfs:label>
 </carverse:car>
+
+<!-- Ram 1500 -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ram1500">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Ram 1500 is a full-size pickup truck from Stellantis (formerly FCA) known for its luxurious interior, smooth ride, and powerful performance. It offers a range of powertrains, including a V6, V8, and EcoDiesel engine, and features advanced towing capabilities and off-road packages for adventure enthusiasts.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size pickup truck</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Stellantis</carverse:carversemanufacturer>
+    <carverse:carversename>Ram 1500</carverse:carversename>
+    <carverse:carverseproduction>1981 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://cdn.motor1.com/images/mgl/x9YMo/s3/2025-ram-1500-revolution.jpg</carverse:carversethumbnail>
+    <rdfs:label>Ram 1500</rdfs:label>
+</carverse:car>
+
+<!-- Toyota Tundra -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Tundra">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Toyota Tundra is a full-size pickup truck produced by Toyota. Known for its reliability and off-road capabilities, the Tundra features powerful V6 and V8 engine options, a durable frame, and advanced safety technology. It is a popular choice for drivers looking for a dependable and versatile truck.</carverse:carverseabstract>
+    <carverse:carverseclass>Full-size pickup truck</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+    <carverse:carversename>Toyota Tundra</carverse:carversename>
+    <carverse:carverseproduction>1999 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://toyota.com/tundra/gallery/exterior_01.jpg</carverse:carversethumbnail>
+    <rdfs:label>Toyota Tundra</rdfs:label>
+</carverse:car>
+
+<!-- Dodge Challenger -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Challenger">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Dodge Challenger is a performance coupe from Stellantis, renowned for its retro-inspired design and exceptional power. With engine options ranging from a V6 to the supercharged HEMI V8 in the Hellcat and Demon models, the Challenger is a muscle car that delivers thrilling performance both on the street and the track.</carverse:carverseabstract>
+    <carverse:carverseclass>Performance coupe</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Stellantis</carverse:carversemanufacturer>
+    <carverse:carversename>Dodge Challenger</carverse:carversename>
+    <carverse:carverseproduction>1970 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.dodge.com/challenger/gallery/exterior_01.jpg</carverse:carversethumbnail>
+    <rdfs:label>Dodge Challenger</rdfs:label>
+</carverse:car>
+
+<!-- Audi RS5 -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#RS5">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Audi RS5 is a performance coupe from Audi Sport, featuring a sleek design and powerful twin-turbocharged V6 engine. Known for its Quattro all-wheel-drive system and cutting-edge technology, the RS5 offers a thrilling yet comfortable driving experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Performance coupe</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Audi</carverse:carversemanufacturer>
+    <carverse:carversename>Audi RS5</carverse:carversename>
+    <carverse:carverseproduction>2010 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.audi.com/en/models/rs5/gallery/rs5-coupe.jpg</carverse:carversethumbnail>
+    <rdfs:label>Audi RS5</rdfs:label>
+</carverse:car>
+
+<!-- Mercedes-AMG C63 Coupe -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#C63Coupe">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mercedes-AMG C63 Coupe is a luxury performance car built by Mercedes-AMG. It features a handcrafted twin-turbocharged V8 engine, delivering incredible power and precision. The C63 Coupe balances aggressive performance with the comfort and luxury expected from a Mercedes-Benz.</carverse:carverseabstract>
+    <carverse:carverseclass>Performance coupe</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mercedes-AMG</carverse:carversemanufacturer>
+    <carverse:carversename>Mercedes-AMG C63 Coupe</carverse:carversename>
+    <carverse:carverseproduction>2008 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.mercedes-amg.com/content/dam/mercedes-amg/models/c-class/c63-coupe/gallery/c63-coupe.jpg</carverse:carversethumbnail>
+    <rdfs:label>Mercedes-AMG C63 Coupe</rdfs:label>
+</carverse:car>
+
+<!-- Ford Focus Hatchback -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#FocusHatchback">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Ford Focus Hatchback is a versatile and fun-to-drive compact hatchback. Known for its sporty handling and advanced features, it has been a popular choice among drivers looking for practicality and performance.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact Hatchback</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
+    <carverse:carversename>Ford Focus Hatchback</carverse:carversename>
+    <carverse:carverseproduction>1998 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.ford.co.uk/content/dam/guxeu/uk/images/ford-focus/vig_nav/desktop/ford-focus-hatchback-exterior.jpg</carverse:carversethumbnail>
+    <rdfs:label>Ford Focus Hatchback</rdfs:label>
+</carverse:car>
+
+<!-- Hyundai i30 -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#i30">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Hyundai i30 is a compact hatchback offering a balance of affordability, reliability, and advanced features. Its modern design and comfortable interior make it a competitive choice in the segment.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact Hatchback</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Hyundai</carverse:carversemanufacturer>
+    <carverse:carversename>Hyundai i30</carverse:carversename>
+    <carverse:carverseproduction>2007 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.hyundai.com/content/dam/hyundai/uk/en/images/cars/i30-hatchback/overview/i30_exterior_2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Hyundai i30</rdfs:label>
+</carverse:car>
+
+<!-- Tesla Model Y -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#ModelY">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Tesla Model Y is a fully electric crossover SUV that combines exceptional performance, advanced technology, and spacious interior design. It offers impressive range and innovative features like Autopilot and over-the-air updates.</carverse:carverseabstract>
+    <carverse:carverseclass>Electric Crossover</carverse:carverseclass>
+    <carverse:carverselayout>Dual motor all-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Tesla</carverse:carversemanufacturer>
+    <carverse:carversename>Tesla Model Y</carverse:carversename>
+    <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://tesla-cdn.thron.com/delivery/public/image/tesla/3e8c002c-f580-4817-a9a6-f92f9b4729a3/bvlatuR/std/2880x1800/MY-Social</carverse:carversethumbnail>
+    <rdfs:label>Tesla Model Y</rdfs:label>
+</carverse:car>
+
+<!-- Nissan Ariya -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ariya">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Nissan Ariya is an electric crossover that blends futuristic design with advanced electric drivetrain technology. It offers a quiet, smooth ride and a range of driver-assistance features for enhanced safety and convenience.</carverse:carverseabstract>
+    <carverse:carverseclass>Electric Crossover</carverse:carverseclass>
+    <carverse:carverselayout>Front wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
+    <carverse:carversename>Nissan Ariya</carverse:carversename>
+    <carverse:carverseproduction>2022 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.nissanusa.com/content/dam/Nissan/us/vehicles/ariya/2023/overview/2023-nissan-ariya-exterior.jpg</carverse:carversethumbnail>
+    <rdfs:label>Nissan Ariya</rdfs:label>
+</carverse:car>
+
+<!-- Toyota Crown -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Crown">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Toyota Crown is a luxurious executive car offering refined comfort, advanced technology, and a hybrid powertrain. With a rich heritage in Japan, it combines a smooth ride with high-tech features, making it a top choice for those seeking elegance and reliability.</carverse:carverseabstract>
+    <carverse:carverseclass>Executive car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+    <carverse:carversename>Toyota Crown</carverse:carversename>
+    <carverse:carverseproduction>1955 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.toyota-global.com/images/crown_2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Toyota Crown</rdfs:label>
+</carverse:car>
+
+<!-- Volvo S60 -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#S60">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Volvo S60 is a stylish and comfortable executive car that focuses on safety and modern Scandinavian design. Known for its sleek looks and eco-friendly plug-in hybrid options, it offers a smooth and dynamic driving experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Executive car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Volvo</carverse:carversemanufacturer>
+    <carverse:carversename>Volvo S60</carverse:carversename>
+    <carverse:carverseproduction>2000 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.volvocars.com/images/2024/s60/sedan/feature-gallery/2024-volvo-s60.jpg</carverse:carversethumbnail>
+    <rdfs:label>Volvo S60</rdfs:label>
+</carverse:car>
+
+<!-- Hyundai Genesis -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Genesis">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Hyundai Genesis is a luxury executive sedan that offers excellent value for its premium features, spacious cabin, and smooth ride. Known for its reliability and comfort, it is equipped with advanced technology and a refined interior.</carverse:carverseabstract>
+    <carverse:carverseclass>Executive car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Hyundai</carverse:carversemanufacturer>
+    <carverse:carversename>Hyundai Genesis</carverse:carversename>
+    <carverse:carverseproduction>2008 – 2016</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.hyundai.com/images/genesis-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Hyundai Genesis</rdfs:label>
+</carverse:car>
+
+<!-- Porsche 718 Boxster -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#718Boxster">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Porsche 718 Boxster is a dynamic sports roadster that delivers thrilling performance, exceptional handling, and an iconic design. With its mid-engine layout and turbocharged engines, it offers a perfect balance of speed and precision.</carverse:carverseabstract>
+    <carverse:carverseclass>Sports Roadster</carverse:carverseclass>
+    <carverse:carverselayout>Mid engine, rear wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Porsche</carverse:carversemanufacturer>
+    <carverse:carversename>Porsche 718 Boxster</carverse:carversename>
+    <carverse:carverseproduction>1996 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.porsche.com/images/718_boxster_2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Porsche 718 Boxster</rdfs:label>
+</carverse:car>
+
+<!-- Mercedes-Benz SL-Class -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#SLClass">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mercedes-Benz SL-Class is a luxury sports roadster that combines elegance with high-performance capabilities. With its sleek design, powerful engines, and advanced technology, it offers a refined open-air driving experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Sports Roadster</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
+    <carverse:carversename>Mercedes-Benz SL-Class</carverse:carversename>
+    <carverse:carverseproduction>1952 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.mercedes-benz.com/images/sl-class-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Mercedes-Benz SL-Class</rdfs:label>
+</carverse:car>
+
+<!-- Audi R8 Spyder -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#R8Spyder">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Audi R8 Spyder is a high-performance sports roadster that combines Audi’s signature quattro all-wheel drive system with a powerful V10 engine. With its stunning design and open-air driving experience, the R8 Spyder delivers exceptional speed and handling.</carverse:carverseabstract>
+    <carverse:carverseclass>Sports Roadster</carverse:carverseclass>
+    <carverse:carverselayout>Mid engine, all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Audi</carverse:carversemanufacturer>
+    <carverse:carversename>Audi R8 Spyder</carverse:carversename>
+    <carverse:carverseproduction>2009 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.audi.com/images/r8-spyder-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Audi R8 Spyder</rdfs:label>
+</carverse:car>
+
+<!-- Mercedes-Benz Sprinter -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Sprinter">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mercedes-Benz Sprinter is a versatile commercial vehicle designed for transporting goods and people. It offers a range of configurations, including van, chassis, and crew cab styles, with various engine and drivetrain options to suit different business needs.</carverse:carverseabstract>
+    <carverse:carverseclass>Commercial Vehicle</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
+    <carverse:carversename>Mercedes-Benz Sprinter</carverse:carversename>
+    <carverse:carverseproduction>1995 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.mercedes-benz.com/images/sprinter-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Mercedes-Benz Sprinter</rdfs:label>
+</carverse:car>
+
+<!-- Ford Transit -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Transit">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Ford Transit is a popular commercial vehicle that excels in transporting goods, passengers, and cargo. Available in various body styles and sizes, it offers a variety of engine options and configurations to meet the demands of different industries.</carverse:carverseabstract>
+    <carverse:carverseclass>Commercial Vehicle</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
+    <carverse:carversename>Ford Transit</carverse:carversename>
+    <carverse:carverseproduction>1965 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.ford.com/images/transit-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Ford Transit</rdfs:label>
+</carverse:car>
+
+<!-- Isuzu NPR -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#NPR">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Isuzu NPR is a medium-duty commercial truck designed for transporting goods in urban and suburban areas. With a robust build and various payload capacities, it is ideal for businesses requiring frequent deliveries and cargo movement.</carverse:carverseabstract>
+    <carverse:carverseclass>Commercial Vehicle</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Isuzu</carverse:carversemanufacturer>
+    <carverse:carversename>Isuzu NPR</carverse:carversename>
+    <carverse:carverseproduction>1980 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.isuzu.com/images/npr-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Isuzu NPR</rdfs:label>
+</carverse:car>
+
+<!-- Isuzu D-Max -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#DMax">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Isuzu D-Max is a tough and reliable pickup truck, designed for commercial use. Known for its durability and towing capacity, it is ideal for businesses that require a robust vehicle for hauling goods or transporting materials in both urban and rural environments.</carverse:carverseabstract>
+    <carverse:carverseclass>Commercial Vehicle</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Isuzu</carverse:carversemanufacturer>
+    <carverse:carversename>Isuzu D-Max</carverse:carversename>
+    <carverse:carverseproduction>2002 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.isuzu.com/images/d-max-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Isuzu D-Max</rdfs:label>
+</carverse:car>
+
+<!-- Isuzu F-Series -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#FSeries">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Isuzu F-Series is a heavy-duty commercial truck designed for transporting large cargo over long distances. With a range of powerful engines and configurations, the F-Series is a popular choice for businesses that require high payload capacities and durability.</carverse:carverseabstract>
+    <carverse:carverseclass>Commercial Vehicle</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Isuzu</carverse:carversemanufacturer>
+    <carverse:carversename>Isuzu F-Series</carverse:carversename>
+    <carverse:carverseproduction>1980 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.isuzu.com/images/f-series-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Isuzu F-Series</rdfs:label>
+</carverse:car>
+
+<!-- Honda Acty -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Acty">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Honda Acty is a compact commercial vehicle, widely used for deliveries and small cargo transport. It is known for its fuel efficiency and compact size, making it ideal for urban environments and narrow roads.</carverse:carverseabstract>
+    <carverse:carverseclass>Commercial Vehicle</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
+    <carverse:carversename>Honda Acty</carverse:carversename>
+    <carverse:carverseproduction>1977 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.honda.com/images/acty-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Honda Acty</rdfs:label>
+</carverse:car>
+
+<!-- Toyota Hilux -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Hilux">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Toyota Hilux is a durable and versatile pickup truck used for a wide range of commercial purposes. Known for its strong towing capabilities and off-road performance, it is a popular choice for businesses in agriculture, construction, and logistics.</carverse:carverseabstract>
+    <carverse:carverseclass>Commercial Vehicle</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, four wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+    <carverse:carversename>Toyota Hilux</carverse:carversename>
+    <carverse:carverseproduction>1968 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.toyota.com/images/hilux-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Toyota Hilux</rdfs:label>
+</carverse:car>
+
+<!-- Volkswagen Transporter -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Transporter">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Volkswagen Transporter is a popular van used for various commercial applications, such as transporting goods, passengers, or equipment. It is highly customizable and offers multiple configurations for different business needs, with excellent driving comfort and fuel efficiency.</carverse:carverseabstract>
+    <carverse:carverseclass>Commercial Vehicle</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Volkswagen</carverse:carversemanufacturer>
+    <carverse:carversename>Volkswagen Transporter</carverse:carversename>
+    <carverse:carverseproduction>1950 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.volkswagen.com/images/transporter-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Volkswagen Transporter</rdfs:label>
+</carverse:car>
+
+<!-- Audi A7 -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#A7">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Audi A7 is a luxury fastback that combines elegance with performance. Known for its sleek design, powerful engines, and advanced technology, it offers a dynamic driving experience, with spacious interiors and cutting-edge features.</carverse:carverseabstract>
+    <carverse:carverseclass>Fastback</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Audi</carverse:carversemanufacturer>
+    <carverse:carversename>Audi A7</carverse:carversename>
+    <carverse:carverseproduction>2010 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.audi.com/images/a7-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Audi A7</rdfs:label>
+</carverse:car>
+
+<!-- Mercedes-Benz CLS -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#CLS">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Mercedes-Benz CLS is a stylish luxury fastback that blends the performance of a sedan with the sleek design of a coupe. Known for its high-end features, powerful engine options, and elegant styling, it offers a smooth, luxurious ride.</carverse:carverseabstract>
+    <carverse:carverseclass>Fastback</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
+    <carverse:carversename>Mercedes-Benz CLS</carverse:carversename>
+    <carverse:carverseproduction>2004 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.mercedes-benz.com/images/cls-2024.jpg</carverse:carversethumbnail>
+    <rdfs:label>Mercedes-Benz CLS</rdfs:label>
+</carverse:car>
+
 </rdf:RDF>
 
 <!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
