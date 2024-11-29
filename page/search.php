@@ -160,6 +160,27 @@
     .blog-item .btn-secondary:hover {
         background: #5a6268;
     }
+
+/* Pagination Styles */
+.pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .pagination .page-item {
+            margin: 0 5px;
+        }
+        .pagination .page-item a {
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1px solid #333;
+            color: #333;
+            border-radius: 5px;
+        }
+        .pagination .page-item.active a {
+            background-color: #333;
+            color: white;
+        }
 </style>
 <?php
 $result = null;  // Menyimpan hasil query
@@ -167,11 +188,19 @@ $limit = 15;     // Jumlah data per halaman
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;  // Halaman saat ini
 $offset = ($page - 1) * $limit;  // Menghitung offset
 
+// Periksa apakah pencarian dilakukan
 if (isset($_POST["cari"])) {
     $keyword = $_POST["keyword"];
+    $_GET['keyword'] = $keyword; // Simpan keyword ke $_GET untuk pagination
+} else {
+    $keyword = $_GET['keyword'] ?? ''; // Ambil keyword dari GET jika tersedia
+}
+
+// Query SPARQL untuk pencarian
+if (!empty($keyword)) {
     $encodedKeyword = urlencode($keyword);
 
-    // Query SPARQL dengan pagination dan pencarian
+    // Query SPARQL dengan pencarian dan pagination
     $query = "
     PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -195,35 +224,59 @@ if (isset($_POST["cari"])) {
     ";
 
     $result = $sparqlJena->query($query);
-} else {
-    // Query SPARQL default dengan pagination
-    $query = "
+
+    // Query untuk menghitung total data pencarian
+    $totalQuery = "
     PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-    SELECT DISTINCT ?name ?class ?thumbnail ?layout WHERE {
+    SELECT (COUNT(DISTINCT ?d) AS ?total) WHERE {
         ?d a carverse:car;
              rdfs:label ?name;
              carverse:carverseclass ?class;
              carverse:carversethumbnail ?thumbnail;
-             carverse:carverselayout ?layout .
+             carverse:carverselayout ?layout;
+             carverse:carversemanufacturer ?manufacturer.
+        FILTER (
+            REGEX(?name, \"$encodedKeyword\", \"i\") ||
+            REGEX(?class, \"$encodedKeyword\", \"i\") ||
+            REGEX(?layout, \"$encodedKeyword\", \"i\") ||
+            REGEX(?manufacturer, \"$encodedKeyword\", \"i\")
+        )
+    }
+    ";
+} else {
+    // Query default jika tidak ada pencarian
+    $query = "
+    PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+    SELECT DISTINCT ?name ?class ?thumbnail ?layout ?manufacturer WHERE {
+        ?d a carverse:car;
+             rdfs:label ?name;
+             carverse:carverseclass ?class;
+             carverse:carversethumbnail ?thumbnail;
+             carverse:carverselayout ?layout;
+             carverse:carversemanufacturer ?manufacturer.
     }
     ORDER BY ?name
     LIMIT $limit OFFSET $offset
     ";
 
     $result = $sparqlJena->query($query);
+
+    // Query untuk menghitung total data tanpa filter
+    $totalQuery = "
+    PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+    SELECT (COUNT(DISTINCT ?d) AS ?total) WHERE {
+        ?d a carverse:car.
+    }
+    ";
 }
 
-// Query total data untuk menghitung total halaman
-$totalQuery = "
-PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT (COUNT(DISTINCT ?d) AS ?total) WHERE {
-    ?d a carverse:car.
-}
-";
+// Ambil total data untuk menghitung jumlah halaman
 $totalResult = $sparqlJena->query($totalQuery);
 $totalCount = (int) $totalResult[0]->total->getValue();
 $totalPages = ceil($totalCount / $limit);
@@ -247,16 +300,16 @@ $totalPages = ceil($totalCount / $limit);
 <!-- Search Start -->
 <div class="container-fluid booking mt-5">
     <div class="container pb-5">
-            <form method="POST">
-                <div class="d-flex justify-content-center">
-                    <div class="search-container">
-                        <input name="keyword" type="text" placeholder="Find Car" />
-                        <button name="cari" type="submit">
-                            <i class="fa fa-search"></i> Search
-                        </button>
-                    </div>
+        <form method="POST">
+            <div class="d-flex justify-content-center">
+                <div class="search-container">
+                    <input name="keyword" type="text" placeholder="Find Car" value="<?= htmlspecialchars($keyword) ?>" />
+                    <button name="cari" type="submit">
+                        <i class="fa fa-search"></i> Search
+                    </button>
                 </div>
-            </form>
+            </div>
+        </form>
     </div>
 </div>
 <!-- Search End -->
@@ -270,63 +323,64 @@ $totalPages = ceil($totalCount / $limit);
                     <?php if ($result && $result->count() > 0) : ?>
                         <?php foreach ($result as $data) : ?>
                             <div class="col-lg-4 col-md-6 mb-4 pb-2">
-    <div class="blog-item">
-        <div class="position-relative">
-            <img class="img-fluid w-100" style="height: 250px;" src="<?= $data->thumbnail ?>" alt="Car Thumbnail">
-        </div>
-        <div class="bg-white p-4">
-            <div class="d-flex mb-2">
-                <a class="text-primary text-uppercase text-decoration-none" href="?p=class&keyword=<?= urlencode($data->class) ?>">
-                    <?= $data->class ?>
-                </a>
-            </div>
-            <a class="title" href="?p=single&keyword=<?= urlencode($data->name) ?>"><?= $data->name ?></a>
-            <p class="text-muted mb-2">
-                Manufacturer: <span class="text-dark"><?= $data->manufacturer ?? 'Unknown' ?></span>
-            </p>
-            <p class="text-muted mb-2">
-                Layout: <span class="text-dark"><?= $data->layout ?? 'N/A' ?></span>
-            </p>
-            <div class="actions">
-    <a class="btn btn-primary" href="?p=single&keyword=<?= urlencode($data->name) ?>" role="button">Details</a>
-</div>
-        </div>
-    </div>
-</div>
-                        <?php endforeach ?>
+                                <div class="blog-item">
+                                    <div class="position-relative">
+                                        <img class="img-fluid w-100" style="height: 250px;" src="<?= $data->thumbnail ?>" alt="Car Thumbnail">
+                                    </div>
+                                    <div class="bg-white p-4">
+                                        <div class="d-flex mb-2">
+                                            <a class="text-primary text-uppercase text-decoration-none" href="?p=class&keyword=<?= urlencode($data->class) ?>">
+                                                <?= $data->class ?>
+                                            </a>
+                                        </div>
+                                        <a class="title" href="?p=single&keyword=<?= urlencode($data->name) ?>"><?= $data->name ?></a>
+                                        <p class="text-muted mb-2">
+                                            Manufacturer: <span class="text-dark"><?= $data->manufacturer ?? 'Unknown' ?></span>
+                                        </p>
+                                        <p class="text-muted mb-2">
+                                            Layout: <span class="text-dark"><?= $data->layout ?? 'N/A' ?></span>
+                                        </p>
+                                        <div class="actions">
+                                            <a class="btn btn-primary" href="?p=single&keyword=<?= urlencode($data->name) ?>" role="button">Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
                     <?php else : ?>
                         <div class="not-found-2">Data is not found!</div>
-                    <?php endif ?>
+                    <?php endif; ?>
                 </div>
 
                 <!-- Pagination -->
-                <div class="pagination">
-                    <nav>
-                        <ul class="pagination justify-content-center">
-                            <?php if ($page > 1) : ?>
-                                <li class="page-item">
-                                    <a class="page-link" href="?p=search&page=<?= $page - 1 ?>" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                    </a>
-                                </li>
-                            <?php endif; ?>
+<div class="pagination">
+    <nav>
+        <ul class="pagination justify-content-center">
+            <?php if ($page > 1): ?>
+                <li class="page-item">
+                    <a class="page-link" href="?p=search&page=<?= $page - 1 ?>&keyword=<?= urlencode($keyword) ?>" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            <?php endif; ?>
 
-                            <?php for ($i = 1; $i <= $totalPages; $i++) : ?>
-                                <li class="page-item <?= $i == $page ? 'active' : '' ?>">
-                                    <a class="page-link" href="?p=search&page=<?= $i ?>"><?= $i ?></a>
-                                </li>
-                            <?php endfor; ?>
+            <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+                <li class="page-item <?= $i == $page ? 'active' : '' ?>">
+                    <a class="page-link" href="?p=search&page=<?= $i ?>&keyword=<?= urlencode($keyword) ?>"><?= $i ?></a>
+                </li>
+            <?php endfor; ?>
 
-                            <?php if ($page < $totalPages) : ?>
-                                <li class="page-item">
-                                    <a class="page-link" href="?p=search&page=<?= $page + 1 ?>" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                </li>
-                            <?php endif; ?>
-                        </ul>
-                    </nav>
-                </div>
+            <?php if ($page < $totalPages): ?>
+                <li class="page-item">
+                    <a class="page-link" href="?p=search&page=<?= $page + 1 ?>&keyword=<?= urlencode($keyword) ?>" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            <?php endif; ?>
+        </ul>
+    </nav>
+</div>
+
             </div>
         </div>
     </div>
