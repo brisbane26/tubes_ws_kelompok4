@@ -73,7 +73,7 @@ $result = $sparqlJena->query($query);
 <!-- Destination Category End -->
 
 <!-- Feature Start -->
-<div class="container-fluid pt-5">
+<!-- <div class="container-fluid pt-5">
     <div class="container pb-4">
         <div class="row">
             <div class="col-md-4">
@@ -111,5 +111,5 @@ $result = $sparqlJena->query($query);
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Feature End -->

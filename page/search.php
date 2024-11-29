@@ -1,3 +1,9 @@
+<style>
+    body {
+        background-color: #000; /* Hitam */
+        color: #fff; /* Teks menjadi putih agar terlihat */
+    }
+</style>
 <?php
 $result = null;  // Menyimpan hasil query
 
