@@ -198,7 +198,8 @@ if (isset($_POST["cari"])) {
 
 // Query SPARQL untuk pencarian
 if (!empty($keyword)) {
-    $encodedKeyword = urlencode($keyword);
+    // Tidak perlu urlencode untuk keyword dalam REGEX
+    $keywordForRegex = $keyword;
 
     // Query SPARQL dengan pencarian dan pagination
     $query = "
@@ -213,10 +214,10 @@ if (!empty($keyword)) {
              carverse:carverselayout ?layout;
              carverse:carversemanufacturer ?manufacturer.
         FILTER (
-            REGEX(?name, \"$encodedKeyword\", \"i\") ||
-            REGEX(?class, \"$encodedKeyword\", \"i\") ||
-            REGEX(?layout, \"$encodedKeyword\", \"i\") ||
-            REGEX(?manufacturer, \"$encodedKeyword\", \"i\")
+            REGEX(?name, \"$keywordForRegex\", \"i\") ||
+            REGEX(?class, \"$keywordForRegex\", \"i\") ||
+            REGEX(?layout, \"$keywordForRegex\", \"i\") ||
+            REGEX(?manufacturer, \"$keywordForRegex\", \"i\")
         )
     }
     ORDER BY ?name
@@ -238,10 +239,10 @@ if (!empty($keyword)) {
              carverse:carverselayout ?layout;
              carverse:carversemanufacturer ?manufacturer.
         FILTER (
-            REGEX(?name, \"$encodedKeyword\", \"i\") ||
-            REGEX(?class, \"$encodedKeyword\", \"i\") ||
-            REGEX(?layout, \"$encodedKeyword\", \"i\") ||
-            REGEX(?manufacturer, \"$encodedKeyword\", \"i\")
+            REGEX(?name, \"$keywordForRegex\", \"i\") ||
+            REGEX(?class, \"$keywordForRegex\", \"i\") ||
+            REGEX(?layout, \"$keywordForRegex\", \"i\") ||
+            REGEX(?manufacturer, \"$keywordForRegex\", \"i\")
         )
     }
     ";
