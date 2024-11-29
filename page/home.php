@@ -1,3 +1,53 @@
+<style>
+    body {
+        cursor: url("assets/img/Roda1.png"), auto;
+    }
+
+    header,
+footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+    /* Pastikan carousel memiliki tinggi penuh dan tidak terpotong */
+    #header-carousel {
+        height: 100vh; /* Tinggi penuh layar */
+    }
+
+    #header-carousel .carousel-inner {
+        height: 100%; /* Isi carousel mengikuti tinggi penuh */
+    }
+
+    #header-carousel .carousel-item {
+        height: 100%; /* Item mengikuti tinggi penuh */
+    }
+
+    #header-carousel img {
+        object-fit: cover; /* Agar gambar pas tanpa terpotong aneh */
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Tambahkan margin atau padding jika ada header tetap */
+    body {
+        margin: 0; /* Hilangkan margin default body */
+    }
+
+    /* Pastikan carousel bagian atas pas dengan header */
+    .carousel-caption {
+        top: 50%; /* Posisikan konten di tengah vertikal */
+        transform: translateY(-50%);
+    }
+    .bg-primary {
+    background-color: #001f3f  !important; /* Oranye, sebagai contoh */
+}
+</style>
 <?php
 $query = "
     PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
@@ -79,10 +129,10 @@ $result = $sparqlJena->query($query);
             <div class="col-md-4">
                 <div class="d-flex mb-4 mb-lg-0">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-route text-white"></i>
+                    <i class="fa-solid fa-car fa-3x text-white"></i>
                     </div>
                     <div class="d-flex flex-column">
-                        <h5 class="">Accurate Location</h5>
+                        <h5 class="">Mobil</h5>
                         <p class="m-0">We explain each tourist destination with its coordinates on maps.</p>
                     </div>
                 </div>
@@ -90,10 +140,10 @@ $result = $sparqlJena->query($query);
             <div class="col-md-4">
                 <div class="d-flex mb-4 mb-lg-0">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-award text-white"></i>
+                    <i class="fa-solid fa-gear fa-3x text-white"></i>
                     </div>
                     <div class="d-flex flex-column">
-                        <h5 class="">Best Services</h5>
+                        <h5 class="">Bagian Dalam</h5>
                         <p class="m-0">We are committed to providing correct data and information.</p>
                     </div>
                 </div>
@@ -101,10 +151,10 @@ $result = $sparqlJena->query($query);
             <div class="col-md-4">
                 <div class="d-flex mb-4 mb-lg-0">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-globe text-white"></i>
+                    <i class="fa-solid fa-thumbs-up fa-3x text-white"></i>
                     </div>
                     <div class="d-flex flex-column">
-                        <h5 class="">Thorough</h5>
+                        <h5 class="">Informasi Bagus</h5>
                         <p class="m-0">This website covers all destinations from all main islands throughout Indonesia.</p>
                     </div>
                 </div>

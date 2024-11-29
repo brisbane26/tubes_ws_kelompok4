@@ -47,7 +47,6 @@
         background-color: #f8f9fa;
         margin: 0;
         padding: 0;
-        cursor: url("assets/img/bane-removebg-preview.png"), auto;
     }
 
     /* Card Style */
@@ -172,7 +171,7 @@
 }
 </style>
 <?php
-$keyword = isset($_GET['keyword']) ? $_GET['keyword'] : '';
+$keyword = $_GET['keyword'];
 
 $query = "
     PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>

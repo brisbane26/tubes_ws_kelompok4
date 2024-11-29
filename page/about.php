@@ -1,4 +1,7 @@
 <style>
+    body {
+        cursor: url("assets/img/Roda1.png"), auto;
+    }
     .container-about {
         position: relative;
         display: grid;
@@ -289,15 +292,14 @@
 <div class="container"><h2>KELOMPOK 4</h2></div>
     <br><br>
     <div class="container-about">
-        <div class="box box-1" style="--img: url(assets/img/team-3.jpg);" data-text="orang1"></div>
-        <div class="box box-2" style="--img: url(assets/img/team-4.jpg);" data-text="orang2"></div>
-        <div class="box box-3" style="--img: url(assets/img/testimonial-1.jpg);" data-text="orang3"></div>
-        <div class="box box-4" style="--img: url(assets/img/testimonial-2.jpg);" data-text="orang4"></div>
-        <div class="box box-5" style="--img: url(assets/img/team-1.jpg);" data-text="orang5"></div>
-        <div class="box box-6" style="--img: url(assets/img/team-2.jpg);" data-text="orang6"></div>
+        <div class="box box-1" style="--img: url(assets/img/bane.jpg);" data-text="Brisbane"></div>
+        <div class="box box-2" style="--img: url(assets/img/Petraa.jpg);" data-text="Petra"></div>
+        <div class="box box-3" style="--img: url(assets/img/CarlossAja.png);" data-text="Carlos"></div>
+        <div class="box box-4" style="--img: url(assets/img/Pangeran-1.jpg);" data-text="Pangeran"></div>
+        <div class="box box-5" style="--img: url(assets/img/kielss.jpg);" data-text="Yehezkiel"></div>
+        <div class="box box-6" style="--img: url(assets/img/Jonathan.jpg);" data-text="Jonathan"></div>
     </div>
-</center>
-            
+</center> 
         </div>
     </div>
 </div>
