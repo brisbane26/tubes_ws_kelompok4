@@ -1,4 +1,39 @@
 <style>
+    body {
+        cursor: url("assets/img/Roda1.png"), auto;
+    }
+    .search-container {
+        display: flex;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 50px;
+        padding: 5px;
+        width: 1000px;
+        max-width: 100%;
+    }
+
+    .search-container input[type="text"] {
+        border: none;
+        outline: none;
+        flex-grow: 1;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    .search-container button {
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .search-container .fa-search {
+        margin-right: 10px;
+        font-size: 20px;
+    }
     .blog-item {
         background: #fff;
         border-radius: 12px;
@@ -212,28 +247,16 @@ $totalPages = ceil($totalCount / $limit);
 <!-- Search Start -->
 <div class="container-fluid booking mt-5">
     <div class="container pb-5">
-        <div class="bg-light shadow" style="padding: 30px;">
             <form method="POST">
-                <div class="row align-items-center" style="min-height: 60px;">
-                    <div class="col-md-10">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="mb-3 mb-md-0">
-                                    <div class="" id="" data-target-input="nearest">
-                                        <div class="input-group">
-                                            <input name="keyword" type="text" class="form-control p-4 datetimepicker-input" placeholder="Find Car" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <button name="cari" class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Search</button>
+                <div class="d-flex justify-content-center">
+                    <div class="search-container">
+                        <input name="keyword" type="text" placeholder="Find Car" />
+                        <button name="cari" type="submit">
+                            <i class="fa fa-search"></i> Search
+                        </button>
                     </div>
                 </div>
             </form>
-        </div>
     </div>
 </div>
 <!-- Search End -->
