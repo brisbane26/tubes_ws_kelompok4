@@ -210,16 +210,19 @@
 <?php
 $result = null;  // Menyimpan hasil query
 $limit = 15;     // Jumlah data per halaman
-$page = isset($_GET['page']) ? (int)$_GET['page'] : 1;  // Halaman saat ini
-$offset = ($page - 1) * $limit;  // Menghitung offset
+$offset = 0;     // Default offset
+$page = isset($_GET['page']) ? (int)$_GET['page'] : 1; // Halaman saat ini
 
-// Periksa apakah pencarian dilakukan
+// Atur halaman ke 1 saat pencarian dilakukan
 if (isset($_POST["cari"])) {
     $keyword = $_POST["keyword"];
     $_GET['keyword'] = $keyword; // Simpan keyword ke $_GET untuk pagination
+    $page = 1; // Reset ke halaman pertama
 } else {
     $keyword = $_GET['keyword'] ?? ''; // Ambil keyword dari GET jika tersedia
 }
+
+$offset = ($page - 1) * $limit;  // Menghitung offset
 
 // Query SPARQL untuk pencarian
 if (!empty($keyword)) {
