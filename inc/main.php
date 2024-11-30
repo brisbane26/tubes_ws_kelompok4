@@ -2,8 +2,8 @@
 
 if (isset($_GET['p'])) {  // Periksa apakah key 'p' ada
     switch ($_GET['p']) {
-        case "search":
-            include "./page/search.php";
+        case "find":
+            include "./page/find.php";
             break;
         case "about":
             include "./page/about.php";
@@ -11,8 +11,8 @@ if (isset($_GET['p'])) {  // Periksa apakah key 'p' ada
         case "class":
             include "./page/class.php";
             break;
-        case "single":
-            include "./page/single.php";
+        case "detail":
+            include "./page/detail.php";
             break;
         default:
             echo "

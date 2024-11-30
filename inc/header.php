@@ -58,7 +58,7 @@
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
                     <a href=".inc/.." class="nav-item nav-link <?= !isset($_GET['p']) ? 'active' : '' ?>">Home <i class="fa-solid fa-house"></i></a>
-                    <a href="?p=search" class="nav-item nav-link <?php if (isset($_GET['p']) && $_GET['p'] == 'search') echo 'active'; ?>">Search <i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="?p=find" class="nav-item nav-link <?php if (isset($_GET['p']) && $_GET['p'] == 'find') echo 'active'; ?>">Find <i class="fa-solid fa-magnifying-glass"></i></a>
                     <a href="?p=about" class="nav-item nav-link <?php if (isset($_GET['p']) && $_GET['p'] == 'about') echo 'active'; ?>">About <i class="fa-solid fa-address-card"></i></a>
                 </div>
             </div>

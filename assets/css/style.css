@@ -9574,10 +9574,10 @@ h6,
   }
 }
 
-.page-header {
+/* .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/image2carousel.png), no-repeat center center;
   background-size: cover;
-}
+} */
 
 .destination-item img {
   transition: .5s;

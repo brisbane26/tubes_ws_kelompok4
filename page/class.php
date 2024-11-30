@@ -84,7 +84,7 @@ $result = $sparqlJena->query($query);
                                     <div class="d-flex mb-2">
                                         <span class="text-primary text-uppercase text-decoration-none"><?= $data->layout ?></span>
                                     </div>
-                                    <a class="h5 m-0 text-decoration-none" href="?p=single&keyword=<?= $data->name ?>"><?= $data->name ?></a>
+                                    <a class="h5 m-0 text-decoration-none" href="?p=detail&keyword=<?= $data->name ?>"><?= $data->name ?></a>
                                 </div>
                             </div>
                         </div>

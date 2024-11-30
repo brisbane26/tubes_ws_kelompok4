@@ -3,50 +3,31 @@
         cursor: url("assets/img/Roda1.png"), auto;
     }
 
-    header,
-footer {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
+    body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-    /* Pastikan carousel memiliki tinggi penuh dan tidak terpotong */
-    #header-carousel {
-        height: 100vh; /* Tinggi penuh layar */
-    }
+        /* Video background */
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Menutupi seluruh layar */
+            z-index: -1; /* Video berada di belakang konten */
+        }
 
-    #header-carousel .carousel-inner {
-        height: 100%; /* Isi carousel mengikuti tinggi penuh */
-    }
-
-    #header-carousel .carousel-item {
-        height: 100%; /* Item mengikuti tinggi penuh */
-    }
-
-    #header-carousel img {
-        object-fit: cover; /* Agar gambar pas tanpa terpotong aneh */
-        height: 100%;
-        width: 100%;
-    }
-
-    /* Tambahkan margin atau padding jika ada header tetap */
-    body {
-        margin: 0; /* Hilangkan margin default body */
-    }
-
-    /* Pastikan carousel bagian atas pas dengan header */
-    .carousel-caption {
-        top: 50%; /* Posisikan konten di tengah vertikal */
-        transform: translateY(-50%);
-    }
-    .bg-primary {
-    background-color: #001f3f  !important; /* Oranye, sebagai contoh */
-}
+        /* Konten di atas video */
+        .content {
+            position: relative;
+            z-index: 1;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+        }
 </style>
 <?php
 $query = "
@@ -62,42 +43,10 @@ $query = "
 
 $result = $sparqlJena->query($query);
 ?>
-<!-- Carousel Start -->
-<div class="container-fluid p-0">
-    <div id="header-carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="./assets/img/image1carousel.png" alt="Image">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-md-3">CARVERSE : </h4>
-                        <h1 class="display-3 text-white mb-md-4">Discover Your Dream Ride</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="w-100" src="./assets/img/image2carousel.png" alt="Image">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-md-3">CARVERSE : </h4>
-                        <h1 class="display-3 text-white mb-md-4">Drive Your Perfect Journey</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                <span class="carousel-control-prev-icon mb-n2"></span>
-            </div>
-        </a>
-        <a class="carousel-control-next" href="#header-carousel" data-slide="next">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                <span class="carousel-control-next-icon mb-n2"></span>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- Carousel End -->
+<video id="video-background" autoplay muted loop>
+        <source src="assets/vid/universe.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
 
 <!-- Destination Category Start -->
 <div class="container-fluid py-0">
