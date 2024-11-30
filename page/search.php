@@ -2,6 +2,31 @@
     body {
         cursor: url("assets/img/Roda1.png"), auto;
     }
+    body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Video background */
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Menutupi seluruh layar */
+            z-index: -1; /* Video berada di belakang konten */
+        }
+
+        /* Konten di atas video */
+        .content {
+            position: relative;
+            z-index: 1;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+        }
     .search-container {
         display: flex;
         align-items: center;
@@ -282,6 +307,12 @@ $totalResult = $sparqlJena->query($totalQuery);
 $totalCount = (int) $totalResult[0]->total->getValue();
 $totalPages = ceil($totalCount / $limit);
 ?>
+
+<video id="video-background" autoplay muted loop>
+        <source src="assets/vid/universe.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
+
 
 <!-- Header Start -->
 <div class="container-fluid page-header">
