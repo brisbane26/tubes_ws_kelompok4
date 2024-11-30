@@ -1,4 +1,32 @@
 <style>
+    body {
+        cursor: url("assets/img/Roda1.png"), auto;
+    }
+    body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Video background */
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Menutupi seluruh layar */
+            z-index: -1; /* Video berada di belakang konten */
+        }
+
+        /* Konten di atas video */
+        .content {
+            position: relative;
+            z-index: 1;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+        }
     .container-about {
         position: relative;
         display: grid;
@@ -283,21 +311,24 @@
     </div>
 </div> -->
 <!-- Feature End -->
+<video id="video-background" autoplay muted loop>
+        <source src="assets/vid/universe.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
 
 <!-- Team Start -->
 <center>
 <div class="container"><h2>KELOMPOK 4</h2></div>
     <br><br>
     <div class="container-about">
-        <div class="box box-1" style="--img: url(assets/img/team-3.jpg);" data-text="orang1"></div>
-        <div class="box box-2" style="--img: url(assets/img/team-4.jpg);" data-text="orang2"></div>
-        <div class="box box-3" style="--img: url(assets/img/testimonial-1.jpg);" data-text="orang3"></div>
-        <div class="box box-4" style="--img: url(assets/img/testimonial-2.jpg);" data-text="orang4"></div>
-        <div class="box box-5" style="--img: url(assets/img/team-1.jpg);" data-text="orang5"></div>
-        <div class="box box-6" style="--img: url(assets/img/team-2.jpg);" data-text="orang6"></div>
+        <div class="box box-1" style="--img: url(assets/img/bane.jpg);" data-text="Brisbane"></div>
+        <div class="box box-2" style="--img: url(assets/img/Petraa.jpg);" data-text="Petra"></div>
+        <div class="box box-3" style="--img: url(assets/img/CarlossAja.png);" data-text="Carlos"></div>
+        <div class="box box-4" style="--img: url(assets/img/Pangeran-1.jpg);" data-text="Pangeran"></div>
+        <div class="box box-5" style="--img: url(assets/img/kielss.jpg);" data-text="Yehezkiel"></div>
+        <div class="box box-6" style="--img: url(assets/img/Jonathan.jpg);" data-text="Jonathan"></div>
     </div>
-</center>
-            
+</center> 
         </div>
     </div>
 </div>

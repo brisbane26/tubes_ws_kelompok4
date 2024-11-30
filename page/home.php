@@ -1,3 +1,34 @@
+<style>
+    body {
+        cursor: url("assets/img/Roda1.png"), auto;
+    }
+
+    body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Video background */
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Menutupi seluruh layar */
+            z-index: -1; /* Video berada di belakang konten */
+        }
+
+        /* Konten di atas video */
+        .content {
+            position: relative;
+            z-index: 1;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+        }
+</style>
 <?php
 $query = "
     PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
@@ -12,42 +43,10 @@ $query = "
 
 $result = $sparqlJena->query($query);
 ?>
-<!-- Carousel Start -->
-<div class="container-fluid p-0">
-    <div id="header-carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="./assets/img/image1carousel.png" alt="Image">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-md-3">CARVERSE : </h4>
-                        <h1 class="display-3 text-white mb-md-4">Discover Your Dream Ride</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="w-100" src="./assets/img/image2carousel.png" alt="Image">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-md-3">CARVERSE : </h4>
-                        <h1 class="display-3 text-white mb-md-4">Drive Your Perfect Journey</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                <span class="carousel-control-prev-icon mb-n2"></span>
-            </div>
-        </a>
-        <a class="carousel-control-next" href="#header-carousel" data-slide="next">
-            <div class="btn btn-dark" style="width: 45px; height: 45px;">
-                <span class="carousel-control-next-icon mb-n2"></span>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- Carousel End -->
+<video id="video-background" autoplay muted loop>
+        <source src="assets/vid/universe.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
 
 <!-- Destination Category Start -->
 <div class="container-fluid py-0">
@@ -79,10 +78,10 @@ $result = $sparqlJena->query($query);
             <div class="col-md-4">
                 <div class="d-flex mb-4 mb-lg-0">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-route text-white"></i>
+                    <i class="fa-solid fa-car fa-3x text-white"></i>
                     </div>
                     <div class="d-flex flex-column">
-                        <h5 class="">Accurate Location</h5>
+                        <h5 class="">Mobil</h5>
                         <p class="m-0">We explain each tourist destination with its coordinates on maps.</p>
                     </div>
                 </div>
@@ -90,10 +89,10 @@ $result = $sparqlJena->query($query);
             <div class="col-md-4">
                 <div class="d-flex mb-4 mb-lg-0">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-award text-white"></i>
+                    <i class="fa-solid fa-gear fa-3x text-white"></i>
                     </div>
                     <div class="d-flex flex-column">
-                        <h5 class="">Best Services</h5>
+                        <h5 class="">Bagian Dalam</h5>
                         <p class="m-0">We are committed to providing correct data and information.</p>
                     </div>
                 </div>
@@ -101,10 +100,10 @@ $result = $sparqlJena->query($query);
             <div class="col-md-4">
                 <div class="d-flex mb-4 mb-lg-0">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-globe text-white"></i>
+                    <i class="fa-solid fa-thumbs-up fa-3x text-white"></i>
                     </div>
                     <div class="d-flex flex-column">
-                        <h5 class="">Thorough</h5>
+                        <h5 class="">Informasi Bagus</h5>
                         <p class="m-0">This website covers all destinations from all main islands throughout Indonesia.</p>
                     </div>
                 </div>

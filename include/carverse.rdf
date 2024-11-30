@@ -98,8 +98,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
         <carverse:carverseabstract>The Toyota Alphard (Japanese: トヨタ・アルファード, Hepburn: Toyota Arufādo) is a minivan produced by the Japanese automaker Toyota since 2002. It is available as a seven or eight-seater with petrol and hybrid engine options. Hybrid variants have been available since 2003, which incorporates Toyota&apos;s Hybrid Synergy Drive technology. The Alphard is primarily made for the Japanese market, but is also sold in Bangladesh, Belarus, Russia, the Middle East, Greater China, and Southeast Asia. Similar to the Camry, it is often classified as a luxury car in Southeast Asian markets. Since the second generation, a twin model called Toyota Vellfire (Japanese: トヨタ・ヴェルファイア, Hepburn: Toyota Verufaia) has also been available, which is marketed as a sportier alternative to the Alphard and exclusively marketed by the Netz Store dealership chain until 2020. Since 2019, a modified version of the third-generation model has been sold as the Lexus LM for several Asian markets outside Japan. The vehicle was named after Alphard, the brightest star in the constellation Hydra. The Alphard also received a special front emblem, which depicts the lowercase alpha letter. The name &quot;Vellfire&quot; was derived from &quot;velvet&quot; and &quot;fire&quot; to emphasize &quot;smooth&quot; and &quot;passionate&quot; as characteristics of the vehicle.</carverse:carverseabstract>
         <carverse:carverseclass>Minivan</carverse:carverseclass>
-        <carverse:carverselayout>Front engine, four wheel drive layout
-Front engine, front wheel drive layout</carverse:carverselayout>
+        <carverse:carverselayout>Front engine, four wheel drive layout</carverse:carverselayout>
         <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
         <carverse:carversename>Toyota Alphard</carverse:carversename>
         <carverse:carverseproduction>2002
@@ -222,7 +221,7 @@ Front engine, rear wheel drive layout</carverse:carverselayout>
         <carverse:carversemanufacturer>Daihatsu</carverse:carversemanufacturer>
         <carverse:carversename>Daihatsu Gran Max</carverse:carversename>
         <carverse:carverseproduction>October 2007 – present</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkp2LnNAW72Nz2QWRzpfU6S74qylTjm9Lumg&amp;s</carverse:carversethumbnail>
+        <carverse:carversethumbnail>https://www.daihatsubali.id/wp-content/uploads/2020/01/gran-max-pick-up-by-kedai-website.jpg</carverse:carversethumbnail>
         <rdfs:label>Gran Max</rdfs:label>
     </carverse:car>
     
@@ -239,7 +238,7 @@ Front engine, front wheel drive layout</carverse:carverselayout>
         <carverse:carverseproduction>June 2020 – present
 December 1997 – present
 November 2013 – May 2020</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://awsimages.detik.net.id/community/media/visual/2020/06/21/toyota-harrier-trd-kit-3_169.jpeg?w=1200</carverse:carversethumbnail>
+        <carverse:carversethumbnail>https://c4.wallpaperflare.com/wallpaper/137/219/618/lexus-lexus-nx-compact-car-crossover-car-wallpaper-preview.jpg</carverse:carversethumbnail>
         <rdfs:label>Harrier</rdfs:label>
     </carverse:car>
     
@@ -274,19 +273,20 @@ May 2005 – October 2016</carverse:carverseproduction>
         <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
         <carverse:carversename>Toyota Land Cruiser</carverse:carversename>
         <carverse:carverseproduction>1951
-1955
-1958
-1960
-1967
-1968
-1980
-1984
-1992
-March 2021 – present
-January 1990 December 1997
-January 1998–August 2007
-September 2007 – March 2021</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkkowbRv5XJQXs0yIaUqW0VTQX7ooyjptoXw&amp;s</carverse:carversethumbnail>
+        1955
+        1958
+        1960
+        1967
+        1968
+        1980
+        1984
+        1992
+        March 2021 – present
+        January 1990 December 1997
+        January 1998–August 2007
+        September 2007 – March 2021
+        </carverse:carverseproduction>
+        <carverse:carversethumbnail>https://wallpapercat.com/w/full/b/e/9/1692557-1920x1200-desktop-hd-toyota-land-cruiser-background-image.jpg</carverse:carversethumbnail>
         <rdfs:label>Land Cruiser</rdfs:label>
     </carverse:car>
 
@@ -301,7 +301,7 @@ September 2007 – March 2021</carverse:carverseproduction>
         <carverse:carversename>Lexus GS</carverse:carversename>
         <carverse:carverseproduction>December 2011 - August 2020
 January 2005 - December 2011</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToMVCVj1A9vTaFSO9XJVjQYBiGD4lCzxNLXA&amp;s</carverse:carversethumbnail>
+        <carverse:carversethumbnail>https://www.hdcarwallpapers.com/walls/2013_lexus_gs_450h-wide.jpg</carverse:carversethumbnail>
         <rdfs:label>Lexus GS</rdfs:label>
     </carverse:car>
     
@@ -365,7 +365,7 @@ Front engine, front wheel drive</carverse:carverselayout>
         <carverse:carverseproduction>2002
 2014
 May 2007 – 2014</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/23/190/mazda-2-front-angle-low-view-869943.jpg</carverse:carversethumbnail>
+        <carverse:carversethumbnail>https://mazdacars.id/wp-content/uploads/2023/12/1654941-1920x1080-desktop-1080p-mazda-3-wallpaper.jpeg</carverse:carversethumbnail>
         <rdfs:label>Mazda2</rdfs:label>
     </carverse:car>
     
@@ -386,7 +386,7 @@ Front engine, front wheel drive layout</carverse:carverselayout>
 June 2013 – 2018
 June 2003 – January 2009
 November 2008 – June 2013</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxswuxJX0R_jaWkzvkEwKxscGXQ6CsbP-BSA&amp;s</carverse:carversethumbnail>
+        <carverse:carversethumbnail>https://mazdadealerbandung.com/wp-content/uploads/2021/10/Mazda-3-hatchback-1-scaled.jpg</carverse:carversethumbnail>
         <rdfs:label>Mazda3</rdfs:label>
     </carverse:car>
     
@@ -431,7 +431,7 @@ Front engine, front wheel drive</carverse:carverselayout>
 April 2012 – present
 June 2013 – present
 March 1978 – October 1983</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuQH3kVJGmQvQKWJyiGww5CtrQqvu1093mng&amp;s</carverse:carversethumbnail>
+        <carverse:carversethumbnail>https://imgx.gridoto.com/crop/90x12:1069x540/700x465/photo/2022/01/12/98jpg-20220112025429.jpg</carverse:carversethumbnail>
         <rdfs:label>Mirage</rdfs:label>
     </carverse:car>
     
@@ -449,7 +449,7 @@ Rear mid engine, rear wheel drive layout</carverse:carverselayout>
         <carverse:carverseproduction>December 2020 – present
 December 2014 – present
 December 2014 – 2020</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToiA0CDW6W84VesnwmImSHqHWFM9tL0n4yOA&amp;s</carverse:carversethumbnail>
+        <carverse:carversethumbnail>https://ridertua.sgp1.cdn.digitaloceanspaces.com/wp-content/uploads/2021/06/toyota-mirai-motor1_optimized.jpg</carverse:carversethumbnail>
         <rdfs:label>Mirai</rdfs:label>
     </carverse:car>
     
@@ -505,7 +505,7 @@ December 2006 – October 2017
 January 2006 – March 2016
 July 1999 – November 2006
 October 1998 – May 2012</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSXVffPBVf-EaJYOWpv3MtP_aYHPC97la5zw&amp;s</carverse:carversethumbnail>
+        <carverse:carversethumbnail>https://www.seva.id/wp-content/uploads/2023/12/ADI_Toyota-Cars-6-2.jpg</carverse:carversethumbnail>
         <rdfs:label>Rush</rdfs:label>
     </carverse:car>
 
@@ -568,7 +568,7 @@ Front engine, all wheel drive</carverse:carverselayout>
 2008
 2015
 2024 – present</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoaAi3Rejer3H3q7--wfcZf84x7r-r_atVBA&amp;s</carverse:carversethumbnail>
+        <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/1/2/audi-a4-front-angle-low-view-937428.jpg</carverse:carversethumbnail>
         <rdfs:label>Audi A4</rdfs:label>
     </carverse:car>
 
@@ -805,7 +805,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>General Motors (Chevrolet)</carverse:carversemanufacturer>
     <carverse:carversename>Chevrolet Malibu</carverse:carversename>
     <carverse:carverseproduction>1964 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ28RlcFYB-k9ALHWyKL0g341fpa4a5o_nsw&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/2019-chevrolet-malibu-rs-117-1568289288.jpg</carverse:carversethumbnail>
     <rdfs:label>Chevrolet Malibu</rdfs:label>
 </carverse:car>
 
@@ -883,7 +883,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Kia Corporation</carverse:carversemanufacturer>
     <carverse:carversename>Kia EV6</carverse:carversename>
     <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDoo430pGFXcvliPn-i0QUSjNb3ox6ZiaBGw&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://images8.alphacoders.com/122/thumb-1920-1227231.jpg</carverse:carversethumbnail>
     <rdfs:label>Kia EV6</rdfs:label>
 </carverse:car>
 
@@ -896,7 +896,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Hyundai Motor Company</carverse:carversemanufacturer>
     <carverse:carversename>Hyundai Tucson</carverse:carversename>
     <carverse:carverseproduction>2004 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdw1UhItaG_-Ca8NI8GKG7jBuEeSMdXWDqUw&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://wallpapercat.com/w/full/6/9/8/1690544-1920x1080-desktop-full-hd-hyundai-tucson-background-image.jpg</carverse:carversethumbnail>
     <rdfs:label>Hyundai Tucson</rdfs:label>
 </carverse:car>
 
@@ -935,7 +935,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Kia Corporation</carverse:carversemanufacturer>
     <carverse:carversename>Kia Soul</carverse:carversename>
     <carverse:carverseproduction>2008 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWZT9KCRrulESP3EA2ROY3mpJ4H9C9VuxHgQ&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://images6.alphacoders.com/449/thumb-1920-449857.jpg</carverse:carversethumbnail>
     <rdfs:label>Kia Soul</rdfs:label>
 </carverse:car>
 
@@ -961,7 +961,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Ford Motor Company</carverse:carversemanufacturer>
     <carverse:carversename>Ford F-150</carverse:carversename>
     <carverse:carverseproduction>1948 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQccHnJJ8mrGNwy90Q8urZmf609K3zfBXd4GQ&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/2024-ford-f-150-lariat-exterior-101-64ff7459abf73.jpg</carverse:carversethumbnail>
     <rdfs:label>Ford F-150</rdfs:label>
 </carverse:car>
 
@@ -987,7 +987,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>General Motors</carverse:carversemanufacturer>
     <carverse:carversename>Chevrolet Corvette</carverse:carversename>
     <carverse:carverseproduction>1953 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVlAMR8dThPG-yasOjYTrJ-h8ePva1VK2HMg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2025/performance/corvette-z06/mov/01-images/2025-z06-masthead-01.png</carverse:carversethumbnail>
     <rdfs:label>Chevrolet Corvette</rdfs:label>
 </carverse:car>
 
@@ -1000,7 +1000,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Hyundai Motor Company</carverse:carversemanufacturer>
     <carverse:carversename>Hyundai Elantra</carverse:carversename>
     <carverse:carverseproduction>1990 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBaQAJLxM7IN5bZ7q05JmGJ02lu_04RWRT8g&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://imgd.aeplcdn.com/1920x1080/n/cw/ec/41138/elantra-exterior-right-front-three-quarter.jpeg</carverse:carversethumbnail>
     <rdfs:label>Hyundai Elantra</rdfs:label>
 </carverse:car>
 
@@ -1107,7 +1107,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
     <carverse:carversename>Toyota Corolla Altis</carverse:carversename>
     <carverse:carverseproduction>1966 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TUbqQhFpLRvc_85P_3TXqOPwIm_lfijpig&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://images.autofun.co.id/file/611602998eab49008a7be9be69c27bd6.jpg</carverse:carversethumbnail>
     <rdfs:label>Toyota Corolla Altis</rdfs:label>
 </carverse:car>
 
@@ -1155,7 +1155,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
     <carverse:carversename>Honda Insight</carverse:carversename>
     <carverse:carverseproduction>1999 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThB1L3OdByU3GPazAVs0CsaQcJ9c7wAtlpuA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/2021-honda-insight-02-1634321384.jpg</carverse:carversethumbnail>
     <rdfs:label>Honda Insight</rdfs:label>
 </carverse:car>
 
@@ -1179,7 +1179,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
     <carverse:carversename>Nissan Maxima</carverse:carversename>
     <carverse:carverseproduction>1981 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXPsHogKoNc8NwjKxB_kRcSzSajIrmi-ZdQ&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.motortrend.com/uploads/2022/09/2023-Nissan-Maxima-3.jpg</carverse:carversethumbnail>
     <rdfs:label>Nissan Maxima</rdfs:label>
 </carverse:car>
 
@@ -1191,7 +1191,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Audi</carverse:carversemanufacturer>
     <carverse:carversename>Audi A6</carverse:carversename>
     <carverse:carverseproduction>1994 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvAMgY2cDbKf1av00ZCqyn1pTcFDmMyI7BA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.topgear.com/sites/default/files/2021/08/01%205219-AudiUK00019837AudiA6Avant.jpg</carverse:carversethumbnail>
     <rdfs:label>Audi A6</rdfs:label>
 </carverse:car>
 
@@ -1203,7 +1203,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
     <carverse:carversename>BMW 5 Series</carverse:carversename>
     <carverse:carverseproduction>1972 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfI6xYt2hDddOozegdsrJchtpwP3jdgXyW9A&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/2021-bmw-540i-xdrive-370-edit-1608066218.jpg</carverse:carversethumbnail>
     <rdfs:label>BMW 5 Series</rdfs:label>
 </carverse:car>
 
@@ -1227,7 +1227,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Volvo</carverse:carversemanufacturer>
     <carverse:carversename>Volvo S90</carverse:carversename>
     <carverse:carverseproduction>2016 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkwE_-zGxwT2b9u4VN27v_6FabywB4h9B_bg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.hdcarwallpapers.com/walls/2017_volvo_s90-HD.jpg</carverse:carversethumbnail>
     <rdfs:label>Volvo S90</rdfs:label>
 </carverse:car>
 
@@ -1275,7 +1275,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
     <carverse:carversename>BMW 4 Series Gran Coupe</carverse:carversename>
     <carverse:carverseproduction>2014 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_DEYaxEltK8GEuBpF8ApwAbkwN2m_nN4meg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/2025-bmw-m440i-xdrive-104-662804b591081.jpg</carverse:carversethumbnail>
     <rdfs:label>BMW 4 Series Gran Coupe</rdfs:label>
 </carverse:car>
 
@@ -1287,7 +1287,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Volvo</carverse:carversemanufacturer>
     <carverse:carversename>Volvo XC60</carverse:carversename>
     <carverse:carverseproduction>2008 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVG5leljbYedlixBsV_bMZ6tRvRVB9f6egsg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://images3.alphacoders.com/982/982098.jpg</carverse:carversethumbnail>
     <rdfs:label>Volvo XC60</rdfs:label>
 </carverse:car>
 
@@ -1299,7 +1299,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Lexus</carverse:carversemanufacturer>
     <carverse:carversename>Lexus NX</carverse:carversename>
     <carverse:carverseproduction>2014 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfyaqiblV6KDVWmw60pWznQTN2eRnMTS-Dkg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://c4.wallpaperflare.com/wallpaper/137/219/618/lexus-lexus-nx-compact-car-crossover-car-wallpaper-preview.jpg</carverse:carversethumbnail>
     <rdfs:label>Lexus NX</rdfs:label>
 </carverse:car>
 
@@ -1311,7 +1311,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
     <carverse:carversename>BMW X3</carverse:carversename>
     <carverse:carverseproduction>2003 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Qart4iFS9_YFzt2oM5XR1wLzOMHxDBM9Ow&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://wordpress.cvtindonesia.co.id/wp-content/uploads/2024/06/BMW-X3.jpg</carverse:carversethumbnail>
     <rdfs:label>BMW X3</rdfs:label>
 </carverse:car>
 
@@ -1323,7 +1323,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
     <carverse:carversename>Mercedes-Benz GLC</carverse:carversename>
     <carverse:carverseproduction>2015 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnpDZUz0NX_AJYCb64iKmJcsCztDbKI-XAzQ&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://dealerinspire-image-library-prod.s3.us-east-1.amazonaws.com/images/WmcYMAEFk5EBmuTHL8JeYxGCtnp58FcoJNCpzv4x.png</carverse:carversethumbnail>
     <rdfs:label>Mercedes-Benz GLC</rdfs:label>
 </carverse:car>
 
@@ -1335,7 +1335,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Acura</carverse:carversemanufacturer>
     <carverse:carversename>Acura RDX</carverse:carversename>
     <carverse:carverseproduction>2006 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUKNz41U3G23m7Njq45P7FbWCM3re1GoCMg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://cdn.motor1.com/images/mgl/2WL7n/s1/2021-acura-rdx-pmc-edition-front-3-4.webp</carverse:carversethumbnail>
     <rdfs:label>Acura RDX</rdfs:label>
 </carverse:car>
 
@@ -1407,7 +1407,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
     <carverse:carversename>Honda Pilot</carverse:carversename>
     <carverse:carverseproduction>2002 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://www.honda-indonesia.com/uploads/images/trendsetters/foto_2__1668074491701.jpeg</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://wallpapercat.com/w/full/e/1/e/1687617-1920x1080-desktop-full-hd-honda-pilot-background.jpg</carverse:carversethumbnail>
     <rdfs:label>Honda Pilot</rdfs:label>
 </carverse:car>
 
@@ -1419,7 +1419,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Rivian</carverse:carversemanufacturer>
     <carverse:carversename>Rivian R1T</carverse:carversename>
     <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbFV2be_N5XFSAy2ccOnSYLKru0bqyy7epzA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://img.inews.co.id/media/1200/files/inews_new/2021/08/24/24___Rivian.jpg</carverse:carversethumbnail>
     <rdfs:label>Rivian R1T</rdfs:label>
 </carverse:car>
 
@@ -1443,7 +1443,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
     <carverse:carversename>Ford Mustang Mach-E</carverse:carversename>
     <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3YgChh2TEdrWKlQlc6rLqm23ClOgaR_YQ_w&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/2025-ford-mustang-mach-e-premium-sport-appearance-exterior-104-67166e9edffb1.jpg</carverse:carversethumbnail>
     <rdfs:label>Ford Mustang Mach-E</rdfs:label>
 </carverse:car>
 
@@ -1515,7 +1515,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
     <carverse:carversename>Nissan Versa</carverse:carversename>
     <carverse:carverseproduction>2006 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUyPphe2H3rg8JPBQZD3dp_4e36ZNx_WUf1g&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.motortrend.com/uploads/2022/10/2023-Nissan-Versa-sedan-debut-18.jpg</carverse:carversethumbnail>
     <rdfs:label>Nissan Versa</rdfs:label>
 </carverse:car>
 
@@ -1551,7 +1551,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Audi</carverse:carversemanufacturer>
     <carverse:carversename>Audi A8</carverse:carversename>
     <carverse:carverseproduction>1994 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1J1o2OMOHca_tdujCna_cOODWQSXFgG9Geg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.blibli.com/friends-backend/wp-content/uploads/2023/02/B100535-cover-scaled.jpg</carverse:carversethumbnail>
     <rdfs:label>Audi A8</rdfs:label>
 </carverse:car>
 
@@ -1623,7 +1623,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Mitsubishi</carverse:carversemanufacturer>
     <carverse:carversename>Mitsubishi Xpander</carverse:carversename>
     <carverse:carverseproduction>2017 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTVXOaS1NUpg-Izhe0LTDH7LYm400kSmmy0Q&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://awsimages.detik.net.id/community/media/visual/2024/02/02/mitsubishi-xpander-hybrid-hev-1.webp?w=1200</carverse:carversethumbnail>
     <rdfs:label>Mitsubishi Xpander</rdfs:label>
 </carverse:car>
 
@@ -1708,7 +1708,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Volkswagen</carverse:carversemanufacturer>
     <carverse:carversename>Volkswagen Taos</carverse:carversename>
     <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTowrQ_pNRObe2Qs_YlHlWmDcFmqI1EhCt7DQ&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://i.cdn.newsbytesapp.com/ind/images/l55020210604135648.jpeg?tr=w-720</carverse:carversethumbnail>
     <rdfs:label>Taos</rdfs:label>
 </carverse:car>
 
@@ -1759,7 +1759,7 @@ Front engine, rear wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Alfa Romeo</carverse:carversemanufacturer>
     <carverse:carversename>Alfa Romeo Stelvio</carverse:carversename>
     <carverse:carverseproduction>2016 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMfQ-4EAINIK-gQycXhUIobcMc_Xd2VpfBaQ&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/2017_Alfa_Romeo_Stelvio_Milano_Edizione_TD_Automatic_2.1.jpg/1920px-2017_Alfa_Romeo_Stelvio_Milano_Edizione_TD_Automatic_2.1.jpg</carverse:carversethumbnail>
     <rdfs:label>Stelvio</rdfs:label>
 </carverse:car>
 
@@ -1772,7 +1772,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Renault</carverse:carversemanufacturer>
     <carverse:carversename>Renault Duster</carverse:carversename>
     <carverse:carverseproduction>2010 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgVeXpTooSmE87CWcS3iTLuqeqNStyabREaA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://i0.wp.com/www.mobilnation.id/wp-content/uploads/2024/05/Novo-Renault-Duster-20202B252822529.jpg</carverse:carversethumbnail>
     <rdfs:label>Duster</rdfs:label>
 </carverse:car>
 
@@ -1797,7 +1797,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Fiat</carverse:carversemanufacturer>
     <carverse:carversename>Fiat Pulse</carverse:carversename>
     <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReufnRVvATmIjLHnx60yq__OwzK6ecijrm2g&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://cdn.motor1.com/images/mgl/BXOlYR/s1/fiat-pulse-abarth-2022.webp</carverse:carversethumbnail>
     <rdfs:label>Pulse</rdfs:label>
 </carverse:car>
 
@@ -1810,7 +1810,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Genesis</carverse:carversemanufacturer>
     <carverse:carversename>Genesis GV80</carverse:carversename>
     <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9R6cnPx-RSQlB6XDeZUVR5IUcvOXiep9aQg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://cdn.motor1.com/images/mgl/BMJ2e/s1/2021-genesis-gv80.webp</carverse:carversethumbnail>
     <rdfs:label>GV80</rdfs:label>
 </carverse:car>
 
@@ -1836,7 +1836,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Cupra</carverse:carversemanufacturer>
     <carverse:carversename>Cupra Formentor</carverse:carversename>
     <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYBYkB0zzs__hiRzGBAei006xqd2bIFAVdUw&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://cdn.motor1.com/images/mgl/lg9J1/s1/cupra-formentor-vz5.webp</carverse:carversethumbnail>
     <rdfs:label>Formentor</rdfs:label>
 </carverse:car>
 
@@ -1849,7 +1849,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Citroën</carverse:carversemanufacturer>
     <carverse:carversename>Citroën C5 Aircross</carverse:carversename>
     <carverse:carverseproduction>2017 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTiMbbAtpWmxtwlq1X-NjhT4V0hSPIbja5lA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/158/2706/citroen-c5-front-angle-low-view-531025.jpg</carverse:carversethumbnail>
     <rdfs:label>C5 Aircross</rdfs:label>
 </carverse:car>
 
@@ -1910,7 +1910,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Buick</carverse:carversemanufacturer>
     <carverse:carversename>Buick Enclave</carverse:carversename>
     <carverse:carverseproduction>2007 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpoxSTo1zjpFHp6xQOnFIE0dTiT7monJZxDA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://di-uploads-pod33.dealerinspire.com/kelleybuickgmc/uploads/2022/04/2022-buick-enclave.png</carverse:carversethumbnail>
     <rdfs:label>Enclave</rdfs:label>
 </carverse:car>
 
@@ -1922,7 +1922,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
     <carverse:carversename>Ford Puma</carverse:carversename>
     <carverse:carverseproduction>2019 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://www.blibli.com/friends-backend/wp-content/uploads/2022/03/Spesifikasi-Ford-Puma.jpg</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://d2s8i866417m9.cloudfront.net/photo/9088025/photo/medium-7792c0f8c57c98462575a339b3d2cf67.jpg</carverse:carversethumbnail>
     <rdfs:label>Puma</rdfs:label>
 </carverse:car>
 
@@ -1934,7 +1934,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Subaru</carverse:carversemanufacturer>
     <carverse:carversename>Subaru Ascent</carverse:carversename>
     <carverse:carverseproduction>2018 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGzc_rNfdg0RAVrgN48L2qw_ukJNYhw3blVg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://scout.customerscout.net/Gallery/IMAGES/2021/Subaru/Ascent/2021SubaruAscent-exterior-02.jpg</carverse:carversethumbnail>
     <rdfs:label>Ascent</rdfs:label>
 </carverse:car>
 
@@ -1958,7 +1958,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>SEAT</carverse:carversemanufacturer>
     <carverse:carversename>SEAT Arona</carverse:carversename>
     <carverse:carverseproduction>2017 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfvZJFqLeALioRyOP-1kfI_1YkXhkiiwwyxw&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.jpmg.ie/site/uploads/New%20Cars/Seat/2025/Arona.webp</carverse:carversethumbnail>
     <rdfs:label>Arona</rdfs:label>
 </carverse:car>
 
@@ -1970,7 +1970,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Citroën</carverse:carversemanufacturer>
     <carverse:carversename>Citroën C4</carverse:carversename>
     <carverse:carverseproduction>2004 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-WVem3vbJtGH8Dq6W6wtyH5W22iDtsV2CmQ&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://images.bisnis.com/posts/2021/01/12/1341998/citroen-c41.jpg</carverse:carversethumbnail>
     <rdfs:label>C4</rdfs:label>
 </carverse:car>
 
@@ -1982,7 +1982,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Škoda</carverse:carversemanufacturer>
     <carverse:carversename>Škoda Fabia</carverse:carversename>
     <carverse:carverseproduction>1999 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzFm-LKWh8-OD96-AoyVs5Vqwa99CrumG28Q&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://img.antaranews.com/cache/1200x800/2020/10/29/skoda-fabia-monte-carlo-1.jpg.webp</carverse:carversethumbnail>
     <rdfs:label>Fabia</rdfs:label>
 </carverse:car>
 
@@ -1995,7 +1995,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Opel</carverse:carversemanufacturer>
     <carverse:carversename>Opel Mokka</carverse:carversename>
     <carverse:carverseproduction>2012 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_KmRiWGGIEtDwTaTKC7E3t2Q72DciRpTASw&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://images.bisnis.com//upload/img/Opel_Mokka%201.jpg</carverse:carversethumbnail>
     <rdfs:label>Mokka</rdfs:label>
 </carverse:car>
 
@@ -2008,7 +2008,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Renault</carverse:carversemanufacturer>
     <carverse:carversename>Renault Koleos</carverse:carversename>
     <carverse:carverseproduction>2007 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyYhaZuUzVQ3xh5u96i4DfeJKTgApm4JnOjQ&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/color/33/304/renault-koleos-color-238860.jpg</carverse:carversethumbnail>
     <rdfs:label>Koleos</rdfs:label>
 </carverse:car>
 
@@ -2020,7 +2020,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>MG Motor</carverse:carversemanufacturer>
     <carverse:carversename>MG Hector</carverse:carversename>
     <carverse:carverseproduction>2019 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjMYPd5-HDY3B7--_dk---wd8V_G6I8yjyjw&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://imgd.aeplcdn.com/664x374/n/cw/ec/130583/hector-exterior-right-front-three-quarter-75.jpeg</carverse:carversethumbnail>
     <rdfs:label>Hector</rdfs:label>
 </carverse:car>
 
@@ -2059,7 +2059,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Fiat</carverse:carversemanufacturer>
     <carverse:carversename>Fiat 500X</carverse:carversename>
     <carverse:carverseproduction>2014 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiB3OC9UlyUf4MyfeBvbZy4mxQtou3SSOoeg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/ft023-022fh-6571230980434.jpg</carverse:carversethumbnail>
     <rdfs:label>500X</rdfs:label>
 </carverse:car>
 
@@ -2096,7 +2096,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Cupra</carverse:carversemanufacturer>
     <carverse:carversename>Cupra Born</carverse:carversename>
     <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSBDAGhKHr5j8WP8l9Z03rYYGvXppuAhgzpw&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.topgear.com/sites/default/files/2022/07/1-Cupra-Born.jpg</carverse:carversethumbnail>
     <rdfs:label>Born</rdfs:label>
 </carverse:car>
 
@@ -2183,7 +2183,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
     <carverse:carversename>Ford Maverick</carverse:carversename>
     <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0tPnwcAK3yr4oLXNvLKyha_yyASO2ZrkIJg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://i.cdn.newsbytesapp.com/ind/images/l56920210611151638.jpeg</carverse:carversethumbnail>
     <rdfs:label>Maverick</rdfs:label>
 </carverse:car>
 
@@ -2219,7 +2219,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
     <carverse:carversename>Ford Explorer</carverse:carversename>
     <carverse:carverseproduction>1991 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQfgXjyHYsbtt7P2Vn-sYk9h1KhH9UromvdQ&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://otoblitz.net/wp-content/uploads/2019/08/ford-Explorer-Hybrid-2020_01.jpg</carverse:carversethumbnail>
     <rdfs:label>Explorer</rdfs:label>
 </carverse:car>
 
@@ -2233,18 +2233,6 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carverseproduction>2004 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://media.ed.edmunds-media.com/chevrolet/equinox/2022/oem/2022_chevrolet_equinox_4dr-suv_rs_fq_oem_1_1600.jpg</carverse:carversethumbnail>
     <rdfs:label>Equinox</rdfs:label>
-</carverse:car>
-
-<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Honda_Insight">
-    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
-    <carverse:carverseabstract>The Honda Insight is a hybrid sedan known for its impressive fuel efficiency. Combining practicality with advanced hybrid technology, it offers a smooth and quiet driving experience.</carverse:carverseabstract>
-    <carverse:carverseclass>Hybrid Sedan</carverse:carverseclass>
-    <carverse:carverselayout>Front engine, front-wheel drive</carverse:carverselayout>
-    <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
-    <carverse:carversename>Honda Insight</carverse:carversename>
-    <carverse:carverseproduction>1999 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtm8r3AvNEa8PT-mKYBdN-YqaFrop8oDvakg&amp;s</carverse:carversethumbnail>
-    <rdfs:label>Insight</rdfs:label>
 </carverse:car>
 
 <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda_RX-7">
@@ -2267,7 +2255,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
     <carverse:carversename>Toyota C-HR</carverse:carversename>
     <carverse:carverseproduction>2016 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBGiE2eWgojLtRMu1cGrUM0GlwQoVyRLy3yg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://toyotabengkulu.id/wp-content/uploads/2018/08/chr-White-Pearl-Crystal-Shine.png</carverse:carversethumbnail>
     <rdfs:label>C-HR</rdfs:label>
 </carverse:car>
 
@@ -2327,7 +2315,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Volvo</carverse:carversemanufacturer>
     <carverse:carversename>Volvo V60</carverse:carversename>
     <carverse:carverseproduction>2010 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR14O6Mkf09bE6kJzQYXi27lzhVIUeCNNMATA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://st3.depositphotos.com/1671840/18711/i/450/depositphotos_187111950-stock-photo-new-volvo-v60-car.jpg</carverse:carversethumbnail>
     <rdfs:label>V60</rdfs:label>
 </carverse:car>
 
@@ -2411,20 +2399,8 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>McLaren</carverse:carversemanufacturer>
     <carverse:carversename>McLaren 720S</carverse:carversename>
     <carverse:carverseproduction>2017 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRWQeJvO4NblJZFF5l4CfTbmROBXSqJ9cvXw&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://imgcdnblog.carvaganza.com/wp-content/uploads/2020/06/McLaren-720S-Le-Mans-Edition-1.jpg</carverse:carversethumbnail>
     <rdfs:label>720S</rdfs:label>
-</carverse:car>
-
-<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Bentley_Continental_GT">
-    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
-    <carverse:carverseabstract>The Bentley Continental GT is a luxury grand tourer that offers both high-performance and supreme comfort. It combines refined design with powerful engine options.</carverse:carverseabstract>
-    <carverse:carverseclass>Luxury Grand Tourer</carverse:carverseclass>
-    <carverse:carverselayout>Front engine, all-wheel drive</carverse:carverselayout>
-    <carverse:carversemanufacturer>Bentley</carverse:carversemanufacturer>
-    <carverse:carversename>Bentley Continental GT</carverse:carversename>
-    <carverse:carverseproduction>2003 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXOoPx0Q_posz7DNl5wRIsTYhi5TAY3yDMQ&amp;s</carverse:carversethumbnail>
-    <rdfs:label>Continental GT</rdfs:label>
 </carverse:car>
 
 <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Chevrolet_Corvette_C8">
@@ -2531,7 +2507,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Jaguar</carverse:carversemanufacturer>
     <carverse:carversename>Jaguar I-PACE</carverse:carversename>
     <carverse:carverseproduction>2018 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnPUX1CK3qRD0ORclshtzCx0h80ctZqFoRQA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://wallpapercat.com/w/full/5/3/0/1668194-1920x1080-desktop-full-hd-jaguar-i-pace-wallpaper-photo.jpg</carverse:carversethumbnail>
     <rdfs:label>I-PACE</rdfs:label>
 </carverse:car>
 
@@ -2555,7 +2531,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Alpina</carverse:carversemanufacturer>
     <carverse:carversename>Alpina B7</carverse:carversename>
     <carverse:carverseproduction>2016 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnhiYIrnrg267DKYp8XoUTVLIxwjuic8KQTA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/BMW_Alpina_B7_Biturbo_G12.jpg/1920px-BMW_Alpina_B7_Biturbo_G12.jpg</carverse:carversethumbnail>
     <rdfs:label>B7</rdfs:label>
 </carverse:car>
 
@@ -2591,8 +2567,8 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Tesla</carverse:carversemanufacturer>
     <carverse:carversename>Tesla Model X</carverse:carversename>
     <carverse:carverseproduction>2015 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3b2TIzKNzCMfRGJIlwOsmP7bpvpoOmlxb6w&amp;s</carverse:carversethumbnail>
-    <rdfs:label>Model X</rdfs:label>
+    <carverse:carversethumbnail>https://res.cloudinary.com/unix-center/image/upload/c_limit,dpr_3.0,f_auto,fl_progressive,g_center,h_580,q_75,w_906/inno5xbcnmct5gl4xdgn.jpg</carverse:carversethumbnail>
+    <rdfs:label>Tesla Model X</rdfs:label>
 </carverse:car>
 
 <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#LandRover_Discovery">
@@ -2603,7 +2579,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Land Rover</carverse:carversemanufacturer>
     <carverse:carversename>Land Rover Discovery</carverse:carversename>
     <carverse:carverseproduction>1989 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwuAfBIXn1Arx1I_0fEgNgrHZtpNoPngBfHA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/43/1762/land-rover-discovery-front-angle-low-view-625791.jpg</carverse:carversethumbnail>
     <rdfs:label>Discovery</rdfs:label>
 </carverse:car>
 
@@ -2663,7 +2639,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Subaru</carverse:carversemanufacturer>
     <carverse:carversename>Subaru Outback Wilderness</carverse:carversename>
     <carverse:carverseproduction>2022 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9DuqK95izVsODvSIAu8Etq0PDNm1PV6v8GA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.blibli.com/friends-backend/wp-content/uploads/2023/10/B1000142-Spesifikasi-Subaru-Outback-scaled.jpg</carverse:carversethumbnail>
     <rdfs:label>Subaru Outback Wilderness</rdfs:label>
 </carverse:car>
 
@@ -2699,7 +2675,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Hyundai</carverse:carversemanufacturer>
     <carverse:carversename>Hyundai Ioniq 5</carverse:carversename>
     <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbsExjBKVHZMqFjPdov9AuDss4mWYmRPhwXg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://hyundaimobil.co.id//storage/news/March2021/upLVvbQCwzRuC6NQX1kH.jpg</carverse:carversethumbnail>
     <rdfs:label>Hyundai Ioniq 5</rdfs:label>
 </carverse:car>
 
@@ -2723,7 +2699,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Kia</carverse:carversemanufacturer>
     <carverse:carversename>Kia Telluride</carverse:carversename>
     <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1XU8mykx7dlNEgrmnG7GylwcyATg8CNuvag&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://wallpapercat.com/w/full/1/8/b/1660306-1920x1080-desktop-full-hd-kia-telluride-wallpaper.jpg</carverse:carversethumbnail>
     <rdfs:label>Kia Telluride</rdfs:label>
 </carverse:car>
 
@@ -2747,7 +2723,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
     <carverse:carversename>Honda Passport</carverse:carversename>
     <carverse:carverseproduction>2019 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKm7MpgJ25HJ0DX6syFnNYqThH_QH1Kq4N5g&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://cdn.motor1.com/images/mgl/Y1Emr/s1/2022-honda-passport-trailsport.jpg</carverse:carversethumbnail>
     <rdfs:label>Honda Passport</rdfs:label>
 </carverse:car>
 
@@ -2783,7 +2759,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
     <carverse:carversename>BMW X6 M</carverse:carversename>
     <carverse:carverseproduction>2009 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2xkQ4nUh9HcOc_X4DgSdEW4wUknjHfZrolQ&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://cdn.motor1.com/images/mgl/W8n473/s4/bmw-x6-m-competition-2023.webp</carverse:carversethumbnail>
     <rdfs:label>BMW X6 M</rdfs:label>
 </carverse:car>
 
@@ -2807,7 +2783,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Lexus</carverse:carversemanufacturer>
     <carverse:carversename>Lexus GX</carverse:carversename>
     <carverse:carverseproduction>2002 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpirgfDS7_yEsSEINvzYcRu1Gf-7MOoh0sTw&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.blackxperience.com/assets/content/blackauto/autonews/2024-lexus-gx-550-might-be-ideal-for-a-pickup-truck-derivative-because-of-tnga-f-17.jpg</carverse:carversethumbnail>
     <rdfs:label>Lexus GX</rdfs:label>
 </carverse:car>
 
@@ -2843,7 +2819,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Wuling</carverse:carversemanufacturer>
     <carverse:carversename>Wuling Almaz</carverse:carversename>
     <carverse:carverseproduction>2019 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-s3BBSb-It3n9hbyboZigiDdgmcS4hNztA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/110/2012/wuling-suv-front-angle-low-view-679598.jpg</carverse:carversethumbnail>
     <rdfs:label>Wuling Almaz</rdfs:label>
 </carverse:car>
 
@@ -2879,7 +2855,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Wuling</carverse:carversemanufacturer>
     <carverse:carversename>Wuling Excelle</carverse:carversename>
     <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfYfUFnYZ8cGMBntsljn4weNBT_W87mq-dg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/110/2686/wuling-almaz-hybrid-front-side-view-732495.jpg</carverse:carversethumbnail>
     <rdfs:label>Wuling Excelle</rdfs:label>
 </carverse:car>
 
@@ -2963,7 +2939,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Mini</carverse:carversemanufacturer>
     <carverse:carversename>Mini Cooper D</carverse:carversename>
     <carverse:carverseproduction>2007 – 2019</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs4dsvWKOH0DWmOcE3VKTxzublXdZO_U0NaA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.motorbeam.com/wp-content/uploads/2015-MINI-Cooper-D-Test-Drive-1200x900.jpg</carverse:carversethumbnail>
     <rdfs:label>Mini Cooper D</rdfs:label>
 </carverse:car>
 
@@ -2987,7 +2963,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Koenigsegg</carverse:carversemanufacturer>
     <carverse:carversename>Koenigsegg Agera R</carverse:carversename>
     <carverse:carverseproduction>2011 – 2014</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo9FnJYS3IpOoHNtC0OIoaCoFYZw2P_7quwg&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://images8.alphacoders.com/453/453324.jpg</carverse:carversethumbnail>
     <rdfs:label>Koenigsegg Agera R</rdfs:label>
 </carverse:car>
 
@@ -3023,7 +2999,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Koenigsegg</carverse:carversemanufacturer>
     <carverse:carversename>Koenigsegg One:1</carverse:carversename>
     <carverse:carverseproduction>2014 – 2016</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG5BLW2rM4y0C0fsh0uBtkMxQazVPPUtab5g&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://i.pinimg.com/736x/58/96/3c/58963c006ebd148185819e28a233ef11.jpg</carverse:carversethumbnail>
     <rdfs:label>Koenigsegg One:1</rdfs:label>
 </carverse:car>
 
@@ -3059,7 +3035,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Koenigsegg</carverse:carversemanufacturer>
     <carverse:carversename>Koenigsegg Agera S</carverse:carversename>
     <carverse:carverseproduction>2015 – 2017</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://images.collectingcars.com/006173/29-08-2021-rg-cc-01.jpg?w=1263&amp;fit=fillmax&amp;crop=edges&amp;auto=format,compress&amp;cs=srgb&amp;q=85</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.supercars.net/blog/wp-content/uploads/2020/10/2013-Koenigsegg-Agera-S-003-2000-scaled.jpg</carverse:carversethumbnail>
     <rdfs:label>Koenigsegg Agera S</rdfs:label>
 </carverse:car>
 
@@ -3179,7 +3155,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Rolls-Royce</carverse:carversemanufacturer>
     <carverse:carversename>Rolls-Royce Cullinan</carverse:carversename>
     <carverse:carverseproduction>2018 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFSx5rOLxaaTmwl9Q_22Z3myEN6y7hpjDQsA&amp;s</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://dapurpacu.id/wp-content/uploads/2019/02/cullinan-fp-share-image.jpg</carverse:carversethumbnail>
     <rdfs:label>Rolls-Royce Cullinan</rdfs:label>
 </carverse:car>
 
@@ -3230,7 +3206,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Stellantis</carverse:carversemanufacturer>
     <carverse:carversename>Dodge Challenger</carverse:carversename>
     <carverse:carverseproduction>1970 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://en.wikipedia.org/wiki/File:Dodge_Challenger_SRT8_(2015)_Hirschaid-20220709-RM-120221.jpg</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/dg020-105cl-1574257068.jpg</carverse:carversethumbnail>
     <rdfs:label>Dodge Challenger</rdfs:label>
 </carverse:car>
 
@@ -3269,7 +3245,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
     <carverse:carversename>Ford Focus Hatchback</carverse:carversename>
     <carverse:carverseproduction>1998 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://www.ford.co.uk/content/dam/guxeu/uk/images/ford-focus/vig_nav/desktop/ford-focus-hatchback-exterior.jpg</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://autonetmagz.com/wp-content/uploads/2015/07/ford-focus-hatchback.jpg</carverse:carversethumbnail>
     <rdfs:label>Ford Focus Hatchback</rdfs:label>
 </carverse:car>
 
@@ -3282,7 +3258,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Hyundai</carverse:carversemanufacturer>
     <carverse:carversename>Hyundai i30</carverse:carversename>
     <carverse:carverseproduction>2007 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Hyundai_i30_PD_Fiery_Red_%285%29_%28cropped%29.jpg/420px-Hyundai_i30_PD_Fiery_Red_%285%29_%28cropped%29.jpg</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://c4.wallpaperflare.com/wallpaper/234/681/192/hyundai-hyundai-i30-n-car-fastback-wallpaper-preview.jpg</carverse:carversethumbnail>
     <rdfs:label>Hyundai i30</rdfs:label>
 </carverse:car>
 
@@ -3295,7 +3271,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Tesla</carverse:carversemanufacturer>
     <carverse:carversename>Tesla Model Y</carverse:carversename>
     <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://asset-2.tstatic.net/tribunnews/foto/bank/images/Tesla-Model-Y-OK.jpg</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://autonetmagz.com/wp-content/uploads/2015/09/tesla-model-x-front.jpg</carverse:carversethumbnail>
     <rdfs:label>Tesla Model Y</rdfs:label>
 </carverse:car>
 
@@ -3334,7 +3310,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Volvo</carverse:carversemanufacturer>
     <carverse:carversename>Volvo S60</carverse:carversename>
     <carverse:carverseproduction>2000 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://imgcdn.oto.com/medium/gallery/exterior/40/870/volvo-s60-95066.jpg</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://images.alphacoders.com/133/thumb-1920-1332145.jpeg</carverse:carversethumbnail>
     <rdfs:label>Volvo S60</rdfs:label>
 </carverse:car>
 
@@ -3347,7 +3323,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Hyundai</carverse:carversemanufacturer>
     <carverse:carversename>Hyundai Genesis</carverse:carversename>
     <carverse:carverseproduction>2008 – 2016</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://hyundaimobil.co.id//storage/news/November2021/5D8fthjjH3p91ykXfW0O.jpeg</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://hyundaimobil.co.id//storage/news/October2020/genesis%20coupe%20motortrend.jpg</carverse:carversethumbnail>
     <rdfs:label>Hyundai Genesis</rdfs:label>
 </carverse:car>
 
@@ -3425,7 +3401,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Isuzu</carverse:carversemanufacturer>
     <carverse:carversename>Isuzu NPR</carverse:carversename>
     <carverse:carverseproduction>1980 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://www.truck1.id/img/ful/16072/Isuzu-NPR-75-Uni-Emirat-Arab_16072_845144908680.jpg</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://www.westernisuzutruck.com/wp-content/uploads/2021/05/npr-hd_gas_big.jpg</carverse:carversethumbnail>
     <rdfs:label>Isuzu NPR</rdfs:label>
 </carverse:car>
 
@@ -3516,7 +3492,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
     <carverse:carversename>Mercedes-Benz CLS</carverse:carversename>
     <carverse:carverseproduction>2004 – present</carverse:carverseproduction>
-    <carverse:carversethumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Mercedes-Benz_C_257_Wien_27_July_2020_JM_%28cropped%29.jpg/420px-Mercedes-Benz_C_257_Wien_27_July_2020_JM_%28cropped%29.jpg</carverse:carversethumbnail>
+    <carverse:carversethumbnail>https://mercedes-ina.com/wp-content/uploads/2019/03/2019-mercedes-benz-cls-class.jpg</carverse:carversethumbnail>
     <rdfs:label>Mercedes-Benz CLS</rdfs:label>
 </carverse:car>
 
