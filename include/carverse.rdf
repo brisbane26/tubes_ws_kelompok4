@@ -2580,7 +2580,7 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carversename>Tesla Model X</carverse:carversename>
     <carverse:carverseproduction>2015 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://res.cloudinary.com/unix-center/image/upload/c_limit,dpr_3.0,f_auto,fl_progressive,g_center,h_580,q_75,w_906/inno5xbcnmct5gl4xdgn.jpg</carverse:carversethumbnail>
-    <rdfs:label> Tesla Model X</rdfs:label>
+    <rdfs:label>Tesla Model X</rdfs:label>
 </carverse:car>
 
 <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#LandRover_Discovery">
