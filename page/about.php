@@ -315,6 +315,12 @@
         <source src="assets/vid/universe.mp4" type="video/mp4">
         Your browser does not support the video tag.
 </video>
+<script>
+        const video = document.getElementById('video-background');
+        video.addEventListener('ended', () => {
+            video.play();
+        });
+    </script>
 
 <!-- Team Start -->
 <center>

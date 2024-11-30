@@ -27,7 +27,7 @@
         position: relative;
         z-index: 1;
         font-family: 'Orbitron', sans-serif;
-        color: #ffffff; /* Mengubah warna font menjadi magenta */
+        color: yellow; /* Mengubah warna font menjadi magenta */
         padding: 20px;
         background: rgba(0, 0, 0, 0.5); /* Memberikan transparansi pada latar belakang konten */
         border-radius: 10px;
@@ -118,16 +118,21 @@ $result = $sparqlJena->query($query);
 <div class="content">
     <h1>Welcome to Carverse</h1>
     <p>Explore limitless options to find your perfect drive.</p>
-    <a href="#unlock-drive" class="btn-primary" onclick="document.getElementById('unlock-drive').scrollIntoView({ behavior: 'smooth' }); return false;">Explore Now</a>
+    <a href="#unlock-drive" class="btn-primary" onclick="document.getElementById('unlock-drive').scrollIntoView({ behavior: 'smooth' }); return false;">Testimoni</a>
 </div>
+<script>
+        const video = document.getElementById('video-background');
+        video.addEventListener('ended', () => {
+            video.play();
+        });
+    </script>
 <!-- Hero Section End -->
 
 <!-- Destination Category Start -->
 <div class="container-fluid py-0">
     <div class="container pt-5 pb-3">
         <div class="text-center mb-3 pb-3">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px; color: #8B008B;">CARVERSE</h6>
-            <h1 id="unlock-drive" style="color: #8B008B;">Unlock Your Ultimate Drive</h1>
+            <h1 id="unlock-drive" style="color: red;">Unlock Your Ultimate Drive</h1>
         </div>
         <div class="row justify-content-center">
             <?php foreach ($result as $data) : ?>
@@ -146,6 +151,14 @@ $result = $sparqlJena->query($query);
     </div>
 </div>
 <!-- Destination Category End -->
+
+<!-- CTA Banner Section Start -->
+<div class="container-fluid cta-banner mt-5">
+    <h2>Ready to unlock your ultimate driving experience?</h2>
+    <p>Discover new options, compare vehicles, and find the best deals in just a few clicks.</p>
+    <a href="?p=find" class="btn-primary">Start Your Journey</a>
+</div>
+<!-- CTA Banner Section End -->
 
 <!-- Testimonials Section Start -->
 <div class="container pt-5 pb-5">
@@ -171,10 +184,3 @@ $result = $sparqlJena->query($query);
 </div>
 <!-- Testimonials Section End -->
 
-<!-- CTA Banner Section Start -->
-<div class="container-fluid cta-banner mt-5">
-    <h2>Ready to unlock your ultimate driving experience?</h2>
-    <p>Discover new options, compare vehicles, and find the best deals in just a few clicks.</p>
-    <a href="?p=explore" class="btn-primary">Start Your Journey</a>
-</div>
-<!-- CTA Banner Section End -->
