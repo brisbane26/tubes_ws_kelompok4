@@ -1,4 +1,29 @@
 <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Video background */
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Menutupi seluruh layar */
+            z-index: -1; /* Video berada di belakang konten */
+        }
+
+        /* Konten di atas video */
+        .content {
+            position: relative;
+            z-index: 1;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+        }
     
 /* Gambar Gir di sudut kiri atas */
 .gear-icon {
@@ -216,6 +241,12 @@ if (!empty($result->home)) {
         </div>
     </div>
 </div> -->
+
+<video id="video-background" autoplay muted loop>
+        <source src="assets/vid/universe.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
+
 <!-- Header End -->
 <div class="container py-5">
     <div class="row fade-in">
