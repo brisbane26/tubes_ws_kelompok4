@@ -1,6 +1,6 @@
 <style>
     body {
-        cursor: url("assets/img/Roda1.png"), auto;
+        cursor: url("assets/img/lightsaber.png"), auto;
     }
     body, html {
             margin: 0;
@@ -30,11 +30,12 @@
     .find-container {
         display: flex;
         align-items: center;
-        border: 2px solid black;
+        border: 2px solid navy;
         border-radius: 50px;
         padding: 5px;
         width: 1000px;
         max-width: 100%;
+        color: #ffffff;
     }
 
     .find-container input[type="text"] {
@@ -46,13 +47,14 @@
     }
 
     .find-container button {
-        background-color: black;
+        background-color: navy;
         color: white;
         border: none;
         border-radius: 50px;
         padding: 10px 20px;
         cursor: pointer;
         font-size: 16px;
+        text-align: center;
     }
 
     .find-container .fa-find {
