@@ -1,33 +1,99 @@
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
     body {
-        cursor: url("assets/img/Roda1.png"), auto;
+        cursor: url("assets/img/lightsaber.png"), auto;
     }
 
     body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
 
-        /* Video background */
-        #video-background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Menutupi seluruh layar */
-            z-index: -1; /* Video berada di belakang konten */
-        }
+    /* Video background */
+    #video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Menutupi seluruh layar */
+        z-index: -1; /* Video berada di belakang konten */
+    }
 
-        /* Konten di atas video */
-        .content {
-            position: relative;
-            z-index: 1;
-            font-family: Arial, sans-serif;
-            color: white;
-            padding: 20px;
-        }
+    /* Konten di atas video dengan transparansi */
+    .content {
+        position: relative;
+        z-index: 1;
+        font-family: 'Orbitron', sans-serif;
+        color: #ffffff; /* Mengubah warna font menjadi magenta */
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.5); /* Memberikan transparansi pada latar belakang konten */
+        border-radius: 10px;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    /* Styling tambahan untuk teks judul dan tombol */
+    h1 {
+        font-family: 'Orbitron';
+        font-size: 3rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #8B008B; /* Mengubah warna judul menjadi magenta */
+        -webkit-text-stroke: 2px #FFFFFF; /* Stroke putih di sekitar teks */
+    }
+
+    h2 {
+        font-family: 'Audiowide', sans-serif; /* Font futuristik untuk subtitle */
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: #000080; /* Biru navy untuk teks */
+        -webkit-text-stroke: 1px #FFFFFF; /* Stroke putih di sekitar teks */
+}
+
+
+    .btn-primary {
+        background-color: #8B008B; /* Mengubah warna tombol menjadi magenta */
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .btn-primary:hover {
+        background-color: navy; /* Mengubah warna tombol saat hover menjadi pink terang */
+    }
+
+    /* Testimonial Styling */
+    .testimonial {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+
+    .testimonial-item {
+        border-left: 5px solid #8B008B;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    /* CTA Banner Styling */
+    .cta-banner {
+        background: linear-gradient(to right, #ff416c, #ff4b2b);
+        color: white;
+        padding: 50px;
+        text-align: center;
+        border-radius: 15px;
+        margin-top: 50px;
+    }
 </style>
 <?php
 $query = "
@@ -48,12 +114,20 @@ $result = $sparqlJena->query($query);
         Your browser does not support the video tag.
 </video>
 
+<!-- Hero Section Start -->
+<div class="content">
+    <h1>Welcome to Carverse</h1>
+    <p>Explore limitless options to find your perfect drive.</p>
+    <a href="#unlock-drive" class="btn-primary" onclick="document.getElementById('unlock-drive').scrollIntoView({ behavior: 'smooth' }); return false;">Explore Now</a>
+</div>
+<!-- Hero Section End -->
+
 <!-- Destination Category Start -->
 <div class="container-fluid py-0">
     <div class="container pt-5 pb-3">
         <div class="text-center mb-3 pb-3">
-            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">CARVERSE</h6>
-            <h1>Unlock Your Ultimate Drive</h1>
+            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px; color: #8B008B;">CARVERSE</h6>
+            <h1 id="unlock-drive" style="color: #8B008B;">Unlock Your Ultimate Drive</h1>
         </div>
         <div class="row justify-content-center">
             <?php foreach ($result as $data) : ?>
@@ -61,7 +135,9 @@ $result = $sparqlJena->query($query);
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="https://source.unsplash.com/350x219?<?= $data->class ?>" alt="">
                         <a class="destination-overlay text-white text-decoration-none" href="?p=class&keyword=<?= $data->class ?>">
-                            <h3 class="text-white" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><?= $data->class ?></h3>
+                            <h3 class="text-white" style="font-family: 'Orbitron', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #8B008B;">
+                                <?= $data->class ?>
+                            </h3>
                         </a>
                     </div>
                 </div>
@@ -71,44 +147,34 @@ $result = $sparqlJena->query($query);
 </div>
 <!-- Destination Category End -->
 
-<!-- Feature Start -->
-<!-- <div class="container-fluid pt-5">
-    <div class="container pb-4">
+<!-- Testimonials Section Start -->
+<div class="container pt-5 pb-5">
+    <div class="text-center mb-4">
+        <h2 class="text-uppercase">Customer Testimonials</h2>
+    </div>
+    <div class="testimonial">
         <div class="row">
-            <div class="col-md-4">
-                <div class="d-flex mb-4 mb-lg-0">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                    <i class="fa-solid fa-car fa-3x text-white"></i>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <h5 class="">Mobil</h5>
-                        <p class="m-0">We explain each tourist destination with its coordinates on maps.</p>
-                    </div>
+            <div class="col-md-6">
+                <div class="testimonial-item">
+                    <p>"Carverse made my car search process so much easier! I found my dream car in just a few clicks."</p>
+                    <small>- Sarah J.</small>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="d-flex mb-4 mb-lg-0">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                    <i class="fa-solid fa-gear fa-3x text-white"></i>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <h5 class="">Bagian Dalam</h5>
-                        <p class="m-0">We are committed to providing correct data and information.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="d-flex mb-4 mb-lg-0">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                    <i class="fa-solid fa-thumbs-up fa-3x text-white"></i>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <h5 class="">Informasi Bagus</h5>
-                        <p class="m-0">This website covers all destinations from all main islands throughout Indonesia.</p>
-                    </div>
+            <div class="col-md-6">
+                <div class="testimonial-item">
+                    <p>"I loved the interface and how easy it is to explore different options on Carverse."</p>
+                    <small>- John K.</small>
                 </div>
             </div>
         </div>
     </div>
-</div> -->
-<!-- Feature End -->
+</div>
+<!-- Testimonials Section End -->
+
+<!-- CTA Banner Section Start -->
+<div class="container-fluid cta-banner mt-5">
+    <h2>Ready to unlock your ultimate driving experience?</h2>
+    <p>Discover new options, compare vehicles, and find the best deals in just a few clicks.</p>
+    <a href="?p=explore" class="btn-primary">Start Your Journey</a>
+</div>
+<!-- CTA Banner Section End -->

@@ -1,6 +1,6 @@
 <style>
     body {
-        cursor: url("assets/img/Roda1.png"), auto;
+        cursor: url("assets/img/lightsaber.png"), auto;
     }
     body, html {
             margin: 0;

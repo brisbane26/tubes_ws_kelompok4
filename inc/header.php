@@ -3,6 +3,11 @@
 .navbar {
     background-color: #000; /* Warna latar belakang navbar */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
 }
 
 /* Link navigasi */
@@ -43,7 +48,7 @@
 
 /* Logo */
 .logo {
-    max-height: 50px; /* Tinggi maksimal logo */
+    max-height: 70px; /* Tinggi maksimal logo */
 }
 </style>
 <div class="container-fluid position-relative nav-bar p-0">
