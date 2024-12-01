@@ -189,7 +189,7 @@ Front engine, front wheel drive</carverse:carverselayout>
         <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
         <carverse:carversename>Toyota Corolla Cross</carverse:carversename>
         <carverse:carverseproduction>July 2020 – present</carverse:carverseproduction>
-        <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/color/38/2304/toyota-corolla-cross-color-824783.jpg</carverse:carversethumbnail>
+        <carverse:carversethumbnail>https://arinatoyota.co.id/wp-content/uploads/2020/08/TYT-740B-Hybrid-DPN-Belok-scaled.jpg</carverse:carversethumbnail>
         <rdfs:label>Corolla Cross</rdfs:label>
     </carverse:car>
 
@@ -2847,7 +2847,7 @@ Front engine, front wheel drive</carverse:carverselayout>
 <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Wuling_Excelle">
     <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
     <carverse:carverseabstract>The Wuling Excelle is a compact car designed for urban commuting, offering a practical, fuel-efficient ride.</carverse:carverseabstract>
-    <carverse:carverseclass>Compact Car</carverse:carverseclass>
+    <carverse:carverseclass>Compact car</carverse:carverseclass>
     <carverse:carverselayout>FWD</carverse:carverselayout>
     <carverse:carversemanufacturer>Wuling</carverse:carversemanufacturer>
     <carverse:carversename>Wuling Excelle</carverse:carversename>
@@ -2931,7 +2931,7 @@ Front engine, front wheel drive</carverse:carverselayout>
 <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mini_Cooper_D">
     <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
     <carverse:carverseabstract>The Mini Cooper D is the diesel-powered variant of the Mini Cooper, offering better fuel efficiency with the same fun-to-drive characteristics.</carverse:carverseabstract>
-    <carverse:carverseclass>Compact Hatch</carverse:carverseclass>
+    <carverse:carverseclass>Compact Hatchback</carverse:carverseclass>
     <carverse:carverselayout>FWD</carverse:carverselayout>
     <carverse:carversemanufacturer>Mini</carverse:carversemanufacturer>
     <carverse:carversename>Mini Cooper D</carverse:carversename>
@@ -3491,6 +3491,162 @@ Front engine, front wheel drive</carverse:carverselayout>
     <carverse:carverseproduction>2004 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://mercedes-ina.com/wp-content/uploads/2019/03/2019-mercedes-benz-cls-class.jpg</carverse:carversethumbnail>
     <rdfs:label>Mercedes-Benz CLS</rdfs:label>
+</carverse:car>
+
+<!-- Alpina B3 -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#B3">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Alpina B3 is a high-performance luxury sedan based on the BMW 3 Series, offering enhanced power, refined styling, and exclusive Alpina engineering.</carverse:carverseabstract>
+    <carverse:carverseclass>Luxury Sedan</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Alpina</carverse:carversemanufacturer>
+    <carverse:carversename>Alpina B3</carverse:carversename>
+    <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://s1.cdn.autoevolution.com/images/news/alpina-b3-gt3-debuts-in-tokyo-40818_1.jpg</carverse:carversethumbnail>
+    <rdfs:label>Alpina B3</rdfs:label>
+</carverse:car>
+
+<!-- Buick Encore GX -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#EncoreGX">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Buick Encore GX is a versatile compact crossover SUV, designed for modern families. It offers advanced safety features, a refined interior, and efficient engine options for city and highway driving.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact Crossover SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front-wheel drive / all-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Buick</carverse:carversemanufacturer>
+    <carverse:carversename>Buick Encore GX</carverse:carversename>
+    <carverse:carverseproduction>2020 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://media.ed.edmunds-media.com/buick/encore-gx/2020/oem/2020_buick_encore-gx_4dr-suv_essence_fq_oem_1_1600.jpg</carverse:carversethumbnail>
+    <rdfs:label>Buick Encore GX</rdfs:label>
+</carverse:car>
+
+<!-- Toyota Corolla Touring Sports -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#CorollaTouringSports">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Toyota Corolla Touring Sports is a compact station wagon that offers practicality, advanced technology, and efficient hybrid options.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact Station Wagon</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
+    <carverse:carversename>Toyota Corolla Touring Sports</carverse:carversename>
+    <carverse:carverseproduction>2018 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://img.cintamobil.com/2018/09/11/Ay6TmsFs/t1-7609.jpg</carverse:carversethumbnail>
+    <rdfs:label>Toyota Corolla Touring Sports</rdfs:label>
+</carverse:car>
+
+<!-- Lexus IS -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#LexusIS">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Lexus IS is a compact luxury sedan offering a perfect balance of performance, refinement, and cutting-edge technology.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact Luxury Sedan</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, rear-wheel drive / all-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Lexus</carverse:carversemanufacturer>
+    <carverse:carversename>Lexus IS</carverse:carversename>
+    <carverse:carverseproduction>1999 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://dealerimages.dealereprocess.com/image/upload/w_1338/3474431.jpg</carverse:carversethumbnail>
+    <rdfs:label>Lexus IS</rdfs:label>
+</carverse:car>
+
+<!-- Lexus UX -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#LexusUX">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Lexus UX is a compact luxury car offering premium comfort, advanced technology, and hybrid efficiency in an urban-friendly package.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact Luxury Car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front-wheel drive / all-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Lexus</carverse:carversemanufacturer>
+    <carverse:carversename>Lexus UX</carverse:carversename>
+    <carverse:carverseproduction>2018 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/2025-lexus-ux-300h-f-sport-handling-681-66bb75996e981.jpg</carverse:carversethumbnail>
+    <rdfs:label>Lexus UX</rdfs:label>
+</carverse:car>
+
+<!-- SEAT Mii -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mii">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The SEAT Mii is a compact and efficient city car, designed for urban driving with excellent fuel economy and maneuverability.</carverse:carverseabstract>
+    <carverse:carverseclass>City car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>SEAT</carverse:carversemanufacturer>
+    <carverse:carversename>SEAT Mii</carverse:carversename>
+    <carverse:carverseproduction>2011 – 2021</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.automoli.com/common/vehicles/_assets/img/gallery/f68/seat-mii.jpg</carverse:carversethumbnail>
+    <rdfs:label>SEAT Mii</rdfs:label>
+</carverse:car>
+
+<!-- SEAT Ateca -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ateca">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The SEAT Ateca is a compact SUV coupe offering sporty performance, advanced technology, and a dynamic design for versatile driving.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact SUV coupe</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front-wheel drive / all-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>SEAT</carverse:carversemanufacturer>
+    <carverse:carversename>SEAT Ateca</carverse:carversename>
+    <carverse:carverseproduction>2016 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.seat.ie/content/dam/public/seat-website/carworlds/new-ateca/new-overview/overview/version-view/new-seat-ateca-style-trim-white-colour.png</carverse:carversethumbnail>
+    <rdfs:label>SEAT Ateca</rdfs:label>
+</carverse:car>
+
+<!-- SEAT Ibiza -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Ibiza">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The SEAT Ibiza is a stylish and sporty compact hatchback, offering a combination of efficiency, technology, and driving pleasure.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact Hatchback</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>SEAT</carverse:carversemanufacturer>
+    <carverse:carversename>SEAT Ibiza</carverse:carversename>
+    <carverse:carverseproduction>1984 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://cdn.motor1.com/images/mgl/Y8vey/s1/2021-seat-ibiza-facelift.jpg</carverse:carversethumbnail>
+    <rdfs:label>SEAT Ibiza</rdfs:label>
+</carverse:car>
+
+<!-- Opel Karl -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Karl">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Opel Karl is a compact and affordable city car designed for practicality and efficiency in urban environments. It offers a spacious interior and agile handling.</carverse:carverseabstract>
+    <carverse:carverseclass>City Car</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Opel</carverse:carversemanufacturer>
+    <carverse:carversename>Opel Karl</carverse:carversename>
+    <carverse:carverseproduction>2015 – 2019</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://imgcdnblog.carbay.com/wp-content/uploads/2015/06/01063156/opel-karl-2015_06.jpg</carverse:carversethumbnail>
+    <rdfs:label>Opel Karl</rdfs:label>
+</carverse:car>
+
+<!-- Opel Astra Sports Tourer -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Astra_Sports_Tourer">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Opel Astra Sports Tourer is a compact station wagon offering a blend of practicality, style, and cutting-edge technology. It's ideal for families and long journeys.</carverse:carverseabstract>
+    <carverse:carverseclass>Compact Station Wagon</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Opel</carverse:carversemanufacturer>
+    <carverse:carversename>Opel Astra Sports Tourer</carverse:carversename>
+    <carverse:carverseproduction>2016 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://stellantis3.dam-broadcast.com/medias/domain12808/media103988/1196431-q2f6a9wyqw-whr.jpg</carverse:carversethumbnail>
+    <rdfs:label>Opel Astra Sports Tourer</rdfs:label>
+</carverse:car>
+
+<!-- Opel Grandland -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Grandland">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Opel Grandland is a mid-size SUV that combines a stylish exterior, spacious interiors, and cutting-edge hybrid technology for a premium driving experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Mid-Size SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, front-wheel drive / all-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Opel</carverse:carversemanufacturer>
+    <carverse:carversename>Opel Grandland</carverse:carversename>
+    <carverse:carverseproduction>2017 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://www.electrive.com/media/2024/04/opel-grandland-electric-2024-17-min-1400x933.jpg</carverse:carversethumbnail>
+    <rdfs:label>Opel Grandland</rdfs:label>
+</carverse:car>
+
+<!-- Lincoln Nautilus -->
+<carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Nautilus">
+    <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
+    <carverse:carverseabstract>The Lincoln Nautilus is a luxury SUV offering advanced features, comfort, and an elegant design. Known for its smooth ride, spacious interiors, and premium technology, it combines style with functionality, providing an elevated driving experience.</carverse:carverseabstract>
+    <carverse:carverseclass>Luxury SUV</carverse:carverseclass>
+    <carverse:carverselayout>Front engine, all-wheel drive layout</carverse:carverselayout>
+    <carverse:carversemanufacturer>Lincoln</carverse:carversemanufacturer>
+    <carverse:carversename>Lincoln Nautilus</carverse:carversename>
+    <carverse:carverseproduction>2018 – present</carverse:carverseproduction>
+    <carverse:carversethumbnail>https://media.ed.edmunds-media.com/lincoln/nautilus/2025/oem/2025_lincoln_nautilus_4dr-suv_black-label_fq_oem_1_1280.jpg</carverse:carversethumbnail>
+    <rdfs:label>Lincoln Nautilus</rdfs:label>
 </carverse:car>
 
 </rdf:RDF>
