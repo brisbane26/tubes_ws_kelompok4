@@ -313,10 +313,7 @@ January 2005 - December 2011</carverse:carverseproduction>
         <carverse:carverseclass>Compact executive car</carverse:carverseclass>
         <carverse:carverselayout>Front engine, four wheel drive
 Front engine, rear wheel drive</carverse:carverselayout>
-        <carverse:carversemanufacturer>DaimlerChrysler
-Daimler AG
-Mercedes Benz Group AG
-Daimler Benz</carverse:carversemanufacturer>
+        <carverse:carversemanufacturer>Mercedes Benz</carverse:carversemanufacturer>
         <carverse:carversename>Mercedes Benz C Class</carverse:carversename>
         <carverse:carverseproduction>1993
 2007
@@ -515,7 +512,7 @@ October 1998 – May 2012</carverse:carverseproduction>
     <carverse:carverseabstract>The Toyota Sienta (Japanese: トヨタ・シエンタ, Hepburn: Toyota Shienta) is a mini MPV with sliding doors manufactured by Toyota. It was introduced in September 2003, based on the Vitz/Yaris subcompact car, and is available at all Toyota dealerships in Japan. The Sienta is sold in Japan, Hong Kong, Singapore, Indonesia, Taiwan, Laos, and Thailand. As of 2022, it is positioned below the Voxy/Noah and above the Roomy in Toyota's MPV lineup in Japan. In Indonesia and Thailand, it serves as an upmarket alternative to the Avanza and fills the gap between Avanza and the larger Innova. The "Sienta" name is derived from the Spanish word "siete," which means "seven" (referring to its maximum passenger capacity), and the English word "entertain."</carverse:carverseabstract>
     <carverse:carverseclass>Mini MPV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Toyota Motor Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
     <carverse:carversename>Toyota Sienta</carverse:carversename>
     <carverse:carverseproduction>2003 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://astradigitaldigiroomuat.blob.core.windows.net/storage-uat-001/mobil_toyota_sienta_(1).png</carverse:carversethumbnail>
@@ -547,7 +544,7 @@ May 1993 – August 2002</carverse:carverseproduction>
     <carverse:carverseabstract>The XP150 series Toyota Yaris is a subcompact car produced and sold by Toyota under the Yaris nameplate since 2013. Marketed exclusively for emerging markets, it is the hatchback counterpart of the XP150 series Vios subcompact sedan, which in some markets also shared the same Yaris nameplate. It is larger and longer than the unrelated XP130 series Yaris hatchback (Vitz in Japan), which was marketed in Japan, North America, Europe, and Australasia, as well as the succeeding TNGA-based XP210 series Yaris. It made its public debut at the 15th Auto Shanghai in April 2013, and was rolled out to several Asian markets, including China, Taiwan, Southeast Asia, and the Middle East. The vehicle was also marketed as the Yaris Sport in Chile since 2014 and in Mexico and Argentina from 2016. In some markets, such as Chile, Mexico, and South Africa, it replaced the XP130 series Yaris hatchback. In 2021, it was replaced by the Suzuki-sourced Starlet in South Africa.</carverse:carverseabstract>
     <carverse:carverseclass>Subcompact car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Toyota Motor Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
     <carverse:carversename>Toyota Yaris</carverse:carversename>
     <carverse:carverseproduction>2013 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/2020_Toyota_Yaris_Design_HEV_CVT_1.5_Front.jpg/800px-2020_Toyota_Yaris_Design_HEV_CVT_1.5_Front.jpg</carverse:carversethumbnail>
@@ -561,7 +558,7 @@ May 1993 – August 2002</carverse:carverseproduction>
         <carverse:carverseclass>Compact executive car</carverse:carverseclass>
         <carverse:carverselayout>Front engine, front wheel drive
 Front engine, all wheel drive</carverse:carverselayout>
-        <carverse:carversemanufacturer>Audi AG</carverse:carversemanufacturer>
+        <carverse:carversemanufacturer>Audi</carverse:carversemanufacturer>
         <carverse:carversename>Audi A4</carverse:carversename>
         <carverse:carverseproduction>1994
 2000
@@ -579,7 +576,7 @@ Front engine, all wheel drive</carverse:carverselayout>
         <carverse:carverseclass>Mid-size sedan</carverse:carverseclass>
         <carverse:carverselayout>Front engine, front wheel drive
 Front engine, all wheel drive</carverse:carverselayout>
-        <carverse:carversemanufacturer>Toyota Motor Corporation</carverse:carversemanufacturer>
+        <carverse:carversemanufacturer>Toyota</carverse:carversemanufacturer>
         <carverse:carversename>Toyota Camry</carverse:carversename>
         <carverse:carverseproduction>1982
 1991
@@ -596,7 +593,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Honda Accord is a mid-size sedan that has been a flagship model for Honda since its introduction in 1976. Known for its blend of comfort, performance, and reliability, the Accord has consistently been a strong contender in the mid-size sedan market. It is available with a variety of powertrains, including hybrid and turbocharged options, delivering both efficiency and driving pleasure. With its spacious interior, advanced safety features, and sleek design, the Accord appeals to families and professionals alike. The latest generation focuses on advanced technology and connectivity, making it one of the most innovative sedans in its class.</carverse:carverseabstract>
     <carverse:carverseclass>Mid-size sedan</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
-    <carverse:carversemanufacturer>Honda Motor Company</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Honda</carverse:carversemanufacturer>
     <carverse:carversename>Honda Accord</carverse:carversename>
     <carverse:carverseproduction>1976
 1989
@@ -614,7 +611,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseclass>Mid-size sedan</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive
 Front engine, all wheel drive</carverse:carverselayout>
-    <carverse:carversemanufacturer>Nissan Motor Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
     <carverse:carversename>Nissan Altima</carverse:carversename>
     <carverse:carverseproduction>1992
 2001
@@ -630,7 +627,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Hyundai Sonata is a mid-size sedan that has been part of Hyundai's lineup since 1985. Renowned for its stylish design, innovative features, and strong value proposition, the Sonata competes strongly in the mid-size sedan market. It is available with various powertrain options, including hybrid and plug-in hybrid models, catering to diverse customer needs. The Sonata's spacious and comfortable cabin, along with cutting-edge safety and infotainment technologies, makes it a favorite among families. Its recent redesign emphasizes sportiness and sophistication, solidifying its appeal to a wide audience.</carverse:carverseabstract>
     <carverse:carverseclass>Mid-size sedan</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
-    <carverse:carversemanufacturer>Hyundai Motor Company</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Hyundai</carverse:carversemanufacturer>
     <carverse:carversename>Hyundai Sonata</carverse:carversename>
     <carverse:carverseproduction>1985
 2004
@@ -646,7 +643,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Nissan X-Trail is a compact SUV that has been in production since 2000. It is one of Nissan's most popular global models, known for its versatility, durability, and comfort. The X-Trail offers a rugged design combined with a spacious and well-appointed interior, making it a suitable choice for both urban commuting and outdoor adventures. In many markets, it is offered with advanced features such as ProPILOT driver assistance technology, a suite of safety features, and modern infotainment systems. The X-Trail is available with two-wheel and all-wheel drive configurations, catering to different customer needs. Its robust engineering and reliability have made it a favorite among families, particularly those seeking a vehicle that balances practicality with a hint of adventure. With continuous updates, the X-Trail has remained competitive in the compact SUV segment, appealing to a wide demographic across the globe.</carverse:carverseabstract>
     <carverse:carverseclass>Compact SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Nissan Motor Co., Ltd.</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
     <carverse:carversename>Nissan X-Trail</carverse:carversename>
     <carverse:carverseproduction>2000 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://cdn0-production-images-kly.akamaized.net/RfmKmP0UgJ8bUT4sUKbOI7fDPfs=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4407286/original/093927500_1682532408-liputan6-nissan-x-trail-e-power__1_.jpg</carverse:carversethumbnail>
@@ -659,7 +656,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Suzuki Swift is a subcompact hatchback introduced in 2004, offering a unique blend of sporty design, efficiency, and affordability. Designed for global markets, the Swift quickly became a bestseller due to its reliability and performance. In addition to its compact size, which makes it ideal for city driving, the Swift features a spacious and modern interior with advanced connectivity and entertainment options. It is available in various powertrain options, including petrol, hybrid, and the high-performance Swift Sport variant. With its lightweight chassis and responsive handling, the Swift delivers an engaging driving experience. Suzuki has consistently updated the model with cutting-edge safety technologies and design improvements, ensuring its continued popularity in competitive markets. The Swift remains a symbol of Suzuki's commitment to innovation and customer satisfaction, appealing to a diverse range of drivers around the world.</carverse:carverseabstract>
     <carverse:carverseclass>Subcompact car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Suzuki Motor Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Suzuki</carverse:carversemanufacturer>
     <carverse:carversename>Suzuki Swift</carverse:carversename>
     <carverse:carverseproduction>2004 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://image.jpnn.com/resize/1200x800-80/arsip/normal/2024/05/13/suzuki-swift-2024-mengaspal-di-india-foto-suzuki-zeyus-owpf.jpg</carverse:carversethumbnail>
@@ -672,7 +669,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Mazda CX-5 is a compact crossover SUV introduced by Mazda in 2012. It is one of the first vehicles to feature Mazda's SKYACTIV technology, which combines lightweight construction, efficient engines, and advanced safety features. The CX-5 is celebrated for its stylish KODO design philosophy, which gives it a dynamic and elegant appearance. Inside, the CX-5 offers a refined and comfortable cabin equipped with state-of-the-art infotainment systems and premium materials. Available in both front-wheel and all-wheel drive options, the CX-5 delivers an exceptional driving experience with precise handling and a smooth ride. Its efficient powertrain options, including petrol and diesel engines, cater to various market demands. The CX-5 has gained significant popularity worldwide as a reliable and versatile SUV, striking a balance between practicality and luxury for families and individuals alike.</carverse:carverseabstract>
     <carverse:carverseclass>Compact SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Mazda Motor Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Mazda</carverse:carversemanufacturer>
     <carverse:carversename>Mazda CX-5</carverse:carversename>
     <carverse:carverseproduction>2012 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://cdn1-production-images-kly.akamaized.net/zWY73PNhhXStB3XQ4NLFWZkc3cI=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/4670403/original/079486900_1701410761-Mazda_CX-5.jpg</carverse:carversethumbnail>
@@ -685,7 +682,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Ford Mustang is an iconic American muscle car that has been in production since 1964. It represents freedom, performance, and the spirit of American innovation. The Mustang offers a blend of retro styling cues and modern technology, appealing to both nostalgia and contemporary tastes. Over the decades, the Mustang has been offered in various configurations, including coupe, convertible, and high-performance models like the Shelby GT500. The latest iterations are equipped with powerful engine options, ranging from turbocharged four-cylinders to roaring V8s, delivering exhilarating performance. Advanced features like adaptive suspension, digital instrumentation, and state-of-the-art infotainment systems ensure a modern driving experience. The Mustang remains a cultural symbol of power and individuality, celebrated by enthusiasts around the globe.</carverse:carverseabstract>
     <carverse:carverseclass>Sports car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, rear wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Ford Motor Company</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
     <carverse:carversename>Ford Mustang</carverse:carversename>
     <carverse:carverseproduction>1964 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://thumb.katadata.co.id/frontend/thumbnail/2024/11/08/zigi-672d43d127af7-ford-mustang_910_512.jpg</carverse:carversethumbnail>
@@ -698,7 +695,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Tesla Model 3 is a groundbreaking electric vehicle (EV) that has revolutionized the automotive industry since its launch in 2017. As Tesla's most affordable model, it aims to bring sustainable transportation to the masses. The Model 3 combines impressive performance with cutting-edge technology, offering features like Autopilot, over-the-air software updates, and a minimalist interior with a touchscreen interface. It is available in Standard Range, Long Range, and Performance variants, with ranges exceeding 300 miles per charge in some configurations. The Model 3 has become one of the best-selling EVs globally and is a key player in accelerating the transition to renewable energy. Its blend of efficiency, style, and innovation makes it a favorite among tech-savvy and environmentally conscious drivers.</carverse:carverseabstract>
     <carverse:carverseclass>Electric car</carverse:carverseclass>
     <carverse:carverselayout>Rear engine, all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Tesla, Inc.</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Tesla</carverse:carversemanufacturer>
     <carverse:carversename>Tesla Model 3</carverse:carversename>
     <carverse:carverseproduction>2017 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://awsimages.detik.net.id/community/media/visual/2024/05/07/tesla-model-3-highland_169.jpeg?w=1200</carverse:carversethumbnail>
@@ -711,7 +708,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Jeep Wrangler is a rugged off-road vehicle that traces its lineage back to the original World War II-era Willys MB Jeep. First introduced in 1986, the Wrangler has become synonymous with adventure and exploration. It is celebrated for its iconic design, featuring round headlights, a seven-slot grille, and removable doors and roof for open-air driving. The Wrangler is equipped with advanced four-wheel-drive systems, allowing it to conquer challenging terrains with ease. It is available in two-door and four-door (Unlimited) configurations, with various trim levels tailored for different lifestyles and preferences. The Wrangler is also offered in plug-in hybrid (4xe) and high-performance Rubicon 392 variants, showcasing Jeep's commitment to innovation and versatility. Its blend of heritage and modern capability makes the Wrangler a favorite among outdoor enthusiasts and off-road adventurers worldwide.</carverse:carverseabstract>
     <carverse:carverseclass>Off-road SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, four wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Jeep (Stellantis)</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Jeep</carverse:carversemanufacturer>
     <carverse:carversename>Jeep Wrangler</carverse:carversename>
     <carverse:carverseproduction>1986 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://www.motortrend.com/files/6672136e4537450008be97e5/2025-jeep-wrangler-rubicon-392-final-edition-1.jpg</carverse:carversethumbnail>
@@ -724,7 +721,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Ford Fiesta is a subcompact car that has been in production since 1976. Known for its fun-to-drive nature and efficient use of space, the Fiesta has become a favorite among young drivers and city dwellers. Available in hatchback and sedan variants, it offers nimble handling, a range of engine options, and a sporty ST performance model. Recent generations feature advanced technology, including SYNC infotainment and driver-assistance features, making it a competitive choice in the small car segment.</carverse:carverseabstract>
     <carverse:carverseclass>Subcompact car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Ford Motor Company</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
     <carverse:carversename>Ford Fiesta</carverse:carversename>
     <carverse:carverseproduction>1976 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://cdn.antaranews.com/cache/1200x800/2013/06/20130611New-Fiesta.jpg</carverse:carversethumbnail>
@@ -737,7 +734,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Volkswagen Golf is a compact car that has been in production since 1974. Known for its high-quality build, smooth handling, and spacious interior, the Golf has remained one of the most popular and versatile cars in the world. Available in hatchback, wagon, and GTI performance models, the Golf offers a range of engines, including fuel-efficient and performance-oriented options. The latest generation features a refined interior, advanced technology, and enhanced safety features, making it a popular choice for both urban and long-distance driving.</carverse:carverseabstract>
     <carverse:carverseclass>Compact car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Volkswagen AG</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Volkswagen</carverse:carversemanufacturer>
     <carverse:carversename>Volkswagen Golf</carverse:carversename>
     <carverse:carverseproduction>1974 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://cdn.antaranews.com/cache/1200x800/2020/10/22/vw-golf-cng.jpg</carverse:carversethumbnail>
@@ -750,7 +747,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Mercedes-Benz E-Class is a luxury mid-size car that has been in production since 1953. Known for its blend of performance, luxury, and technology, the E-Class is one of Mercedes-Benz's most iconic models. Available in sedan, coupe, convertible, and wagon configurations, the E-Class offers powerful engine options, advanced safety features, and a luxurious interior with cutting-edge technology. The latest generation includes hybrid and plug-in hybrid variants, as well as a range of performance models like the AMG E-Class.</carverse:carverseabstract>
     <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Daimler AG</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Mercedes Benz</carverse:carversemanufacturer>
     <carverse:carversename>Mercedes-Benz E-Class</carverse:carversename>
     <carverse:carverseproduction>1953 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/25/3035/mercedes-benz-e-class-front-angle-low-view-498713.jpg</carverse:carversethumbnail>
@@ -763,7 +760,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The BMW 3 Series is a compact luxury car that has been in production since 1975. Renowned for its performance, handling, and premium features, the 3 Series is considered one of the best-driving cars in its class. Available in sedan, coupe, convertible, and touring body styles, the 3 Series offers a range of engines from fuel-efficient four-cylinders to high-performance six-cylinders and hybrid variants. The latest generation features advanced driver-assistance systems, premium interior materials, and a refined driving experience.</carverse:carverseabstract>
     <carverse:carverseclass>Compact luxury car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>BMW AG</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>BMW</carverse:carversemanufacturer>
     <carverse:carversename>BMW 3 Series</carverse:carversename>
     <carverse:carverseproduction>1975 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/2025-bmw-3-series-109-66562dcbe3d2b.jpg?crop=0.792xw:0.668xh;0.0689xw,0.192xh&amp;resize=2048:*</carverse:carversethumbnail>
@@ -776,7 +773,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Subaru Impreza is a compact car introduced in 1992, known for its all-wheel-drive system and rugged, off-road capable nature. Available in sedan and hatchback versions, the Impreza is popular for its safety features, handling, and performance. The WRX performance variant is particularly famous for its motorsport success. The latest generation includes advanced driver-assistance systems and a more refined, modern design while maintaining the vehicle's off-road capabilities.</carverse:carverseabstract>
     <carverse:carverseclass>Compact car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, all-wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Subaru Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Subaru</carverse:carversemanufacturer>
     <carverse:carversename>Subaru Impreza</carverse:carversename>
     <carverse:carverseproduction>1992 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://upload.wikimedia.org/wikipedia/commons/8/86/04-05_Subaru_WRX_STi_2.jpg</carverse:carversethumbnail>
@@ -789,7 +786,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Kia Optima is a mid-size sedan manufactured by Kia Motors. First introduced in 2000, the Optima has become known for its stylish design, high-tech features, and great value for money. Available with hybrid and traditional gasoline powertrains, it offers a spacious interior, advanced infotainment systems, and an emphasis on comfort. The latest generation includes an updated design with a more premium feel, making it a competitive option in the mid-size sedan segment.</carverse:carverseabstract>
     <carverse:carverseclass>Mid-size car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Kia Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Kia</carverse:carversemanufacturer>
     <carverse:carversename>Kia Optima</carverse:carversename>
     <carverse:carverseproduction>2000 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://cdn.antaranews.com/cache/1200x800/2020/05/02/PSX_20200502_135237.jpg</carverse:carversethumbnail>
@@ -802,7 +799,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Chevrolet Malibu is a mid-size sedan that has been in production since 1964. Known for its comfortable ride and modern features, the Malibu has evolved over the years to meet the demands of consumers looking for an affordable yet stylish sedan. The latest generation offers advanced safety technology, including automatic emergency braking and lane-keeping assist, along with a range of powertrains that balance performance and fuel efficiency.</carverse:carverseabstract>
     <carverse:carverseclass>Mid-size car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>General Motors (Chevrolet)</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Chevrolet</carverse:carversemanufacturer>
     <carverse:carversename>Chevrolet Malibu</carverse:carversename>
     <carverse:carverseproduction>1964 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/2019-chevrolet-malibu-rs-117-1568289288.jpg</carverse:carversethumbnail>
@@ -815,7 +812,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Lexus RX is a luxury mid-size crossover SUV produced by Toyota's luxury division, Lexus, since 1998. Known for its smooth ride, luxury features, and hybrid powertrain option, the RX has been a popular choice in the luxury SUV segment. It is available with front-wheel drive or all-wheel drive, and the latest generation offers advanced safety features like Lexus Safety System+ and a premium interior with state-of-the-art technology.</carverse:carverseabstract>
     <carverse:carverseclass>Luxury mid-size crossover SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive / all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Lexus (Toyota)</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Lexus</carverse:carversemanufacturer>
     <carverse:carversename>Lexus RX</carverse:carversename>
     <carverse:carverseproduction>1998 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://asset.kompas.com/crops/LeFhbXNdqDdRXTakCdYjhuHTos4=/181x98:1355x880/1200x800/data/photo/2024/08/22/66c6ff4b8c696.jpeg</carverse:carversethumbnail>
@@ -841,7 +838,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Nissan GT-R is a high-performance sports car manufactured by Nissan since 2007. Known for its incredible speed and advanced technology, the GT-R has become a benchmark in the supercar world. Equipped with a turbocharged 6-cylinder engine and an advanced all-wheel drive system, it delivers an exceptional driving experience. The GT-R has earned a reputation for its motorsport pedigree and cutting-edge engineering.</carverse:carverseabstract>
     <carverse:carverseclass>Sports car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Nissan Motor Co., Ltd.</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
     <carverse:carversename>Nissan GT-R</carverse:carversename>
     <carverse:carverseproduction>2007 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://asset.kompas.com/crops/aNBEEhOwrwpPPxFfO4IfP4FN0Ys=/44x0:1506x975/1200x800/data/photo/2021/09/15/6141b6ad3e71e.jpg</carverse:carversethumbnail>
@@ -854,7 +851,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Tesla Model S is an all-electric luxury sedan manufactured by Tesla, Inc. since 2012. Known for its impressive range, fast acceleration, and innovative features, the Model S has been a leader in electric vehicle technology. With an all-electric powertrain and autonomous driving features, the Model S offers cutting-edge performance while being environmentally friendly. The latest models feature an enhanced Autopilot system and interior upgrades.</carverse:carverseabstract>
     <carverse:carverseclass>Electric car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Tesla, Inc.</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Tesla</carverse:carversemanufacturer>
     <carverse:carversename>Tesla Model S</carverse:carversename>
     <carverse:carverseproduction>2012 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://media.ed.edmunds-media.com/tesla/model-s/2024/oem/2024_tesla_model-s_sedan_plaid_fq_oem_1_1280.jpg</carverse:carversethumbnail>
@@ -867,7 +864,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Audi Q5 is a compact luxury crossover SUV introduced in 2008. It is known for its blend of style, comfort, and performance. The Q5 features a spacious and luxurious interior, with a wide range of tech features and safety systems. With its all-wheel-drive system, the Q5 offers a smooth and engaging driving experience, while also providing ample cargo space and practicality for families. The Q5 comes in various trims, including plug-in hybrid options, delivering a mix of performance and efficiency.</carverse:carverseabstract>
     <carverse:carverseclass>Compact luxury SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Audi AG</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Audi</carverse:carversemanufacturer>
     <carverse:carversename>Audi Q5</carverse:carversename>
     <carverse:carverseproduction>2008 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://media.ed.edmunds-media.com/audi/q5/2022/oem/2022_audi_q5_4dr-suv_prestige-s-line_fq_oem_1_1600.jpg</carverse:carversethumbnail>
@@ -880,7 +877,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Kia EV6 is an all-electric compact crossover SUV that was first introduced in 2021. Built on the Hyundai Motor Group's E-GMP platform, the EV6 offers impressive performance and a range of up to 300 miles on a single charge. It boasts a futuristic design, with a spacious and tech-rich interior. The EV6 is available in rear-wheel and all-wheel-drive configurations, with various trims, making it a versatile choice for electric vehicle enthusiasts.</carverse:carverseabstract>
     <carverse:carverseclass>Electric car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Kia Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Kia</carverse:carversemanufacturer>
     <carverse:carversename>Kia EV6</carverse:carversename>
     <carverse:carverseproduction>2021 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://images8.alphacoders.com/122/thumb-1920-1227231.jpg</carverse:carversethumbnail>
@@ -893,7 +890,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Hyundai Tucson is a compact crossover SUV that has been in production since 2004. Known for its value, advanced features, and practicality, the Tucson is a strong contender in the competitive SUV market. The latest Tucson offers a stylish design, a comfortable cabin, and a range of powertrains, including hybrid and plug-in hybrid options. The Tucson is equipped with modern tech features and a suite of safety systems, making it a popular choice for families.</carverse:carverseabstract>
     <carverse:carverseclass>Compact SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive / all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Hyundai Motor Company</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Hyundai</carverse:carversemanufacturer>
     <carverse:carversename>Hyundai Tucson</carverse:carversename>
     <carverse:carverseproduction>2004 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://wallpapercat.com/w/full/6/9/8/1690544-1920x1080-desktop-full-hd-hyundai-tucson-background-image.jpg</carverse:carversethumbnail>
@@ -906,7 +903,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Nissan Rogue is a compact crossover SUV that has been produced since 2007. It is known for its comfortable ride, ample cargo space, and standard advanced safety features. The Rogue has been a popular choice among families due to its combination of practicality and efficiency. The latest models come with a range of engine options, including a fuel-efficient hybrid, and feature an upscale interior with modern tech features.</carverse:carverseabstract>
     <carverse:carverseclass>Compact SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive / all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Nissan Motor Co., Ltd.</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Nissan</carverse:carversemanufacturer>
     <carverse:carversename>Nissan Rogue</carverse:carversename>
     <carverse:carverseproduction>2007 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://wieck-nissanao-production.s3.amazonaws.com/photos/8da39fea11d87e1a2793f3747928f39ea216e49c/preview-928x522.jpg</carverse:carversethumbnail>
@@ -919,7 +916,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Chevrolet Silverado is a full-size pickup truck produced by General Motors. First introduced in 1998, the Silverado has become one of the most popular trucks in North America. It is known for its towing capacity, rugged performance, and spacious interior. The Silverado is available in various configurations, including regular, extended, and crew cab styles, with a range of engine options including powerful V8s and a diesel engine.</carverse:carverseabstract>
     <carverse:carverseclass>Full-size pickup truck</carverse:carverseclass>
     <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>General Motors</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Chevrolet</carverse:carversemanufacturer>
     <carverse:carversename>Chevrolet Silverado</carverse:carversename>
     <carverse:carverseproduction>1998 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://media.ed.edmunds-media.com/chevrolet/silverado-1500/2025/oem/2025_chevrolet_silverado-1500_crew-cab-pickup_high-country_fq_oem_1_1280.jpg</carverse:carversethumbnail>
@@ -932,7 +929,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Kia Soul is a compact crossover SUV that blends unique styling with practicality. Introduced in 2008, the Soul is known for its boxy design, spacious interior, and affordability. The latest models offer modern tech features, a choice of engines including a turbocharged variant, and ample cargo space. The Soul is an excellent option for those looking for a quirky yet functional vehicle with a strong value proposition.</carverse:carverseabstract>
     <carverse:carverseclass>Compact crossover SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Kia Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Kia</carverse:carversemanufacturer>
     <carverse:carversename>Kia Soul</carverse:carversename>
     <carverse:carverseproduction>2008 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://images6.alphacoders.com/449/thumb-1920-449857.jpg</carverse:carversethumbnail>
@@ -945,7 +942,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Subaru Outback is a mid-size crossover SUV with an off-road focus. Introduced in 1994, the Outback combines the ruggedness of an SUV with the handling and comfort of a station wagon. It comes equipped with all-wheel drive as standard and offers excellent ground clearance, making it a favorite for outdoor enthusiasts and those who enjoy driving in various weather conditions. The Outback also includes a suite of safety features and modern infotainment options.</carverse:carverseabstract>
     <carverse:carverseclass>Mid-size crossover SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Subaru Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Subaru</carverse:carversemanufacturer>
     <carverse:carversename>Subaru Outback</carverse:carversename>
     <carverse:carverseproduction>1994 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://cdn.motor1.com/images/mgl/E61KOv/s3/2023-subaru-outback-refresh-front-angle.jpg</carverse:carversethumbnail>
@@ -958,7 +955,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Ford F-150 is a full-size pickup truck that has been in production since 1948. Known for its strong towing capabilities and rugged durability, the F-150 continues to be a leader in the pickup truck market.</carverse:carverseabstract>
     <carverse:carverseclass>Pickup truck</carverse:carverseclass>
     <carverse:carverselayout>Front engine, rear wheel drive / four wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Ford Motor Company</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Ford</carverse:carversemanufacturer>
     <carverse:carversename>Ford F-150</carverse:carversename>
     <carverse:carverseproduction>1948 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://hips.hearstapps.com/hmg-prod/images/2024-ford-f-150-lariat-exterior-101-64ff7459abf73.jpg</carverse:carversethumbnail>
@@ -971,7 +968,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Kia Sportage is a compact crossover SUV produced since 1993. Known for its modern design and feature-packed interior, it is well-suited for urban and off-road driving.</carverse:carverseabstract>
     <carverse:carverseclass>Crossover SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive / all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Kia Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Kia</carverse:carversemanufacturer>
     <carverse:carversename>Kia Sportage</carverse:carversename>
     <carverse:carverseproduction>1993 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/20/1241/kia-sportage-front-angle-low-view-596645.jpg</carverse:carversethumbnail>
@@ -984,7 +981,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Chevrolet Corvette is an American sports car known for its high-performance engines and striking design. The Corvette C8 features a mid-engine layout and is available in both coupe and convertible variants.</carverse:carverseabstract>
     <carverse:carverseclass>Sports car</carverse:carverseclass>
     <carverse:carverselayout>Mid engine, rear wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>General Motors</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Chevrolet</carverse:carversemanufacturer>
     <carverse:carversename>Chevrolet Corvette</carverse:carversename>
     <carverse:carverseproduction>1953 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2025/performance/corvette-z06/mov/01-images/2025-z06-masthead-01.png</carverse:carversethumbnail>
@@ -997,7 +994,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Hyundai Elantra is a compact car known for its sleek design and fuel efficiency. The latest model features an upscale interior and advanced safety features.</carverse:carverseabstract>
     <carverse:carverseclass>Compact car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Hyundai Motor Company</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Hyundai</carverse:carversemanufacturer>
     <carverse:carversename>Hyundai Elantra</carverse:carversename>
     <carverse:carverseproduction>1990 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://imgd.aeplcdn.com/1920x1080/n/cw/ec/41138/elantra-exterior-right-front-three-quarter.jpeg</carverse:carversethumbnail>
@@ -1010,7 +1007,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Kia Sorento is a mid-size SUV known for its spacious interior and good value. The latest generation offers both hybrid and traditional powertrains and modern technology features.</carverse:carverseabstract>
     <carverse:carverseclass>Mid-size crossover SUV</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive / all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Kia Corporation</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Kia</carverse:carversemanufacturer>
     <carverse:carversename>Kia Sorento</carverse:carversename>
     <carverse:carverseproduction>2002 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://res.cloudinary.com/mufautoshow/image/upload/f_auto,f_auto/w_1200/v1706157349/moas/news/1706157351_kia-sorento-16t-hev-premiere-suv-premium-paket-lengkap.png</carverse:carversethumbnail>
@@ -1976,11 +1973,11 @@ Front engine, all wheel drive</carverse:carverselayout>
 
 <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Skoda_Fabia">
     <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
-    <carverse:carverseabstract>The Škoda Fabia is a subcompact car produced by the Czech automaker Škoda. It has been a popular choice for its practicality, reliability, and value since its introduction in 1999.</carverse:carverseabstract>
+    <carverse:carverseabstract>The Skoda Fabia is a subcompact car produced by the Czech automaker Skoda. It has been a popular choice for its practicality, reliability, and value since its introduction in 1999.</carverse:carverseabstract>
     <carverse:carverseclass>Subcompact car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, front wheel drive</carverse:carverselayout>
-    <carverse:carversemanufacturer>Škoda</carverse:carversemanufacturer>
-    <carverse:carversename>Škoda Fabia</carverse:carversename>
+    <carverse:carversemanufacturer>Skoda</carverse:carversemanufacturer>
+    <carverse:carversename>Skoda Fabia</carverse:carversename>
     <carverse:carverseproduction>1999 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://img.antaranews.com/cache/1200x800/2020/10/29/skoda-fabia-monte-carlo-1.jpg.webp</carverse:carversethumbnail>
     <rdfs:label>Fabia</rdfs:label>
