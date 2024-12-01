@@ -305,16 +305,16 @@ January 2005 - December 2011</carverse:carverseproduction>
         <rdfs:label>Lexus GS</rdfs:label>
     </carverse:car>
     
-    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Marcedes_Benz_C_Class -->
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mercedes_Benz_C_Class -->
 
-    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Marcedes_Benz_C_Class">
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mercedes_Benz_C_Class">
         <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
         <carverse:carverseabstract>The Mercedes-Benz C-Class is a series of compact executive cars produced by Mercedes-Benz Group AG. Introduced in 1993 as a replacement for the 190 (W201) range, the C-Class was the smallest model in the marque&apos;s line-up until the W168 A-Class arrived in 1997. The C-Class has been available with a &quot;4MATIC&quot; four-wheel drive option since 2002. The third generation (W204) was launched in 2007 while the current W206 generation was launched in 2021. Initially available in sedan and a station wagon configurations, a fastback coupé (SportCoupé) variant followed and was later renamed to Mercedes-Benz CLC-Class. It remained in production until 2011 when a new W204 C-Class coupé replaced it for the 2012 model year.</carverse:carverseabstract>
         <carverse:carverseclass>Compact executive car</carverse:carverseclass>
         <carverse:carverselayout>Front engine, four wheel drive
 Front engine, rear wheel drive</carverse:carverselayout>
-        <carverse:carversemanufacturer>Mercedes Benz</carverse:carversemanufacturer>
-        <carverse:carversename>Mercedes Benz C Class</carverse:carversename>
+        <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
+        <carverse:carversename>Mercedes-Benz C Class</carverse:carversename>
         <carverse:carverseproduction>1993
 2007
 2014
@@ -322,20 +322,20 @@ Front engine, rear wheel drive</carverse:carverselayout>
 July 2000 – 2007
 May 1993–2000</carverse:carverseproduction>
         <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/25/209/mercedes-benz-c-class-front-angle-low-view-717830.jpg</carverse:carversethumbnail>
-        <rdfs:label>Marcedes Benz C Class</rdfs:label>
+        <rdfs:label>Mercedes-Benz C Class</rdfs:label>
     </carverse:car>
     
-    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Marcedes_Benz_Vito -->
+    <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mercedes_Benz_Vito -->
 
-    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Marcedes_Benz_Vito">
+    <carverse:car rdf:about="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mercedes_Benz_Vito">
         <rdf:type rdf:resource="http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#carverse"/>
         <carverse:carverseabstract>The Mercedes-Benz Vito is a mid-sized light commercial vehicle (LCV) produced by Mercedes-Benz, available as a panel van, chassis cab, or multi-purpose vehicle (MPV), carrying cargo or up to eight passengers. In the Mercedes-Benz van lineup, it is positioned between the larger Sprinter and the smaller Citan. The Vito refers to the cargo van variant for commercial use; when passenger accommodations are substituted for part or all of the load area, it is known as the V-Class or Viano. The V-Class/Viano is a large MPV. The first generation went on sale in 1996. The second generation was introduced in 2004, and the vehicle received the new Viano name. In 2010, the vehicle was facelifted with revised front and rear bumpers and lights. The interior was also improved with upgraded materials and new technology. The third generation was launched in 2014 and returned to being called V-Class. The Vito/Viano is available in both rear- and four-wheel-drive configurations and comes in three lengths, two wheelbases and a choice of four petrol and diesel engines (as well as two specialist tuned models) coupled to either a six-speed manual or five-speed TouchShift automatic transmission.</carverse:carverseabstract>
         <carverse:carverseclass>Minivan</carverse:carverseclass>
         <carverse:carverselayout>Front engine, rear wheel drive layout
 Front engine, four wheel drive layout
 Front engine, front wheel drive layout</carverse:carverselayout>
-        <carverse:carversemanufacturer>Marcedes Benz</carverse:carversemanufacturer>
-        <carverse:carversename>Mercedes Benz V Class</carverse:carversename>
+        <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
+        <carverse:carversename>Mercedes-Benz V Class</carverse:carversename>
         <carverse:carverseproduction>1996
 2003
 2008
@@ -346,7 +346,7 @@ January 2016-2023
 March 2014–present
 March 2016-present</carverse:carverseproduction>
         <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/25/1340/mercedes-benz-v-class-front-angle-low-view-449066.jpg</carverse:carversethumbnail>
-        <rdfs:label>Marcedes Benz Vito</rdfs:label>
+        <rdfs:label>Mercedes-Benz Vito</rdfs:label>
     </carverse:car>
     
     <!-- http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#Mazda2 -->
@@ -415,7 +415,7 @@ February 2002 – June 2008</carverse:carverseproduction>
         <carverse:carverseclass>Compact car</carverse:carverseclass>
         <carverse:carverselayout>Front engine, four wheel drive layout
 Front engine, front wheel drive</carverse:carverselayout>
-        <carverse:carversemanufacturer>Mitsubishi Motors</carverse:carversemanufacturer>
+        <carverse:carversemanufacturer>Mitsubishi</carverse:carversemanufacturer>
         <carverse:carversename>Mitsubishi Mirage</carverse:carversename>
         <carverse:carverseproduction>1978
 1982
@@ -747,7 +747,7 @@ Front engine, all wheel drive</carverse:carverselayout>
     <carverse:carverseabstract>The Mercedes-Benz E-Class is a luxury mid-size car that has been in production since 1953. Known for its blend of performance, luxury, and technology, the E-Class is one of Mercedes-Benz's most iconic models. Available in sedan, coupe, convertible, and wagon configurations, the E-Class offers powerful engine options, advanced safety features, and a luxurious interior with cutting-edge technology. The latest generation includes hybrid and plug-in hybrid variants, as well as a range of performance models like the AMG E-Class.</carverse:carverseabstract>
     <carverse:carverseclass>Mid-size luxury car</carverse:carverseclass>
     <carverse:carverselayout>Front engine, rear wheel drive / all wheel drive layout</carverse:carverselayout>
-    <carverse:carversemanufacturer>Mercedes Benz</carverse:carversemanufacturer>
+    <carverse:carversemanufacturer>Mercedes-Benz</carverse:carversemanufacturer>
     <carverse:carversename>Mercedes-Benz E-Class</carverse:carversename>
     <carverse:carverseproduction>1953 – present</carverse:carverseproduction>
     <carverse:carversethumbnail>https://imgcdn.oto.com/large/gallery/exterior/25/3035/mercedes-benz-e-class-front-angle-low-view-498713.jpg</carverse:carversethumbnail>
