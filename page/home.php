@@ -55,20 +55,39 @@
         -webkit-text-stroke: 1px #FFFFFF; /* Stroke putih di sekitar teks */
 }
 
+.btn-center {
+    display: inline-block; /* Mengembalikan tombol ke posisi inline */
+    margin: 0 auto; /* Memastikan tombol berada di tengah */
+    text-align: center; /* Menyelaraskan teks */
+}
 
-    .btn-primary {
-        background-color: #8B008B; /* Mengubah warna tombol menjadi magenta */
-        color: white;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-top: 20px;
-        display: inline-block;
-    }
+/* Animasi dan efek untuk tombol "Details" */
+.btn-primary {
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    position: relative; /* Tetap relatif agar posisi tidak berubah */
+    display: grid;
+    place-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #001f3f, #000000, #3f0071, #b00020);
+    background-size: 400%;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease;
+}
 
-    .btn-primary:hover {
-        background-color: navy; /* Mengubah warna tombol saat hover menjadi pink terang */
-    }
+/* Efek hover untuk animasi */
+.btn-primary:hover {
+    background-position: right;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
 
     /* Testimonial Styling */
     .testimonial {
@@ -92,7 +111,7 @@
         padding: 50px;
         text-align: center;
         border-radius: 15px;
-        margin-top: 50px;
+        margin-top: 500px;
     }
 </style>
 <?php
@@ -108,6 +127,20 @@ $query = "
 ";
 
 $result = $sparqlJena->query($query);
+
+$queryManufacturer = "
+    PREFIX carverse: <http://www.semanticweb.org/brisb/ontologies/2024/10/carverse#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+    SELECT DISTINCT ?manufacturer WHERE {
+        ?car a carverse:car;
+             carverse:carversemanufacturer ?manufacturer .
+    }
+    ORDER BY ?manufacturer
+";
+
+$resultManufacturer = $sparqlJena->query($queryManufacturer);
+
 ?>
 <video id="video-background" autoplay muted loop>
         <source src="assets/vid/universe.mp4" type="video/mp4">
@@ -118,7 +151,7 @@ $result = $sparqlJena->query($query);
 <div class="content">
     <h1>Welcome to Carverse</h1>
     <p>Explore limitless options to find your perfect drive.</p>
-    <a href="#unlock-drive" class="btn-primary" onclick="document.getElementById('unlock-drive').scrollIntoView({ behavior: 'smooth' }); return false;">Testimoni</a>
+    <a href="#testimoni" class="btn-primary btn-center" onclick="document.getElementById('testimoni').scrollIntoView({ behavior: 'smooth' }); return false;">Testimoni</a>
 </div>
 <script>
         const video = document.getElementById('video-background');
@@ -132,7 +165,7 @@ $result = $sparqlJena->query($query);
 <div class="container-fluid py-0">
     <div class="container pt-5 pb-3">
         <div class="text-center mb-3 pb-3">
-            <h1 id="unlock-drive" style="color: red;">Unlock Your Ultimate Drive</h1>
+            <h1  style="color: red;">Unlock Your Ultimate Drive</h1>
         </div>
         <div class="row justify-content-center">
             <?php foreach ($result as $data) : ?>
@@ -152,16 +185,33 @@ $result = $sparqlJena->query($query);
 </div>
 <!-- Destination Category End -->
 
+<div style="height: 100px;"></div> <!-- Spacer tambahan -->
 <!-- CTA Banner Section Start -->
 <div class="container-fluid cta-banner mt-5">
     <h2>Ready to unlock your ultimate driving experience?</h2>
     <p>Discover new options, compare vehicles, and find the best deals in just a few clicks.</p>
-    <a href="?p=find" class="btn-primary">Start Your Journey</a>
+    <a href="?p=find" class="btn-primary btn-center">Start Your Journey</a>
 </div>
 <!-- CTA Banner Section End -->
 
+<div class="container-fluid mt-5">
+    <div class="text-center mb-4">
+        <h2 class="text-uppercase">Browse by Manufacturer</h2>
+    </div>
+    <div class="row justify-content-center">
+        <?php foreach ($resultManufacturer as $manufacturer) : ?>
+            <div class="col-md-2 mb-3"> <!-- Lebar tetap 2 kolom -->
+                <a href="?p=find&keyword=<?= urlencode($manufacturer->manufacturer) ?>" 
+                   class="btn-primary">
+                    <?= htmlspecialchars($manufacturer->manufacturer) ?>
+                </a>
+            </div>
+        <?php endforeach ?>
+    </div>
+</div>
+
 <!-- Testimonials Section Start -->
-<div class="container pt-5 pb-5">
+<div class="container pt-5 pb-5" id="testimoni">
     <div class="text-center mb-4">
         <h2 class="text-uppercase">Customer Testimonials</h2>
     </div>
