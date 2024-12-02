@@ -1,4 +1,11 @@
 <style>
+    body {
+        cursor: url("assets/img/8.png"), auto;
+    }
+
+    a {
+    cursor: url("assets/img/8.png"), auto; /* Tetapkan cursor untuk elemen link */
+}
             body, html {
             margin: 0;
             padding: 0;

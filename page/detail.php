@@ -1,4 +1,11 @@
 <style>
+    body {
+        cursor: url("assets/img/8.png"), auto;
+    }
+
+    a {
+    cursor: url("assets/img/8.png"), auto; /* Tetapkan cursor untuk elemen link */
+}
         body, html {
             margin: 0;
             padding: 0;
@@ -114,11 +121,13 @@
     font-weight: bold;
     border: none; /* Menghilangkan garis border */
     box-shadow: none; /* Menghilangkan shadow pada tombol */
+    cursor: url("assets/img/8.png"), auto; /* Tambahkan properti cursor */
 }
 
 .btn-effect:hover {
     color: white; /* Ubah warna teks menjadi putih saat hover */
     background-color: transparent; /* Pastikan tidak ada warna latar belakang */
+    cursor: url("assets/img/8.png"), auto; /* Tambahkan properti cursor */
 }
 
 /* Efek cat spray dengan gambar */
@@ -135,12 +144,14 @@
     transition: width 0.5s, height 0.5s;
     z-index: -1;
     transform: translate(-50%, -50%); /* Posisi tetap di tengah tombol */
+    cursor: url("assets/img/8.png"), auto; /* Pastikan kursor tetap ada */
 }
 
 .btn-effect:hover::before {
     width: 150%; /* Ukuran gambar spray yang lebih besar saat hover */
     height: 150%; /* Ukuran gambar spray yang lebih besar saat hover */
     transition: width 0.5s, height 0.5s; /* Tidak ada pergeseran, hanya perubahan ukuran */
+    cursor: url("assets/img/8.png"), auto; /* Pastikan kursor tetap ada */
 }
 
 
@@ -193,6 +204,11 @@
     position: absolute;
     bottom: 10px; /* Jarak dari bawah card */
     right: 10px; /* Jarak dari kanan card */
+    cursor: url("assets/img/8.png"), auto; /* Tambahkan properti cursor */
+}
+
+.find-btn:hover {
+    cursor: url("assets/img/8.png"), auto; /* Pastikan kursor tetap ada */
 }
 </style>
 <?php
