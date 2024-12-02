@@ -1,7 +1,11 @@
 <style>
     body {
-        cursor: url("assets/img/lightsaber.png"), auto;
+        cursor: url("assets/img/8.png"), auto;
     }
+
+    a {
+    cursor: url("assets/img/8.png"), auto; /* Tetapkan cursor untuk elemen link */
+}
     body, html {
             margin: 0;
             padding: 0;
@@ -117,6 +121,7 @@
         padding: 5px 15px;
         font-size: 14px;
         transition: background-color 0.3s ease, color 0.3s ease;
+        cursor: url("assets/img/8.png"), auto; /* Pastikan kursor tetap ada */
     }
 
 /* Animasi dan efek untuk tombol "Details" */
@@ -138,12 +143,14 @@
     cursor: pointer;
     letter-spacing: 1.5px;
     transition: all 0.3s ease;
+    cursor: url("assets/img/8.png"), auto; /* Pastikan kursor tetap ada */
 }
 
     /* Animasi saat tombol di-hover */
 .blog-item .btn-primary:hover {
     animation: animate 8s linear infinite;
     background-position: 100%;
+    cursor: url("assets/img/8.png"), auto; /* Pastikan kursor tetap ada */
 }
 
 /* Efek tambahan untuk blur saat hover */
@@ -160,6 +167,7 @@
     border-radius: 40px;
     opacity: 0;
     transition: 1s;
+    cursor: url("assets/img/8.png"), auto; /* Pastikan kursor tetap ada */
 }
 
 /* Blur aktif saat hover */
@@ -167,6 +175,7 @@
     filter: blur(20px);
     opacity: 1;
     animation: animate 8s linear infinite;
+    cursor: url("assets/img/8.png"), auto; /* Pastikan kursor tetap ada */
 }
 
 /* Keyframes untuk animasi */
@@ -182,10 +191,12 @@
     .blog-item .btn-secondary {
         background: #6c757d;
         color: #fff;
+        cursor: url("assets/img/8.png"), auto; /* Pastikan kursor tetap ada */
     }
 
     .blog-item .btn-secondary:hover {
         background: #5a6268;
+        cursor: url("assets/img/8.png"), auto; /* Pastikan kursor tetap ada */
     }
 
 /* Pagination Styles */
@@ -328,16 +339,11 @@ $totalPages = ceil($totalCount / $limit);
 <!-- Header Start -->
 <div class="container-fluid page-header">
     <div class="container">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-            <h3 class="display-4 text-white text-uppercase">Find Car</h3>
-            <div class="d-inline-flex text-white">
-                <p class="m-0 text-uppercase"><a class="text-white" href="inc/..">Home</a></p>
-                <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                <p class="m-0 text-uppercase">Find Car</p>
             </div>
         </div>
     </div>
 </div>
+<br><br><br><br><br><br><br><br><br>
 <!-- Header End -->
 
 <!-- Search Start -->

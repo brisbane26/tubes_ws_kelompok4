@@ -1,7 +1,98 @@
 <style>
-    body {
-        cursor: url("assets/img/lightsaber.png"), auto;
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+    .content {
+        position: relative;
+        z-index: 1;
+        font-family: 'Orbitron', sans-serif;
+        color: #ffffff; /* Mengubah warna font menjadi magenta */
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.5); /* Memberikan transparansi pada latar belakang konten */
+        border-radius: 10px;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 10%;
+        text-align: center;
     }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        width: 90%;
+        max-width: 600px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-header {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+
+    .card-header img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-header h1 {
+        font-size: 24px;
+        margin: 0;
+        font-weight: bold;
+        color: #f4b704;
+    }
+
+    .card-content p {
+        line-height: 1.6;
+        font-size: 16px;
+        color: #eaeaea;
+    }
+
+    .card-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #f4b704;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+
+    .card-button:hover {
+        background: #ecc72b;
+    }
+    body {
+        cursor: url("assets/img/8.png"), auto;
+    }
+
+    a {
+    cursor: url("assets/img/8.png"), auto; /* Tetapkan cursor untuk elemen link */
+}
+
     body, html {
             margin: 0;
             padding: 0;
@@ -207,123 +298,72 @@
         margin: 0 auto;
     }
 
-    .btn-ajukan-aduan {
-        background-color: #f4b704; 
-        color: #fff; 
-        padding: 10px 20px; 
-        border: none; 
-        border-radius: 5px; 
-        font-size: 18px; 
-        transition: background-color 0.3s ease; 
+    .btn-primary {
+        background-color: #8B008B; /* Mengubah warna tombol menjadi magenta */
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        display: inline-block;
     }
 
-    .btn-ajukan-aduan:hover {
-        background-color: #ecc72b; 
+    .btn-primary:hover {
+        background-color: navy; /* Mengubah warna tombol saat hover menjadi pink terang */
+    }
+
+h1 {
+        font-family: 'Orbitron';
+        font-size: 3rem;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #8B008B; /* Mengubah warna judul menjadi magenta */
+        -webkit-text-stroke: 2px #FFFFFF; /* Stroke putih di sekitar teks */
+    }
+
+    h2 {
+        font-family: 'Audiowide', sans-serif; /* Font futuristik untuk subtitle */
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: #000080; /* Biru navy untuk teks */
+        -webkit-text-stroke: 1px #FFFFFF; /* Stroke putih di sekitar teks */
+}
+
+.cta-banner {
+        background: linear-gradient(to right, #ff416c, #ff4b2b);
+        color: white;
+        padding: 50px;
+        text-align: center;
+        border-radius: 15px;
+        margin-top: 50px;
     }
 </style>
-<!-- Header Start -->
-<!-- <div class="container-fluid page-header">
-    <div class="container">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-            <h3 class="display-4 text-white text-uppercase">About</h3>
-            <div class="d-inline-flex text-white">
-                <p class="m-0 text-uppercase"><a class="text-white" href="inc/..">Home</a></p>
-                <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                <p class="m-0 text-uppercase">About Us</p>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!-- Header End -->
-
-<!-- About Start -->
-<!-- <div class="container-fluid py-5">
-    <div class="container pt-5">
-        <div class="row">
-            <div class="col-lg-6" style="min-height: 500px;">
-                <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="./assets/img/rajaampat.jpg" style="object-fit: cover;">
-                </div>
-            </div>
-            <div class="col-lg-6 pt-5 pb-lg-5">
-                <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
-                    <h2 class="mb-3">Destinesia memberikan pilihan terbaik untuk destinasi wisata kamu dan keluarga</h2>
-                    <p style="text-align: justify;">Destinesia merupakan sebuah Semantic-Website yang berisi informasi mengenai destinasi wisata di Indonesia. 
-                    Destinesia menghadirkan bermacam destinasi wisata dari berbagai provinsi dan pulau di Indonesia dengan informasi yang lengkap dan jelas.
-                    Kami berkomitmen dengan memberikan informasi yang asli dan akurat terhadap setiap destinasi wisata yang kami hadirkan.
-                    Dengan Destinesia kamu tidak perlu bingung lagi untuk menentukan pilihan destinasi wisata yang akan kamu kunjungi.
-                    </p>
-                    <div class="row mb-4">
-                        <div class="col-6">
-                            <img class="img-fluid" src="./assets/img/tanahlot.jpg" style="height: 180px;" alt="">
-                        </div>
-                        <div class="col-6">
-                            <img class="img-fluid" src="./assets/img/borobudur.jpg" style="height: 180px;" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!-- About End -->
-
-
-<!-- Feature Start -->
-<!-- <div class="container-fluid pt-5">
-    <div class="container pb-4">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="d-flex mb-4 mb-lg-0">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-route text-white"></i>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <h5 class="">Lokasi Yang Akurat</h5>
-                        <p class="m-0">Kami menjelaskan setiap destinasi wisata dengan titik koordinatnya di maps.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="d-flex mb-4 mb-lg-0">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-award text-white"></i>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <h5 class="">Best Services</h5>
-                        <p class="m-0">Kami berkomitmen dalam memberikan data serta informasi yang benar.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="d-flex mb-4 mb-lg-0">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
-                        <i class="fa fa-2x fa-globe text-white"></i>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <h5 class="">Meyeluruh</h5>
-                        <p class="m-0">Website ini mencakup semua destinasi dari semua pulau di seluruh Indonesia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!-- Feature End -->
 <video id="video-background" autoplay muted loop>
         <source src="assets/vid/universe.mp4" type="video/mp4">
         Your browser does not support the video tag.
 </video>
-<script>
-        const video = document.getElementById('video-background');
-        video.addEventListener('ended', () => {
-            video.play();
-        });
-    </script>
 
 <!-- Team Start -->
+<br><br><br>
+<div class="card-container">
+    <div class="card">
+        <div class="card-header">
+            <img src="assets/img/LOGO-WEBSEM.png" alt="Carverse Logo">
+            <h1>Carverse</h1>
+        </div>
+        <div class="card-content">
+            <p>
+                <strong>Carverse</strong> adalah aplikasi web semantik yang membawa Anda ke dalam dunia mobil dengan cara yang lebih canggih dan terstruktur. 
+                Singkatan dari "Car Universe", Carverse menghadirkan semesta informasi mobil dari berbagai produsen terkemuka di dunia. 
+                Seperti menjelajahi alam semesta, Carverse memungkinkan Anda mengeksplorasi dunia otomotif dengan lebih mendalam, memberikan pengalaman unik 
+                bagi penggemar mobil maupun profesional.
+            </p>
+        </div>
+    <center><a href="?p=find" class="btn-primary">Explore Now</a></center>
+   </div>
+</div>
 <center>
+<div class="container"><h2>Meet Our Team : </h2></div>
 <div class="container"><h2>KELOMPOK 4</h2></div>
     <br><br>
     <div class="container-about">

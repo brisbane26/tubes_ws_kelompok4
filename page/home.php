@@ -2,8 +2,12 @@
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
     body {
-        cursor: url("assets/img/lightsaber.png"), auto;
+        cursor: url("assets/img/8.png"), auto;
     }
+
+    a {
+    cursor: url("assets/img/8.png"), auto; /* Tetapkan cursor untuk elemen link */
+}
 
     body, html {
         margin: 0;
