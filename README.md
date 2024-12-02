@@ -35,3 +35,18 @@ Production: Tahun produksi atau periode produksi mobil tersebut.<br>
 - Protege
 - Jena Fuseki
 - Laragon/XAMPP
+
+- ## Installation
+   - #### Start Laragon/XAMPP
+   - #### Clone this repository
+        git clone https://github.com/brisbane26/tubes_ws_kelompok4.git
+   - #### Change directory
+        cd tubes_ws_kelompok4
+   - #### Install the project dependencies
+        composer install
+     #### Start Apache Jena Fuseki Server (Batch File)
+   - #### Open Jena Fuseki on web
+        localhost:3030
+   - #### Create carverse dataset and upload carverse.rdf
+   - #### Run the project
+        localhost/tubes_ws_kelompok4
